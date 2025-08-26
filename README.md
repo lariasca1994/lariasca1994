@@ -10,12 +10,22 @@
 
 ## 🚀 Sobre mí
 
-🚀 Sobre mí
-Soy **Ingeniero de Sistemas** de la Universidad EAN y participé en el **BootCamp ColombiaTech**. Mi pasión es crear soluciones tecnológicas innovadoras que generen impacto positivo.
+**Ingeniero de Sistemas** egresado de la Universidad EAN.
+Mi enfoque se basa en el aprendizaje continuo y la mejora constante, tanto a nivel técnico como personal. Actualmente me encuentro expandiendo mis habilidades a través de cursos especializados y proyectos desafiantes.
 
-- 🎓 **Ingeniero de Sistemas:** Universidad EAN
-- 💻 **Enfoque:** Desarrollo Full Stack
-- 🌱 **Aprendiendo:** JavaScript
+💼 Mi propuesta de valor:
+
+🎓 Formación: Ingeniero de Sistemas - Universidad EAN
+💻 Especialización: Desarrollo Full Stack con enfoque en JavaScript
+🚀 Fortalezas: Resolución de problemas complejos, adaptabilidad tecnológica
+🌱 En constante crecimiento: Frameworks modernos, arquitecturas escalables
+
+🔥 Lo que me diferencia:
+
+✅ Mentalidad de crecimiento: Siempre buscando nuevas tecnologías y metodologías
+✅ Impacto empresarial: Enfocado en soluciones que agreguen valor medible
+✅ Colaboración efectiva: Experiencia trabajando en equipos multidisciplinarios
+✅ Entrega de resultados: Comprometido con la calidad y los tiempos de entrega
 
 <br clear="right"/>
 

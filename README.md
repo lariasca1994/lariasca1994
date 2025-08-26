@@ -43,20 +43,12 @@ Mi enfoque se basa en el aprendizaje continuo y la mejora constante, tanto a niv
 ## 🎯 Proyectos Destacados
 
 ### 💡 ColombiaTech
-<!-- Screenshot del proyecto -->
-<div align="center">
-  <img src="./assets/colombiatech-screenshot.png" alt="ColombiaTech Screenshot" width="500"/>
-</div>
 
 **Bootcamp Project** | JavaScript, HTML, CSS
 - Proyecto desarrollado durante el BootCamp ColombiaTech
 - Enfocado en soluciones tecnológicas para el mercado colombiano
 
 ### 🎓 Desarrollo de Software
-<!-- Screenshot del proyecto -->
-<div align="center">
-  <img src="./assets/desarrollo-software-screenshot.png" alt="Desarrollo de Software Screenshot" width="500"/>
-</div>
 
 **Universidad EAN** | HTML, CSS, JavaScript
 - Proyecto académico de la carrera de Ingeniería de Software

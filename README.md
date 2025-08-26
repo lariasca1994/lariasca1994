@@ -4,22 +4,21 @@
 
 ## 🚀 Sobre mí
 
-**Ingeniero de Sistemas** egresado de la Universidad EAN.
-Mi enfoque se basa en el aprendizaje continuo y la mejora constante, tanto a nivel técnico como personal. Actualmente me encuentro expandiendo mis habilidades a través de cursos especializados y proyectos desafiantes.
+**Ingeniero de Sistemas** egresado de la Universidad EAN. Mi enfoque se basa en el aprendizaje continuo y la mejora constante, tanto a nivel técnico como personal. Actualmente me encuentro expandiendo mis habilidades a través de cursos especializados y proyectos desafiantes.
 
-💼 Mi propuesta de valor:
+💼 Mi propuesta de valor: <br>
 
-🎓 Formación: Ingeniero de Sistemas - Universidad EAN
-💻 Especialización: Desarrollo Full Stack con enfoque en JavaScript
-🚀 Fortalezas: Resolución de problemas complejos, adaptabilidad tecnológica
-🌱 En constante crecimiento: Frameworks modernos, arquitecturas escalables
+🎓 Formación: Ingeniero de Sistemas - Universidad EAN <br>
+💻 Especialización: Desarrollo Full Stack con enfoque en JavaScript <br>
+🚀 Fortalezas: Resolución de problemas complejos, adaptabilidad tecnológica <br>
+🌱 En constante crecimiento: Frameworks modernos, arquitecturas escalables <br>
 
-🔥 Lo que me diferencia:
+🔥 Lo que me diferencia: <br>
 
-✅ Mentalidad de crecimiento: Siempre buscando nuevas tecnologías y metodologías
-✅ Impacto empresarial: Enfocado en soluciones que agreguen valor medible
-✅ Colaboración efectiva: Experiencia trabajando en equipos multidisciplinarios
-✅ Entrega de resultados: Comprometido con la calidad y los tiempos de entrega
+✅ Mentalidad de crecimiento: Siempre buscando nuevas tecnologías y metodologías <br>
+✅ Impacto empresarial: Enfocado en soluciones que agreguen valor medible <br>
+✅ Colaboración efectiva: Experiencia trabajando en equipos multidisciplinarios <br>
+✅ Entrega de resultados: Comprometido con la calidad y los tiempos de entrega <br>
 
 <br clear="right"/>
 

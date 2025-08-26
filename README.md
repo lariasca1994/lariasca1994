@@ -44,8 +44,7 @@
 ### 💡 ColombiaTech
 
 **Bootcamp Project** | JavaScript, HTML, CSS
-- Proyecto desarrollado durante el BootCamp ColombiaTech
-- Enfocado en soluciones tecnológicas para el mercado colombiano
+- Proyecto de desarrollo durante el BootCamp ColombiaTech
 
 ### 🎓 Desarrollo de Software
 

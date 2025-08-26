@@ -1,11 +1,5 @@
-# ¡Hola! 👋 Soy Luis Arias
+# ¡Hola! 👋 Soy Luis F Arias C
 
-<!-- Banner personalizado (opcional) -->
-<div align="center">
-  <img src="https://user-images.githubusercontent.com/TU-USER-ID/banner-luis-arias.png" alt="Luis Arias - Developer Banner" width="100%"/>
-</div>
-
-<!-- GIF animado a la derecha -->
 <img align="right" alt="Coding" width="350" src="https://cdn.dribbble.com/users/1162077/screenshots/3848914/programmer.gif">
 
 ## 🚀 Sobre mí
@@ -28,11 +22,6 @@ Mi enfoque se basa en el aprendizaje continuo y la mejora constante, tanto a niv
 ✅ Entrega de resultados: Comprometido con la calidad y los tiempos de entrega
 
 <br clear="right"/>
-
-<!-- Separador con imagen -->
-<div align="center">
-  <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png" width="100%"/>
-</div>
 
 ## 🛠️ Tecnologías y Herramientas
 
@@ -76,10 +65,9 @@ Mi enfoque se basa en el aprendizaje continuo y la mejora constante, tanto a niv
 
 <div align="center">
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](www.linkedin.com/in/luisfelipeariascarriazo)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/luisfelipeariascarriazo)
 [![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:luisfariasc7@gmail.com)
-[![Yahoo](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:luisfariasc7@yahoo.com)
-[![Hotmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:luisfariasc7@hotmail.com)
+[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/lariasca1994)
 
 <!-- Imagen de footer -->
 <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" width="100%"/>

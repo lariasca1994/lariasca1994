@@ -1,20 +1,16 @@
 # ¡Hola! 👋 Soy Luis F Arias C
-
 <img align="right" alt="Coding" width="350" src="https://cdn.dribbble.com/users/1162077/screenshots/3848914/programmer.gif">
 
 ## 🚀 Sobre mí
-
 **Ingeniero de Sistemas** egresado de la Universidad EAN. Mi enfoque se basa en el aprendizaje continuo y la mejora constante, tanto a nivel técnico como personal. Actualmente me encuentro expandiendo mis habilidades a través de cursos especializados y proyectos desafiantes.
 
 💼 Mi propuesta de valor: <br>
-
 🎓 Formación: Ingeniero de Sistemas - Universidad EAN <br>
 💻 Especialización: Desarrollo Full Stack con enfoque en JavaScript <br>
 🚀 Fortalezas: Resolución de problemas complejos, adaptabilidad tecnológica <br>
 🌱 En constante crecimiento: Frameworks modernos, arquitecturas escalables <br>
 
 🔥 Lo que me diferencia: <br>
-
 ✅ Mentalidad de crecimiento: Siempre buscando nuevas tecnologías y metodologías <br>
 ✅ Impacto empresarial: Enfocado en soluciones que agreguen valor medible <br>
 ✅ Colaboración efectiva: Experiencia trabajando en equipos multidisciplinarios <br>
@@ -23,17 +19,19 @@
 <br clear="right"/>
 
 ## 🛠️ Tecnologías y Herramientas
-
 <div align="center">
 
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
+![NestJS](https://img.shields.io/badge/NestJS-E0234E?style=for-the-badge&logo=nestjs&logoColor=white)
+![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
+![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
 
 </div>
 
 ## 📊 Estadísticas de GitHub
-
 <div align="center">
   <img height="180em" src="https://github-readme-stats.vercel.app/api?username=lariasca1994&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true"/>
   <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=lariasca1994&layout=compact&langs_count=7&theme=tokyonight"/>
@@ -41,22 +39,26 @@
 
 ## 🎯 Proyectos Destacados
 
-### 💡 ColombiaTech
+### 🧪 Software Testing Portfolio
+**Java · JUnit · Mockito · JaCoCo**
+- Equivalence partitioning, boundary value analysis, cobertura de ramas y test doubles — con un bug real encontrado y documentado de punta a punta.
+- [Ver repositorio](PENDIENTE-URL-TESTING)
 
-**Bootcamp Project** | JavaScript, HTML, CSS
-- Proyecto de desarrollo durante el BootCamp ColombiaTech
+### 🏠 ColombiaTech
+**NestJS (REST + GraphQL + WebSockets) · React · Redux Toolkit · MongoDB**
+- Plataforma Full Stack de alquiler de casas con chat en tiempo real, autenticación JWT y control de acceso por usuario.
+- [Ver repositorio](PENDIENTE-URL-COLOMBIATECH)
 
-### 🎓 Desarrollo de Software
-
-**Universidad EAN** | HTML, CSS, JavaScript
-- Proyecto académico de la carrera de Ingeniería de Software
+### 💼 Portafolio Personal
+**HTML · CSS · JavaScript**
+- Sitio personal con enfoque en QA/Testing, Análisis de Datos, y Soporte y Monitoreo.
+- [Ver repositorio](PENDIENTE-URL-PORTAFOLIO)
 
 ## 📫 ¡Conectemos!
-
 <div align="center">
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/luisfelipeariascarriazo)
-[![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:luisfariasc7@gmail.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/lfac1/)
+[![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:ariascluisf@gmail.com)
 [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/lariasca1994)
 
 <!-- Imagen de footer -->

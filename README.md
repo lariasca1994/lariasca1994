@@ -4,11 +4,11 @@
 ## 🚀 Sobre mí
 **Ingeniero de Sistemas** egresado de la Universidad EAN. Mi enfoque se basa en el aprendizaje continuo y la mejora constante, tanto a nivel técnico como personal. Actualmente me encuentro expandiendo mis habilidades a través de cursos especializados y proyectos desafiantes.
 
-💼 Mi propuesta de valor: <br>
-🎓 Formación: Ingeniero de Sistemas - Universidad EAN <br>
-💻 Especialización: Desarrollo Full Stack con enfoque en JavaScript <br>
-🚀 Fortalezas: Resolución de problemas complejos, adaptabilidad tecnológica <br>
-🌱 En constante crecimiento: Frameworks modernos, arquitecturas escalables <br>
+💼 Lo que aporto: <br>
+🎯 Experiencia real: pruebas funcionales (API REST, validación en Oracle) en el Banco de la República, monitoreo N1 y soporte técnico N2 en Global Hitss y OESIA <br>
+📐 Objetividad: metodologías estructuradas de pruebas (equivalence partitioning, boundary value analysis) para decisiones basadas en evidencia <br>
+🤝 Compromiso: gestión del ciclo completo de casos hasta el cierre, documentación consistente incluso bajo presión de SLA <br>
+📈 Orientación al crecimiento: certificación ITIL v4 y formación continua en SQL, testing y desarrollo Full Stack, buscando siempre aportar valor medible al equipo <br>
 
 🔥 Lo que me diferencia: <br>
 ✅ Mentalidad de crecimiento: Siempre buscando nuevas tecnologías y metodologías <br>
@@ -29,12 +29,6 @@
 ![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
 ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
 
-</div>
-
-## 📊 Estadísticas de GitHub
-<div align="center">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=lariasca1994&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true"/>
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=lariasca1994&layout=compact&langs_count=7&theme=tokyonight"/>
 </div>
 
 ## 🎯 Proyectos Destacados

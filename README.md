@@ -2,7 +2,7 @@
 <img align="right" alt="Coding" width="350" src="https://cdn.dribbble.com/users/1162077/screenshots/3848914/programmer.gif">
 
 ## 🚀 Sobre mí
-**Ingeniero de Sistemas** egresado de la Universidad EAN. Mi enfoque se basa en el aprendizaje continuo y la mejora constante, tanto a nivel técnico como personal. Actualmente me encuentro expandiendo mis habilidades a través de cursos especializados y proyectos desafiantes.
+Ingeniero de Sistemas egresado de la Universidad EAN. Mi enfoque se basa en el aprendizaje continuo y la mejora constante, tanto a nivel técnico como personal. Actualmente me encuentro expandiendo mis habilidades a través de cursos especializados y proyectos desafiantes.
 
 💼 Lo que aporto: <br>
 🎯 Experiencia real: pruebas funcionales (API REST, validación en Oracle) en el Banco de la República, monitoreo N1 y soporte técnico N2 en Global Hitss y OESIA <br>

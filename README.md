@@ -35,18 +35,21 @@ Ingeniero de Sistemas egresado de la Universidad EAN. Mi enfoque se basa en el a
 
 ### 🧪 Software Testing Portfolio
 **Java · JUnit · Mockito · JaCoCo**
-- Equivalence partitioning, boundary value analysis, cobertura de ramas y test doubles — con un bug real encontrado y documentado de punta a punta.
-- [Ver repositorio](PENDIENTE-URL-TESTING)
+
+Proyecto de pruebas de software que simula un proceso de control de calidad real: diseñé casos de prueba que encontraron y documentaron un error de clasificación antes de que llegara a producción, y medí la cobertura real de las pruebas sobre el código.
+- [Ver repositorio](https://github.com/lariasca1994/Software_Testing)
 
 ### 🏠 ColombiaTech
-**NestJS (REST + GraphQL + WebSockets) · React · Redux Toolkit · MongoDB**
-- Plataforma Full Stack de alquiler de casas con chat en tiempo real, autenticación JWT y control de acceso por usuario.
-- [Ver repositorio](PENDIENTE-URL-COLOMBIATECH)
+**NestJS (REST + GraphQL + WebSockets) · React · MongoDB**
+
+Plataforma Full Stack de alquiler de vivienda (estilo Airbnb): inicio de sesión seguro, control de acceso donde cada usuario solo ve su propia información, y chat en tiempo real entre usuarios.
+- [Ver repositorio](https://github.com/lariasca1994/ColombiaTech2)
 
 ### 💼 Portafolio Personal
 **HTML · CSS · JavaScript**
-- Sitio personal con enfoque en QA/Testing, Análisis de Datos, y Soporte y Monitoreo.
-- [Ver repositorio](PENDIENTE-URL-PORTAFOLIO)
+
+Sitio de presentación profesional organizado por área de interés (QA, Análisis de Datos, Soporte y Monitoreo), con formulario de contacto funcional.
+- [Ver repositorio](https://github.com/lariasca1994/PWDC)
 
 ## 📫 ¡Conectemos!
 <div align="center">
@@ -58,7 +61,7 @@ Ingeniero de Sistemas egresado de la Universidad EAN. Mi enfoque se basa en el a
 <!-- Imagen de footer -->
 <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" width="100%"/>
 
-**"La mejor forma de predecir el futuro es crearlo"** 💻✨
+**"El único modo de hacer un gran trabajo es amar lo que haces."** 💻✨
 
 ![Profile views](https://komarev.com/ghpvc/?username=lariasca1994&color=brightgreen)
 

@@ -1,5 +1,9 @@
 # ¡Hola! 👋 Soy Luis F Arias C
-<img align="right" alt="Coding" width="350" src="https://cdn.dribbble.com/users/1162077/screenshots/3848914/programmer.gif">
+<picture align="right">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/programmer-negro.gif">
+  <source media="(prefers-color-scheme: light)" srcset="assets/programmer-blanco.gif">
+  <img align="right" alt="Coding" width="350" src="assets/programmer-negro.gif">
+</picture>
 
 ## 🚀 Sobre mí
 Ingeniero de Sistemas egresado de la Universidad EAN. Mi enfoque se basa en el aprendizaje continuo y la mejora constante, tanto a nivel técnico como personal. Actualmente me encuentro expandiendo mis habilidades a través de cursos especializados y proyectos desafiantes.

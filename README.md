@@ -95,13 +95,13 @@ Resuelve tres problemas habituales de este tipo de plataforma: autenticación se
 ---
 
 ### 🎰 Lottery AI — Análisis de sorteos
-**PostgreSQL (Neon) · Análisis de datos**
+**Node.js · Express · PostgreSQL · Sequelize · Chart.js**
 
-Herramienta de análisis de resultados históricos de Baloto, Revancha y MiLoto.
+Sistema de recolección y análisis de resultados históricos de Baloto, Revancha y MiLoto. Extrae los datos publicados, los almacena en PostgreSQL y expone estadísticas descriptivas mediante una API REST y un panel web.
 
-La decisión de diseño que la distingue: los cálculos se basan **únicamente en los sorteos que tuvieron ganador del premio mayor**, no en la frecuencia general de aparición de cada número. Es una distinción importante, porque analizar todos los sorteos mezcla información de resultados que nunca produjeron un acierto completo.
+El proyecto parte de una premisa explícita: los sorteos de lotería son estadísticamente independientes, así que no predice nada. Lo que hace es describir el histórico —frecuencias, ausencias, sumas, paridad y evolución mensual— y mostrar que, con más de seiscientos sorteos por lotería, la distribución se comporta como cabría esperar de un sorteo justo.
 
-El proyecto se migró de MongoDB a PostgreSQL para trabajar con un modelo relacional y consultas analíticas.
+Incluye herramientas de diagnóstico para el recolector, porque depende de la estructura HTML de un sitio ajeno: cuando algo deja de funcionar, indican si cambió la ruta, si se movió el marcado o si el contenido pasó a cargarse por JavaScript.
 
 - [Ver repositorio](https://github.com/lariasca1994/lottery-ai)
 

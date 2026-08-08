@@ -1,5 +1,4 @@
 # ¡Hola! 👋 Soy Luis F Arias C
-<img align="right" alt="Coding" width="350" src="https://cdn.dribbble.com/users/1162077/screenshots/3848914/programmer.gif">
 
 ## 🚀 Sobre mí
 Ingeniero de Sistemas egresado de la Universidad EAN. Mi enfoque se basa en el aprendizaje continuo y la mejora constante, tanto a nivel técnico como personal. Actualmente me encuentro expandiendo mis habilidades a través de cursos especializados y proyectos desafiantes.
@@ -19,38 +18,55 @@ Ingeniero de Sistemas egresado de la Universidad EAN. Mi enfoque se basa en el a
 <br clear="right"/>
 
 ## 🛠️ Tecnologías y Herramientas
+
 <div align="center">
 
+**Lenguajes**
+
+![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
+![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
+
+**Frameworks**
+
+![Laravel](https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white)
 ![NestJS](https://img.shields.io/badge/NestJS-E0234E?style=for-the-badge&logo=nestjs&logoColor=white)
 ![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
+![Bootstrap](https://img.shields.io/badge/Bootstrap-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white)
+
+**Bases de datos**
+
+![SQL Server](https://img.shields.io/badge/SQL_Server-CC2927?style=for-the-badge&logo=microsoftsqlserver&logoColor=white)
+![Oracle](https://img.shields.io/badge/Oracle-F80000?style=for-the-badge&logo=oracle&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
 ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
+
+**Pruebas y herramientas**
+
+![JUnit](https://img.shields.io/badge/JUnit5-25A162?style=for-the-badge&logo=junit5&logoColor=white)
+![Selenium](https://img.shields.io/badge/Selenium-43B02A?style=for-the-badge&logo=selenium&logoColor=white)
+![Appium](https://img.shields.io/badge/Appium-662D91?style=for-the-badge&logo=appium&logoColor=white)
+![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 
 </div>
 
 ## 🎯 Proyectos Destacados
 
 ### 🏛️ Reservas Corferias — Modernización de un sistema legado
-**Laravel 12 · PHP 8.3 · SQL Server · PHPUnit · Bootstrap 5**
+**Laravel 12 · PHP 8.3 · Azure SQL Server · PHPUnit · Bootstrap 5**
 
-Reconstrucción completa de un proyecto universitario de 2019 escrito en Lumen 5.8,
-conservando el historial de Git original.
+Tomé un proyecto universitario de 2019 escrito en Lumen 5.8 y lo reconstruí por completo sobre Laravel 12, conservando el historial de Git original.
 
-Durante el análisis encontré un **defecto de doble reserva**: la condición que
-detectaba cruces de fechas solo reconocía el caso en que el rango solicitado
-quedaba totalmente contenido dentro de uno ocupado, así que cualquier
-solapamiento parcial pasaba como disponible. Lo corregí y lo cubrí con una
-batería de pruebas que incluye los casos frontera, más una prueba que reproduce
-la lógica original para dejar el error documentado.
+Durante el análisis del código encontré un **defecto de doble reserva** que había pasado inadvertido: la condición que detectaba cruces de fechas solo reconocía el caso en que el rango solicitado quedaba totalmente contenido dentro de uno ya ocupado, así que cualquier solapamiento parcial pasaba como disponible. El mismo escenario podía reservarse dos veces para las mismas fechas.
 
-El sistema original no tenía base de datos —los datos vivían dentro de los
-controladores—, ni autenticación, ni validación en el servidor, ni una sola
-prueba. La versión actual incluye modelo relacional, tres roles, notificaciones
-por correo con código QR, panel de administración, más de setenta pruebas
-automatizadas e integración continua.
+Lo corregí, lo cubrí con una batería de pruebas que incluye los casos frontera, y añadí una prueba que reproduce la lógica original para dejar documentado el error y garantizar que no vuelva.
+
+El sistema de 2019 tampoco tenía base de datos —los datos estaban escritos a mano dentro de los controladores—, ni autenticación, ni validación del lado del servidor, ni una sola prueba. La versión actual incluye modelo de datos normalizado, autenticación con tres roles, notificaciones por correo con código QR, panel de administración, más de setenta pruebas automatizadas e integración continua.
 
 - [Ver repositorio](https://github.com/lariasca1994/reservas-corferias)
 
@@ -76,36 +92,12 @@ junto a los datos.
 
 ---
 
-### 🎰 Lottery AI — Análisis estadístico de sorteos
-**Node.js · Express · PostgreSQL · Sequelize · Chart.js**
-
-Sistema de recolección y análisis de resultados históricos de Baloto, Revancha y
-MiLoto sobre más de mil ochocientos sorteos.
-
-Parte de una premisa explícita: los sorteos son estadísticamente independientes,
-así que el sistema no predice nada. Lo que hace es aplicar una **prueba de chi
-cuadrado de bondad de ajuste** para responder a una pregunta concreta —¿la
-distribución observada es compatible con el azar?— y traducir el resultado a
-lenguaje llano, con su valor p, la banda esperada por número y los que quedan
-fuera de ella.
-
-El panel se actualiza solo al abrir la página cuando hay sorteos nuevos, con un
-tiempo de espera que evita saturar el sitio de origen. Incluye herramientas de
-diagnóstico del recolector, porque depende de la estructura HTML de un sitio
-ajeno.
-
-- [Ver repositorio](https://github.com/lariasca1994/lottery-ai)
-
----
-
 ### 🧪 Software Testing Portfolio
 **Java · JUnit 5 · Mockito · JaCoCo**
 
-Proyecto de pruebas que combina tres técnicas complementarias: pruebas unitarias,
-aislamiento de dependencias con objetos simulados para probar componentes cuya
-implementación no existe, y medición de cobertura de ramas para distinguir el
-código realmente ejercitado del que solo aparenta estarlo.
+Proyecto de pruebas de software que simula un proceso de control de calidad real: diseñé casos de prueba que encontraron y documentaron un error de clasificación antes de que llegara a producción, y medí la cobertura real de las pruebas sobre el código.
 
+Incluye tres técnicas complementarias: pruebas unitarias con JUnit, aislamiento de dependencias con Mockito para poder probar componentes cuya implementación no existe, y medición de cobertura de ramas con JaCoCo para distinguir el código realmente ejercitado del que solo aparenta estarlo.
 - [Ver repositorio](https://github.com/lariasca1994/Software_Testing)
 
 ---
@@ -113,20 +105,31 @@ código realmente ejercitado del que solo aparenta estarlo.
 ### 🏠 ColombiaTech
 **NestJS (REST + GraphQL + WebSockets) · React · MongoDB**
 
-Plataforma de alquiler de vivienda con backend unificado que expone REST y
-GraphQL sobre la misma base de código, autenticación con tokens, control de
-acceso por usuario y chat en tiempo real.
+Plataforma Full Stack de alquiler de vivienda al estilo Airbnb, con backend unificado que expone REST y GraphQL sobre la misma base de código.
+
+Resuelve tres problemas habituales de este tipo de plataforma: autenticación segura con tokens, control de acceso donde cada usuario solo alcanza su propia información, y comunicación en tiempo real entre arrendador e interesado mediante WebSockets.
 
 - [Ver repositorio](https://github.com/lariasca1994/ColombiaTech2)
 
 ---
 
-### 💳 PRPagos — Sistema de pagos
-**Java · Swing · Oracle**
+### 🎰 Lottery AI — Análisis de sorteos
+**Node.js · Express · PostgreSQL · Sequelize · Chart.js**
 
-Aplicación de escritorio con persistencia en Oracle, contraseñas cifradas,
-visibilidad de datos limitada por usuario y registro de auditoría de las
-operaciones.
+Sistema de recolección y análisis de resultados históricos de Baloto, Revancha y MiLoto. Extrae los datos publicados, los almacena en PostgreSQL y expone estadísticas descriptivas mediante una API REST y un panel web.
+
+El proyecto parte de una premisa explícita: los sorteos de lotería son estadísticamente independientes, así que no predice nada. Lo que hace es describir el histórico —frecuencias, ausencias, sumas, paridad y evolución mensual— y mostrar que, con más de seiscientos sorteos por lotería, la distribución se comporta como cabría esperar de un sorteo justo.
+
+Incluye herramientas de diagnóstico para el recolector, porque depende de la estructura HTML de un sitio ajeno: cuando algo deja de funcionar, indican si cambió la ruta, si se movió el marcado o si el contenido pasó a cargarse por JavaScript.
+
+- [Ver repositorio](https://github.com/lariasca1994/lottery-ai)
+
+---
+
+### 💳 PRPagos — Sistema de pagos
+**Java · Oracle**
+
+Aplicación de gestión de pagos desarrollada durante el curso de Desarrollo de Software de la Universidad EAN, con persistencia sobre Oracle.
 
 - [Ver repositorio](https://github.com/lariasca1994/Desarrollo-de-Software)
 
@@ -135,8 +138,7 @@ operaciones.
 ### 💼 Portafolio Personal
 **HTML · CSS · JavaScript**
 
-Sitio de presentación organizado por área de interés, sin framework ni proceso de
-compilación.
+Sitio de presentación profesional organizado por área de interés (QA, Análisis de Datos, Soporte y Monitoreo), con formulario de contacto funcional.
 
 - [Ver repositorio](https://github.com/lariasca1994/PWDC)
 

@@ -1,159 +1,114 @@
-# ¡Hola! 👋 Soy Luis F Arias C
+# Luis Felipe Arias Carriazo
+### Ingeniero de Sistemas | Especialista en Aseguramiento de Calidad (QA), Análisis de Datos y Desarrollo Full Stack
 
-## 🚀 Sobre mí
-Ingeniero de Sistemas egresado de la Universidad EAN. Mi enfoque se basa en el aprendizaje continuo y la mejora constante, tanto a nivel técnico como personal. Actualmente me encuentro expandiendo mis habilidades a través de cursos especializados y proyectos desafiantes.
+[LinkedIn](https://www.linkedin.com/in/lfac1/) · [Correo](mailto:ariascluisf@gmail.com) · [GitHub](https://github.com/lariasca1994) · [Whatsapp](https://tinyurl.com/carraian160)
 
-💼 Lo que aporto: <br>
-🎯 Experiencia real: pruebas funcionales (API REST, validación en Oracle) en el Banco de la República, monitoreo N1 y soporte técnico N2 en Global Hitss y OESIA <br>
-📐 Objetividad: metodologías estructuradas de pruebas (equivalence partitioning, boundary value analysis) para decisiones basadas en evidencia <br>
-🤝 Compromiso: gestión del ciclo completo de casos hasta el cierre, documentación consistente incluso bajo presión de SLA <br>
-📈 Orientación al crecimiento: certificación ITIL v4 y formación continua en SQL, testing y desarrollo Full Stack, buscando siempre aportar valor medible al equipo <br>
+---
 
-🔥 Lo que me diferencia: <br>
-✅ Mentalidad de crecimiento: Siempre buscando nuevas tecnologías y metodologías <br>
-✅ Impacto empresarial: Enfocado en soluciones que agreguen valor medible <br>
-✅ Colaboración efectiva: Experiencia trabajando en equipos multidisciplinarios <br>
-✅ Entrega de resultados: Comprometido con la calidad y los tiempos de entrega <br>
+## 📌 Perfil Profesional
 
-<br clear="right"/>
+Ingeniero de Sistemas egresado de la Universidad EAN con experiencia comprobada en **Aseguramiento de Calidad de Software (Testing/QA)**, **Soporte Técnico Especializado (N1/N2)** y **Desarrollo de Soluciones Tecnológicas**. 
+
+Mi enfoque profesional se centra en garantizar la calidad, fiabilidad y eficiencia de las aplicaciones informáticas mediante metodologías estructuradas de validación y análisis técnico. Cuento con trayectoria en pruebas funcionales de APIs REST e integración de bases de datos Oracle (Banco de la República), así como en el monitoreo de infraestructura tecnológica y gestión de incidentes bajo marcos operacionales ITIL v4 (Global Hitss y OESIA).
+
+### Competencias Clave
+- **Aseguramiento de Calidad (QA):** Pruebas unitarias, funcionales, de integración y automatizadas (API REST, Selenium, Postman, JUnit). Diseño riguroso de casos de prueba basados en partición de equivalencia y análisis de valores límite.
+- **Análisis y Gestión de Datos:** Consultas avanzadas en bases de datos relacionales (Oracle, PostgreSQL, SQL Server) y procesamiento analítico con Python (pandas).
+- **Desarrollo de Software:** Construcción de aplicaciones web escalables y mantenibles (Java, PHP/Laravel, JavaScript/TypeScript, NestJS, React, Node.js).
+- **Gestión de Operaciones e Incidentes:** Monitoreo N1/N2, diagnóstico de sistemas y cumplimiento estricto de Acuerdos de Nivel de Servicio (SLA), acreditado con certificación **ITIL v4**.
+
+---
 
 ## 🛠️ Tecnologías y Herramientas
 
 <div align="center">
 
-**Lenguajes**
-
-![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
-![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-
-**Frameworks**
-
-![Laravel](https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white)
-![NestJS](https://img.shields.io/badge/NestJS-E0234E?style=for-the-badge&logo=nestjs&logoColor=white)
-![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
-![Bootstrap](https://img.shields.io/badge/Bootstrap-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white)
-
-**Bases de datos**
-
-![SQL Server](https://img.shields.io/badge/SQL_Server-CC2927?style=for-the-badge&logo=microsoftsqlserver&logoColor=white)
-![Oracle](https://img.shields.io/badge/Oracle-F80000?style=for-the-badge&logo=oracle&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
-
-**Pruebas y herramientas**
-
-![JUnit](https://img.shields.io/badge/JUnit5-25A162?style=for-the-badge&logo=junit5&logoColor=white)
-![Selenium](https://img.shields.io/badge/Selenium-43B02A?style=for-the-badge&logo=selenium&logoColor=white)
-![Appium](https://img.shields.io/badge/Appium-662D91?style=for-the-badge&logo=appium&logoColor=white)
-![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+| Categoría | Tecnologías y Herramientas |
+| :--- | :--- |
+| **Lenguajes** | ![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white) ![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black) ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white) ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white) |
+| **Frameworks** | ![Laravel](https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white) ![NestJS](https://img.shields.io/badge/NestJS-E0234E?style=for-the-badge&logo=nestjs&logoColor=white) ![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black) ![Bootstrap](https://img.shields.io/badge/Bootstrap-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white) |
+| **Bases de Datos** | ![Oracle](https://img.shields.io/badge/Oracle-F80000?style=for-the-badge&logo=oracle&logoColor=white) ![SQL Server](https://img.shields.io/badge/SQL_Server-CC2927?style=for-the-badge&logo=microsoftsqlserver&logoColor=white) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white) ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white) |
+| **Testing & Herramientas** | ![JUnit5](https://img.shields.io/badge/JUnit5-25A162?style=for-the-badge&logo=junit5&logoColor=white) ![Selenium](https://img.shields.io/badge/Selenium-43B02A?style=for-the-badge&logo=selenium&logoColor=white) ![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white) ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white) ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white) |
 
 </div>
 
-## 🎯 Proyectos Destacados
+---
 
-### 🏛️ Reservas Corferias — Modernización de un sistema legado
-**Laravel 12 · PHP 8.3 · Azure SQL Server · PHPUnit · Bootstrap 5**
+## 🚀 Proyectos Destacados
 
-Tomé un proyecto universitario de 2019 escrito en Lumen 5.8 y lo reconstruí por completo sobre Laravel 12, conservando el historial de Git original.
-
-Durante el análisis del código encontré un **defecto de doble reserva** que había pasado inadvertido: la condición que detectaba cruces de fechas solo reconocía el caso en que el rango solicitado quedaba totalmente contenido dentro de uno ya ocupado, así que cualquier solapamiento parcial pasaba como disponible. El mismo escenario podía reservarse dos veces para las mismas fechas.
-
-Lo corregí, lo cubrí con una batería de pruebas que incluye los casos frontera, y añadí una prueba que reproduce la lógica original para dejar documentado el error y garantizar que no vuelva.
-
-El sistema de 2019 tampoco tenía base de datos —los datos estaban escritos a mano dentro de los controladores—, ni autenticación, ni validación del lado del servidor, ni una sola prueba. La versión actual incluye modelo de datos normalizado, autenticación con tres roles, notificaciones por correo con código QR, panel de administración, más de setenta pruebas automatizadas e integración continua.
-
-- [Ver repositorio](https://github.com/lariasca1994/reservas-corferias)
+### 🏛️ Reservas Corferias — Modernización de Sistema de Gestión
+**Tecnologías:** PHP 8.3 (Laravel 12), Azure SQL Server, PHPUnit, Bootstrap 5  
+* **Descripción:** Reestructuración y modernización completa de una plataforma web para la reserva y gestión de espacios.
+* **Impacto y Solución Técnica:** 
+  * Identificación y corrección de un fallo crítico en la lógica de negocio que permitía la duplicación accidental de reservas en fechas solapadas.
+  * Implementación de un modelo de datos normalizado, control de acceso basado en tres roles de usuario y confirmaciones automatizadas vía correo electrónico con código QR.
+  * Automatización de pruebas con más de 70 casos integrados en un flujo de integración continua para prevenir regresiones.
+* [📁 Ver Repositorio en GitHub](https://github.com/lariasca1994/reservas-corferias)
 
 ---
 
-### 📋 TaskFlow — Gestión de tareas con análisis de datos
-**Python · FastAPI · MongoDB · pandas · HTMX**
-
-Aplicación construida enteramente en Python, sin JavaScript propio: la
-interactividad la resuelve HTMX pidiendo fragmentos de HTML al servidor.
-
-Incluye un módulo de análisis que acepta archivos CSV, Excel y JSON, genera un
-perfilado automático de columnas —tipos, nulos, valores únicos y estadísticas
-descriptivas— y ofrece un explorador donde se eligen agrupación, medida y tipo de
-gráfico. Cada cambio recalcula en el servidor con pandas. Los archivos se
-convierten a Parquet al cargarlos, lo que hace viables los filtros interactivos.
-
-Los indicadores se actualizan en vivo mediante Server-Sent Events, y las
-contraseñas se protegen con bcrypt más un secreto de servidor que no se almacena
-junto a los datos.
-
-- [Ver repositorio](https://github.com/lariasca1994/taskflow)
+### 📋 TaskFlow — Gestión de Tareas y Análisis de Datos
+**Tecnologías:** Python, FastAPI, MongoDB, pandas, HTMX  
+* **Descripción:** Aplicación web para la administración de proyectos con un módulo integrado de análisis analítico de archivos.
+* **Impacto y Solución Técnica:** 
+  * Módulo de análisis automatizado para archivos CSV, Excel y JSON que calcula métricas descriptivas, valores únicos e indicadores sin requerir software externo.
+  * Optimización de rendimiento al transformar datos a formato Parquet, permitiendo filtros e interactividad en tiempo real sin recargar la página.
+  * Mecanismos de seguridad avanzados para la protección de credenciales y datos de usuario.
+* [📁 Ver Repositorio en GitHub](https://github.com/lariasca1994/taskflow)
 
 ---
 
-### 🧪 Software Testing Portfolio
-**Java · JUnit 5 · Mockito · JaCoCo**
-
-Proyecto de pruebas de software que simula un proceso de control de calidad real: diseñé casos de prueba que encontraron y documentaron un error de clasificación antes de que llegara a producción, y medí la cobertura real de las pruebas sobre el código.
-
-Incluye tres técnicas complementarias: pruebas unitarias con JUnit, aislamiento de dependencias con Mockito para poder probar componentes cuya implementación no existe, y medición de cobertura de ramas con JaCoCo para distinguir el código realmente ejercitado del que solo aparenta estarlo.
-- [Ver repositorio](https://github.com/lariasca1994/Software_Testing)
-
----
-
-### 🏠 ColombiaTech
-**NestJS (REST + GraphQL + WebSockets) · React · MongoDB**
-
-Plataforma Full Stack de alquiler de vivienda al estilo Airbnb, con backend unificado que expone REST y GraphQL sobre la misma base de código.
-
-Resuelve tres problemas habituales de este tipo de plataforma: autenticación segura con tokens, control de acceso donde cada usuario solo alcanza su propia información, y comunicación en tiempo real entre arrendador e interesado mediante WebSockets.
-
-- [Ver repositorio](https://github.com/lariasca1994/ColombiaTech2)
+### 🧪 Software Testing Portfolio — Suite de Pruebas Automatizadas
+**Tecnologías:** Java, JUnit 5, Mockito, JaCoCo  
+* **Descripción:** Proyecto especializado en la implementación de un proceso formal de Aseguramiento de Calidad de Software (QA).
+* **Impacto y Solución Técnica:** 
+  * Detección temprana de errores lógicos mediante la ejecución de pruebas unitarias previo al despliegue en ambientes de producción.
+  * Aislamiento de componentes con dobles de prueba (mocks) y medición objetiva del porcentaje de código efectivamente validado mediante análisis de cobertura de ramas.
+* [📁 Ver Repositorio en GitHub](https://github.com/lariasca1994/Software_Testing)
 
 ---
 
-### 🎰 Lottery AI — Análisis de sorteos
-**Node.js · Express · PostgreSQL · Sequelize · Chart.js**
-
-Sistema de recolección y análisis de resultados históricos de Baloto, Revancha y MiLoto. Extrae los datos publicados, los almacena en PostgreSQL y expone estadísticas descriptivas mediante una API REST y un panel web.
-
-El proyecto parte de una premisa explícita: los sorteos de lotería son estadísticamente independientes, así que no predice nada. Lo que hace es describir el histórico —frecuencias, ausencias, sumas, paridad y evolución mensual— y mostrar que, con más de seiscientos sorteos por lotería, la distribución se comporta como cabría esperar de un sorteo justo.
-
-Incluye herramientas de diagnóstico para el recolector, porque depende de la estructura HTML de un sitio ajeno: cuando algo deja de funcionar, indican si cambió la ruta, si se movió el marcado o si el contenido pasó a cargarse por JavaScript.
-
-- [Ver repositorio](https://github.com/lariasca1994/lottery-ai)
+### 🏠 ColombiaTech — Plataforma Web Inmobiliaria
+**Tecnologías:** NestJS (REST & GraphQL), React, MongoDB, WebSockets  
+* **Descripción:** Solución Full Stack para la publicación y gestión de solicitudes de alquiler de propiedades.
+* **Impacto y Solución Técnica:** 
+  * Arquitectura backend unificada capaz de responder a consultas REST y GraphQL de forma eficiente.
+  * Comunicación en tiempo real entre propietarios e interesados mediante WebSockets y control estricto de permisos de usuario.
+* [📁 Ver Repositorio en GitHub](https://github.com/lariasca1994/ColombiaTech2)
 
 ---
 
-### 💳 PRPagos — Sistema de pagos
-**Java · Oracle**
-
-Aplicación de gestión de pagos desarrollada durante el curso de Desarrollo de Software de la Universidad EAN, con persistencia sobre Oracle.
-
-- [Ver repositorio](https://github.com/lariasca1994/Desarrollo-de-Software)
+### 🎰 Lottery AI — Plataforma de Análisis Estadístico
+**Tecnologías:** Node.js, Express, PostgreSQL, Sequelize, Chart.js  
+* **Descripción:** Sistema para la recolección automatizada y análisis estadístico descriptivo de información histórica de sorteos.
+* **Impacto y Solución Técnica:** 
+  * Automatización de la extracción y consolidación de datos en bases relacionales.
+  * Generación de tableros gráficos para visualizar frecuencias, distribuciones y comportamientos históricos.
+  * Herramientas de diagnóstico de infraestructura para alertar sobre cambios estructurales en las fuentes de datos.
+* [📁 Ver Repositorio en GitHub](https://github.com/lariasca1994/lottery-ai)
 
 ---
 
-### 💼 Portafolio Personal
-**HTML · CSS · JavaScript**
+### 💳 PRPagos — Sistema de Gestión Financiera
+**Tecnologías:** Java, Oracle Database  
+* **Descripción:** Aplicación orientada al procesamiento y registro de transacciones financieras con almacenamiento persistente en Oracle.
+* [📁 Ver Repositorio en GitHub](https://github.com/lariasca1994/Desarrollo-de-Software)
 
-Sitio de presentación profesional organizado por área de interés (QA, Análisis de Datos, Soporte y Monitoreo), con formulario de contacto funcional.
+---
 
-- [Ver repositorio](https://github.com/lariasca1994/PWDC)
+### 💼 Portafolio Profesional Web
+**Tecnologías:** HTML5, CSS3, JavaScript  
+* **Descripción:** Portal web interactivo diseñado para la consolidación de trayectoria profesional y habilitación de canales de contacto directo.
+* [📁 Ver Repositorio en GitHub](https://github.com/lariasca1994/PWDC)
 
-## 📫 ¡Conectemos!
+---
+
+## 📫 Contacto
+
 <div align="center">
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/lfac1/)
 [![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:ariascluisf@gmail.com)
 [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/lariasca1994)
-
-<!-- Imagen de footer -->
-<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" width="100%"/>
-
-**"El único modo de hacer un gran trabajo es amar lo que haces."** 💻✨
-
-![Profile views](https://komarev.com/ghpvc/?username=lariasca1994&color=brightgreen)
 
 </div>

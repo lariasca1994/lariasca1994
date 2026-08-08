@@ -33,22 +33,111 @@ Ingeniero de Sistemas egresado de la Universidad EAN. Mi enfoque se basa en el a
 
 ## 🎯 Proyectos Destacados
 
-### 🧪 Software Testing Portfolio
-**Java · JUnit · Mockito · JaCoCo**
+### 🏛️ Reservas Corferias — Modernización de un sistema legado
+**Laravel 12 · PHP 8.3 · SQL Server · PHPUnit · Bootstrap 5**
 
-Proyecto de pruebas de software que simula un proceso de control de calidad real: diseñé casos de prueba que encontraron y documentaron un error de clasificación antes de que llegara a producción, y medí la cobertura real de las pruebas sobre el código.
+Reconstrucción completa de un proyecto universitario de 2019 escrito en Lumen 5.8,
+conservando el historial de Git original.
+
+Durante el análisis encontré un **defecto de doble reserva**: la condición que
+detectaba cruces de fechas solo reconocía el caso en que el rango solicitado
+quedaba totalmente contenido dentro de uno ocupado, así que cualquier
+solapamiento parcial pasaba como disponible. Lo corregí y lo cubrí con una
+batería de pruebas que incluye los casos frontera, más una prueba que reproduce
+la lógica original para dejar el error documentado.
+
+El sistema original no tenía base de datos —los datos vivían dentro de los
+controladores—, ni autenticación, ni validación en el servidor, ni una sola
+prueba. La versión actual incluye modelo relacional, tres roles, notificaciones
+por correo con código QR, panel de administración, más de setenta pruebas
+automatizadas e integración continua.
+
+- [Ver repositorio](https://github.com/lariasca1994/reservas-corferias)
+
+---
+
+### 📋 TaskFlow — Gestión de tareas con análisis de datos
+**Python · FastAPI · MongoDB · pandas · HTMX**
+
+Aplicación construida enteramente en Python, sin JavaScript propio: la
+interactividad la resuelve HTMX pidiendo fragmentos de HTML al servidor.
+
+Incluye un módulo de análisis que acepta archivos CSV, Excel y JSON, genera un
+perfilado automático de columnas —tipos, nulos, valores únicos y estadísticas
+descriptivas— y ofrece un explorador donde se eligen agrupación, medida y tipo de
+gráfico. Cada cambio recalcula en el servidor con pandas. Los archivos se
+convierten a Parquet al cargarlos, lo que hace viables los filtros interactivos.
+
+Los indicadores se actualizan en vivo mediante Server-Sent Events, y las
+contraseñas se protegen con bcrypt más un secreto de servidor que no se almacena
+junto a los datos.
+
+- [Ver repositorio](https://github.com/lariasca1994/taskflow)
+
+---
+
+### 🎰 Lottery AI — Análisis estadístico de sorteos
+**Node.js · Express · PostgreSQL · Sequelize · Chart.js**
+
+Sistema de recolección y análisis de resultados históricos de Baloto, Revancha y
+MiLoto sobre más de mil ochocientos sorteos.
+
+Parte de una premisa explícita: los sorteos son estadísticamente independientes,
+así que el sistema no predice nada. Lo que hace es aplicar una **prueba de chi
+cuadrado de bondad de ajuste** para responder a una pregunta concreta —¿la
+distribución observada es compatible con el azar?— y traducir el resultado a
+lenguaje llano, con su valor p, la banda esperada por número y los que quedan
+fuera de ella.
+
+El panel se actualiza solo al abrir la página cuando hay sorteos nuevos, con un
+tiempo de espera que evita saturar el sitio de origen. Incluye herramientas de
+diagnóstico del recolector, porque depende de la estructura HTML de un sitio
+ajeno.
+
+- [Ver repositorio](https://github.com/lariasca1994/lottery-ai)
+
+---
+
+### 🧪 Software Testing Portfolio
+**Java · JUnit 5 · Mockito · JaCoCo**
+
+Proyecto de pruebas que combina tres técnicas complementarias: pruebas unitarias,
+aislamiento de dependencias con objetos simulados para probar componentes cuya
+implementación no existe, y medición de cobertura de ramas para distinguir el
+código realmente ejercitado del que solo aparenta estarlo.
+
 - [Ver repositorio](https://github.com/lariasca1994/Software_Testing)
+
+---
 
 ### 🏠 ColombiaTech
 **NestJS (REST + GraphQL + WebSockets) · React · MongoDB**
 
-Plataforma Full Stack de alquiler de vivienda (estilo Airbnb): inicio de sesión seguro, control de acceso donde cada usuario solo ve su propia información, y chat en tiempo real entre usuarios.
+Plataforma de alquiler de vivienda con backend unificado que expone REST y
+GraphQL sobre la misma base de código, autenticación con tokens, control de
+acceso por usuario y chat en tiempo real.
+
 - [Ver repositorio](https://github.com/lariasca1994/ColombiaTech2)
+
+---
+
+### 💳 PRPagos — Sistema de pagos
+**Java · Swing · Oracle**
+
+Aplicación de escritorio con persistencia en Oracle, contraseñas cifradas,
+visibilidad de datos limitada por usuario y registro de auditoría de las
+operaciones.
+
+- [Ver repositorio](https://github.com/lariasca1994/Desarrollo-de-Software)
+
+---
 
 ### 💼 Portafolio Personal
 **HTML · CSS · JavaScript**
 
-Sitio de presentación profesional organizado por área de interés (QA, Análisis de Datos, Soporte y Monitoreo), con formulario de contacto funcional.
+Sitio de presentación organizado por área de interés, sin framework ni proceso de
+compilación.
+
 - [Ver repositorio](https://github.com/lariasca1994/PWDC)
 
 ## 📫 ¡Conectemos!

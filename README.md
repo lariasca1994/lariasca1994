@@ -13,23 +13,28 @@
 </div>
 
 # 📌 Perfil Profesional
-
-Ingeniero de Sistemas egresado de la **Universidad EAN**, con experiencia en **aseguramiento de calidad de software**, **soporte especializado N1/N2** y **desarrollo full  tack**.
-
-Mi trayectoria incluye pruebas funcionales sobre APIs REST y validación en bases de datos Oracle en el **Banco de la República**, y gestión de incidentes bajo marcos **ITIL v4** en **Global Hitss** y **OESIA**. En paralelo desarrollo proyectos propios donde aplico lo aprendido en testing, análisis de datos y construcción de aplicaciones web.
-
+ 
+Ingeniero de Sistemas egresado de la **Universidad EAN**, con experiencia en
+**aseguramiento de calidad de software**, **soporte especializado N1/N2** y
+**desarrollo full stack**.
+ 
+Mi trayectoria incluye pruebas funcionales sobre APIs REST y validación en bases
+de datos Oracle en el **Banco de la República**, y gestión de incidentes bajo
+marcos **ITIL v4** en **Global Hitss** y **OESIA**. En paralelo desarrollo
+proyectos propios donde aplico lo aprendido en testing, análisis de datos y
+construcción de aplicaciones web.
+ 
 ---
-
-## ⚡ Especialidades & Propuesta de Valor
-
+ 
+## ⚡ Áreas de trabajo
+ 
 <div align="center">
-
 | 🧪 QA & Testing | 📊 Datos | 💻 Desarrollo | ⚙️ Operaciones |
 | :--- | :--- | :--- | :--- |
 | Pruebas unitarias, de integración y de regresión. | Consultas SQL y modelado relacional. | Aplicaciones web con REST y GraphQL. | Monitoreo N1/N2 y gestión de incidentes. |
 | Diseño de casos con *Boundary Value Analysis* y *Equivalence Partitioning*. | Perfilado y análisis con Python (*pandas*). | Bases de datos relacionales y NoSQL. | Diagnóstico estructurado y seguimiento de SLA. |
 | **Herramientas:** JUnit 5, Mockito, JaCoCo, Selenium, Appium, Postman. | **Herramientas:** Oracle, SQL Server, PostgreSQL, MySQL, MongoDB. | **Herramientas:** Java, PHP (Laravel), Python (FastAPI), Node.js, React. | **Certificación:** ITIL v4 Foundation. |
-
+ 
 </div>
 
 ---
@@ -72,12 +77,10 @@ Mi trayectoria incluye pruebas funcionales sobre APIs REST y validación en base
 ---
 
 ## 🚀 Proyectos
-
+ 
 <details open>
 <summary><b>🏛️ Reservas Corferias — Modernización de un sistema legado</b></summary>
-
 <br>
-
 * **Stack:** `PHP 8.3` · `Laravel 12` · `SQL Server (Azure)` · `PHPUnit` · `Bootstrap 5`
 * **Punto de partida:** un proyecto académico de 2019 escrito en Lumen 5.8, sin base de datos —los datos vivían dentro de los controladores—, sin autenticación funcional, sin validación en el servidor y sin pruebas.
 * **Qué hice:**
@@ -85,16 +88,11 @@ Mi trayectoria incluye pruebas funcionales sobre APIs REST y validación en base
   * **Corrección y cobertura:** más de 70 pruebas automatizadas, con una matriz de casos frontera para el solapamiento y una prueba que reproduce la lógica original para dejar el error documentado. Integración continua en GitHub Actions.
   * **Reconstrucción:** modelo de datos normalizado, autenticación con tres roles, contraseñas con bcrypt, notificaciones por correo con código QR y panel de administración.
 * 🔗 [Ver repositorio](https://github.com/lariasca1994/reservas-corferias)
-
 </details>
-
 <br>
-
 <details open>
 <summary><b>📋 TaskFlow — Gestión de tareas con módulo de análisis</b></summary>
-
 <br>
-
 * **Stack:** `Python` · `FastAPI` · `MongoDB` · `pandas` · `HTMX`
 * **Objetivo:** construir una aplicación web íntegramente en Python, sin JavaScript propio, con una capa de análisis de datos real.
 * **Qué hice:**
@@ -103,16 +101,11 @@ Mi trayectoria incluye pruebas funcionales sobre APIs REST y validación en base
   * **Interfaz:** la interactividad se resuelve con HTMX pidiendo fragmentos de HTML; los indicadores se actualizan en vivo mediante Server-Sent Events.
   * **Seguridad:** contraseñas con bcrypt más un secreto de servidor que no se almacena junto a los datos, sesión con inactividad deslizante y verificación de pertenencia en cada consulta.
 * 🔗 [Ver repositorio](https://github.com/lariasca1994/taskflow)
-
 </details>
-
 <br>
-
 <details open>
 <summary><b>🎰 Lottery AI — Análisis estadístico de sorteos</b></summary>
-
 <br>
-
 * **Stack:** `Node.js` · `Express` · `PostgreSQL` · `Sequelize` · `Chart.js`
 * **Premisa:** los sorteos de lotería son estadísticamente independientes, así que el sistema **no predice nada**. La versión inicial generaba "predicciones" combinando frecuencias con números aleatorios; la reescribí para que describa el histórico y nada más.
 * **Qué hice:**
@@ -120,16 +113,11 @@ Mi trayectoria incluye pruebas funcionales sobre APIs REST y validación en base
   * **Prueba de bondad de ajuste:** chi cuadrado sobre la distribución observada, con su valor p, la banda esperada por número y los que quedan fuera de ella, traducido a lenguaje llano para quien no conoce la prueba.
   * **Actualización automática** al abrir el panel, con un tiempo de espera que evita peticiones repetidas al sitio de origen.
 * 🔗 [Ver repositorio](https://github.com/lariasca1994/lottery-ai)
-
 </details>
-
 <br>
-
 <details>
 <summary><b>🧪 Software Testing — Ejercicio de pruebas con cobertura</b></summary>
-
 <br>
-
 * **Stack:** `Java` · `JUnit 5` · `Mockito` · `JaCoCo`
 * **Contexto:** ejercicio académico sobre el caso *CoffeeMaker*, orientado a practicar tres técnicas complementarias.
 * **Qué contiene:**
@@ -137,66 +125,50 @@ Mi trayectoria incluye pruebas funcionales sobre APIs REST y validación en base
   * Uso de Mockito para probar un componente cuya dependencia es una interfaz sin implementación.
   * Medición de cobertura de ramas con JaCoCo, que distingue el código realmente ejercitado del que solo aparenta estarlo.
 * 🔗 [Ver repositorio](https://github.com/lariasca1994/Software_Testing)
-
 </details>
-
 <br>
-
 <details>
 <summary><b>🏠 ColombiaTech — Plataforma de alquiler de vivienda</b></summary>
-
 <br>
-
 * **Stack:** `NestJS` · `React` · `GraphQL` · `REST` · `MongoDB` · `WebSockets`
 * **Qué contiene:** backend que expone REST y GraphQL sobre la misma base de código, autenticación con JWT, aislamiento de información por usuario y mensajería en tiempo real mediante WebSockets.
 * 🔗 [Ver repositorio](https://github.com/lariasca1994/ColombiaTech2)
-
 </details>
-
 <br>
-
 <details>
 <summary><b>💳 PRPagos y 💼 Portafolio web</b></summary>
-
 <br>
-
 * **PRPagos:** aplicación de escritorio en `Java` con `Swing` y persistencia en `Oracle`. Contraseñas cifradas, visibilidad de datos limitada por usuario y registro de auditoría de las operaciones. Proyecto del curso de Desarrollo de Software de la Universidad EAN.
   🔗 [Ver repositorio](https://github.com/lariasca1994/Desarrollo-de-Software)
-
 * **Portafolio web:** sitio estático en `HTML`, `CSS` y `JavaScript`, sin framework ni proceso de compilación. Organizado por área de interés, con formulario de contacto.
   🔗 [Ver repositorio](https://github.com/lariasca1994/PWDC)
-
 </details>
-
 ---
-
+ 
 ## 📈 Estadísticas de GitHub
-
+ 
 <div align="center">
-
-![Estadísticas](https://github-readme-stats.vercel.app/api?username=lariasca1994&show_icons=true&hide_border=true&theme=default&locale=es)
-
-![Lenguajes](https://github-readme-stats.vercel.app/api/top-langs/?username=lariasca1994&layout=compact&hide_border=true&theme=default&locale=es)
-
+![Estadísticas](https://github-readme-stats.vercel.app/api?username=lariasca1994&show_icons=true&hide_border=true&locale=es)
+ 
+![Lenguajes](https://github-readme-stats.vercel.app/api/top-langs/?username=lariasca1994&layout=compact&hide_border=true&locale=es)
+ 
 </div>
-
 ---
-
+ 
 ## 📫 ¡Conectemos!
-
+ 
 <div align="center">
-
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/lfac1/)
 [![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:ariascluisf@gmail.com)
 [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/lariasca1994)
-
+ 
 <br>
-
 **"El único modo de hacer un gran trabajo es amar lo que haces."**
-
+ 
 ![Visitas](https://komarev.com/ghpvc/?username=lariasca1994&color=brightgreen&label=Visitas)
-
+ 
 </div>
+
 ---
 
 ## 📈 Estadísticas de GitHub

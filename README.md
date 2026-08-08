@@ -1,5 +1,5 @@
 # Luis Felipe Arias Carriazo
-### 🚀 Ingeniero de Sistemas | QA Software Engineer · Data Analyst · Full Stack Developer
+### 🚀 Ingeniero de Sistemas | QA Tester | Support L1/L2
 
 <div align="center">
 

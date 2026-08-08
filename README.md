@@ -12,11 +12,11 @@
 
 </div>
 
-## 📌 Perfil Profesional
+# 📌 Perfil Profesional
 
-Ingeniero de Sistemas egresado de la **Universidad EAN** especializado en **Aseguramiento de Calidad de Software (QA/Testing)**, **Soporte Especializado N1/N2** y **Desarrollo Full Stack**.
+Ingeniero de Sistemas egresado de la **Universidad EAN**, con experiencia en **aseguramiento de calidad de software**, **soporte especializado N1/N2** y **desarrollo full  tack**.
 
-Aporto una visión integral que combina el rigor del control de calidad con la capacidad de construir y optimizar arquitecturas de software. Mi trayectoria abarca la ejecución de pruebas funcionales y automatizadas sobre APIs REST y bases de datos transaccionales en el **Banco de la República**, junto con la gestión operativa e incidentes críticos bajo marcos **ITIL v4** en firmas multinacionales como **Global Hitss** y **OESIA**.
+Mi trayectoria incluye pruebas funcionales sobre APIs REST y validación en bases de datos Oracle en el **Banco de la República**, y gestión de incidentes bajo marcos **ITIL v4** en **Global Hitss** y **OESIA**. En paralelo desarrollo proyectos propios donde aplico lo aprendido en testing, análisis de datos y construcción de aplicaciones web.
 
 ---
 
@@ -24,17 +24,17 @@ Aporto una visión integral que combina el rigor del control de calidad con la c
 
 <div align="center">
 
-| 🧪 QA & Software Testing | 📊 Análisis de Datos | 💻 Desarrollo Full Stack | ⚙️ Operaciones & ITIL |
+| 🧪 QA & Testing | 📊 Datos | 💻 Desarrollo | ⚙️ Operaciones |
 | :--- | :--- | :--- | :--- |
-| Pruebas unitarias, de integración, funcionales y regresión. | Modelado de datos, consultas SQL avanzadas y ETL. | Construcción de arquitecturas REST/GraphQL sostenibles. | Monitoreo proactivo N1/N2 y gestión del ciclo de incidentes. |
-| Diseño de casos mediante *Boundary Value Analysis* y *Equivalence Partitioning*. | Procesamiento y perfilado estadístico con Python (*pandas*). | Integración de bases de datos relacionales y NoSQL. | Diagnóstico técnico estructurado y cumplimiento estricto de SLA. |
-| **Herramientas:** JUnit 5, Postman, Selenium, Mockito, JaCoCo. | **Herramientas:** Oracle, PostgreSQL, SQL Server, MongoDB, Parquet. | **Herramientas:** Java, PHP (Laravel), TypeScript (NestJS, React), Node.js. | **Certificación:** ITIL v4 Foundation. |
+| Pruebas unitarias, de integración y de regresión. | Consultas SQL y modelado relacional. | Aplicaciones web con REST y GraphQL. | Monitoreo N1/N2 y gestión de incidentes. |
+| Diseño de casos con *Boundary Value Analysis* y *Equivalence Partitioning*. | Perfilado y análisis con Python (*pandas*). | Bases de datos relacionales y NoSQL. | Diagnóstico estructurado y seguimiento de SLA. |
+| **Herramientas:** JUnit 5, Mockito, JaCoCo, Selenium, Appium, Postman. | **Herramientas:** Oracle, SQL Server, PostgreSQL, MySQL, MongoDB. | **Herramientas:** Java, PHP (Laravel), Python (FastAPI), Node.js, React. | **Certificación:** ITIL v4 Foundation. |
 
 </div>
 
 ---
 
-## 🛠️ Stack Tecnológico
+# 🛠️ Stack Tecnológico
 
 <div align="center">
 
@@ -71,94 +71,97 @@ Aporto una visión integral que combina el rigor del control de calidad con la c
 
 ---
 
-## 🚀 Proyectos Destacados
+## 🚀 Proyectos
 
 <details open>
-<summary><b>🏛️ Reservas Corferias — Modernización & Refactorización de Sistema Legado</b></summary>
+<summary><b>🏛️ Reservas Corferias — Modernización de un sistema legado</b></summary>
 
 <br>
 
-* **Tech Stack:** `PHP 8.3` · `Laravel 12` · `Azure SQL Server` · `PHPUnit` · `Bootstrap 5`
-* **Desafío Técnico:** Modernizar un sistema monolítico desacoplado, corrigiendo vulnerabilidades lógicas y fallos de integridad sin perder el historial evolutivo del repositorio.
-* **Solución e Impacto:**
-  * **Detección de Defectos:** Se identificó y corrigió una falla crítica de concurrencia que permitía la duplicación involuntaria de reservas en intervalos de tiempo parciales.
-  * **Estrategia QA:** Implementación de +70 casos de prueba automatizados con cobertura de casos frontera (*Boundary Values*), integrados en un pipeline de CI.
-  * **Arquitectura:** Migración de controladores estáticos a un modelo de datos normalizado con autenticación por roles, cifrado de datos y notificaciones automáticas con código QR.
-* 🔗 [Explorar Repositorio en GitHub](https://github.com/lariasca1994/reservas-corferias)
-
-</details>
-
-<br>
-
-<details open>
-<summary><b>📋 TaskFlow — Gestión de Proyectos & Engine Analítico de Datos</b></summary>
-
-<br>
-
-* **Tech Stack:** `Python` · `FastAPI` · `MongoDB` · `pandas` · `HTMX`
-* **Desafío Técnico:** Desarrollar una plataforma reactiva y de alto rendimiento para procesamiento masivo de datos sin la sobrecarga de un framework JavaScript cliente tradicional.
-* **Solución e Impacto:**
-  * **Motor de Datos:** Módulo analítico dinámico que procesa archivos CSV, Excel y JSON, generando estadísticas descriptivas y distribuciones de frecuencia al instante.
-  * **Optimización de Rendimiento:** Conversión transparente de datasets a formato *Parquet* en servidor, reduciendo el latido de E/S y permitiendo filtrado reactivo mediante Server-Sent Events (SSE).
-* 🔗 [Explorar Repositorio en GitHub](https://github.com/lariasca1994/taskflow)
+* **Stack:** `PHP 8.3` · `Laravel 12` · `SQL Server (Azure)` · `PHPUnit` · `Bootstrap 5`
+* **Punto de partida:** un proyecto académico de 2019 escrito en Lumen 5.8, sin base de datos —los datos vivían dentro de los controladores—, sin autenticación funcional, sin validación en el servidor y sin pruebas.
+* **Qué hice:**
+  * **Defecto encontrado:** la condición que detectaba cruces de fechas solo reconocía el caso en que el rango solicitado quedaba totalmente contenido dentro de uno ya ocupado, así que cualquier solapamiento parcial pasaba como disponible. El mismo escenario podía reservarse dos veces.
+  * **Corrección y cobertura:** más de 70 pruebas automatizadas, con una matriz de casos frontera para el solapamiento y una prueba que reproduce la lógica original para dejar el error documentado. Integración continua en GitHub Actions.
+  * **Reconstrucción:** modelo de datos normalizado, autenticación con tres roles, contraseñas con bcrypt, notificaciones por correo con código QR y panel de administración.
+* 🔗 [Ver repositorio](https://github.com/lariasca1994/reservas-corferias)
 
 </details>
 
 <br>
 
 <details open>
-<summary><b>🧪 Software Testing Portfolio — Suite de QA & Cobertura de Código</b></summary>
+<summary><b>📋 TaskFlow — Gestión de tareas con módulo de análisis</b></summary>
 
 <br>
 
-* **Tech Stack:** `Java` · `JUnit 5` · `Mockito` · `JaCoCo`
-* **Desafío Técnico:** Simular un ciclo de pruebas de software empresarial enfocado en la prevención de regresiones y auditoría de cobertura.
-* **Solución e Impacto:**
-  * **Aislamiento de Pruebas:** Uso extensivo de *Mockito* para simular dependencias externas, garantizando la independencia de las pruebas unitarias.
-  * **Métricas de Calidad:** Medición de cobertura real de ramas de código (*Branch Coverage*) utilizando *JaCoCo*, asegurando la validación efectiva de flujos alternos y de excepción.
-* 🔗 [Explorar Repositorio en GitHub](https://github.com/lariasca1994/Software_Testing)
+* **Stack:** `Python` · `FastAPI` · `MongoDB` · `pandas` · `HTMX`
+* **Objetivo:** construir una aplicación web íntegramente en Python, sin JavaScript propio, con una capa de análisis de datos real.
+* **Qué hice:**
+  * **Módulo de análisis:** acepta archivos CSV, Excel y JSON, genera un perfilado automático de columnas —tipos, nulos, valores únicos y estadísticas descriptivas— y ofrece un explorador donde se eligen agrupación, medida y tipo de gráfico. Cada cambio recalcula en el servidor con pandas.
+  * **Rendimiento:** los archivos se convierten a Parquet al cargarlos, de modo que cada filtro lee solo las columnas necesarias en lugar de releer el original.
+  * **Interfaz:** la interactividad se resuelve con HTMX pidiendo fragmentos de HTML; los indicadores se actualizan en vivo mediante Server-Sent Events.
+  * **Seguridad:** contraseñas con bcrypt más un secreto de servidor que no se almacena junto a los datos, sesión con inactividad deslizante y verificación de pertenencia en cada consulta.
+* 🔗 [Ver repositorio](https://github.com/lariasca1994/taskflow)
+
+</details>
+
+<br>
+
+<details open>
+<summary><b>🎰 Lottery AI — Análisis estadístico de sorteos</b></summary>
+
+<br>
+
+* **Stack:** `Node.js` · `Express` · `PostgreSQL` · `Sequelize` · `Chart.js`
+* **Premisa:** los sorteos de lotería son estadísticamente independientes, así que el sistema **no predice nada**. La versión inicial generaba "predicciones" combinando frecuencias con números aleatorios; la reescribí para que describa el histórico y nada más.
+* **Qué hice:**
+  * **Recolección** de más de 1.800 sorteos de Baloto, Revancha y MiLoto, con detección tolerante de la estructura HTML y scripts de diagnóstico para cuando el sitio de origen cambia.
+  * **Prueba de bondad de ajuste:** chi cuadrado sobre la distribución observada, con su valor p, la banda esperada por número y los que quedan fuera de ella, traducido a lenguaje llano para quien no conoce la prueba.
+  * **Actualización automática** al abrir el panel, con un tiempo de espera que evita peticiones repetidas al sitio de origen.
+* 🔗 [Ver repositorio](https://github.com/lariasca1994/lottery-ai)
 
 </details>
 
 <br>
 
 <details>
-<summary><b>🏠 ColombiaTech — Plataforma Inmobiliaria Full Stack</b></summary>
+<summary><b>🧪 Software Testing — Ejercicio de pruebas con cobertura</b></summary>
 
 <br>
 
-* **Tech Stack:** `NestJS` · `React` · `GraphQL` · `REST API` · `MongoDB` · `WebSockets`
-* **Desafío Técnico:** Diseñar un ecosistema con doble capa de consulta (REST + GraphQL) sobre una arquitectura unificada y comunicación en tiempo real.
-* **Solución e Impacto:**
-  * Control de acceso basado en tokens de seguridad JWT, aislamiento de información por usuario y módulo de mensajería instantánea mediante WebSockets.
-* 🔗 [Explorar Repositorio en GitHub](https://github.com/lariasca1994/ColombiaTech2)
+* **Stack:** `Java` · `JUnit 5` · `Mockito` · `JaCoCo`
+* **Contexto:** ejercicio académico sobre el caso *CoffeeMaker*, orientado a practicar tres técnicas complementarias.
+* **Qué contiene:**
+  * Pruebas unitarias sobre las clases de dominio.
+  * Uso de Mockito para probar un componente cuya dependencia es una interfaz sin implementación.
+  * Medición de cobertura de ramas con JaCoCo, que distingue el código realmente ejercitado del que solo aparenta estarlo.
+* 🔗 [Ver repositorio](https://github.com/lariasca1994/Software_Testing)
 
 </details>
 
 <br>
 
 <details>
-<summary><b>🎰 Lottery AI — Motor de Análisis Estadístico Descriptivo</b></summary>
+<summary><b>🏠 ColombiaTech — Plataforma de alquiler de vivienda</b></summary>
 
 <br>
 
-* **Tech Stack:** `Node.js` · `Express` · `PostgreSQL` · `Sequelize` · `Chart.js`
-* **Desafío Técnico:** Ingesta y análisis de series de tiempo e historial de sorteos para la evaluación objetiva de distribuciones de probabilidad.
-* **Solución e Impacto:**
-  * Extracción automatizada de datos (*scraping* resiliente con alertas de cambios en estructura HTML), modelado relacional y generación de tableros interactivos de métricas históricas.
-* 🔗 [Explorar Repositorio en GitHub](https://github.com/lariasca1994/lottery-ai)
+* **Stack:** `NestJS` · `React` · `GraphQL` · `REST` · `MongoDB` · `WebSockets`
+* **Qué contiene:** backend que expone REST y GraphQL sobre la misma base de código, autenticación con JWT, aislamiento de información por usuario y mensajería en tiempo real mediante WebSockets.
+* 🔗 [Ver repositorio](https://github.com/lariasca1994/ColombiaTech2)
 
 </details>
 
 <br>
 
 <details>
-<summary><b>💳 PRPagos & 💼 Portafolio Web Personal</b></summary>
+<summary><b>💳 PRPagos y 💼 Portafolio web</b></summary>
 
 <br>
 
-* **PRPagos:** Sistema transaccional en `Java` con persistencia relacional sobre `Oracle Database`. [Ver Repositorio](https://github.com/lariasca1994/Desarrollo-de-Software)
-* **Portafolio Web:** Sitio interactivo en `HTML5`, `CSS3` y `JavaScript` adaptado para presentación profesional. [Ver Repositorio](https://github.com/lariasca1994/PWDC)
+* **PRPagos:** aplicación de escritorio en `Java` con `Swing` y persistencia en `Oracle`. Contraseñas cifradas, visibilidad de datos limitada por usuario y registro de auditoría. Proyecto del curso de Desarrollo de Software. [Ver repositorio](https://github.com/lariasca1994/Desarrollo-de-Software)
+* **Portafolio web:** sitio estático en `HTML`, `CSS` y `JavaScript`, sin framework. [Ver repositorio](https://github.com/lariasca1994/PWDC)
 
 </details>
 

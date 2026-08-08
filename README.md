@@ -160,11 +160,43 @@ Mi trayectoria incluye pruebas funcionales sobre APIs REST y validación en base
 
 <br>
 
-* **PRPagos:** aplicación de escritorio en `Java` con `Swing` y persistencia en `Oracle`. Contraseñas cifradas, visibilidad de datos limitada por usuario y registro de auditoría. Proyecto del curso de Desarrollo de Software. [Ver repositorio](https://github.com/lariasca1994/Desarrollo-de-Software)
-* **Portafolio web:** sitio estático en `HTML`, `CSS` y `JavaScript`, sin framework. [Ver repositorio](https://github.com/lariasca1994/PWDC)
+* **PRPagos:** aplicación de escritorio en `Java` con `Swing` y persistencia en `Oracle`. Contraseñas cifradas, visibilidad de datos limitada por usuario y registro de auditoría de las operaciones. Proyecto del curso de Desarrollo de Software de la Universidad EAN.
+  🔗 [Ver repositorio](https://github.com/lariasca1994/Desarrollo-de-Software)
+
+* **Portafolio web:** sitio estático en `HTML`, `CSS` y `JavaScript`, sin framework ni proceso de compilación. Organizado por área de interés, con formulario de contacto.
+  🔗 [Ver repositorio](https://github.com/lariasca1994/PWDC)
 
 </details>
 
+---
+
+## 📈 Estadísticas de GitHub
+
+<div align="center">
+
+![Estadísticas](https://github-readme-stats.vercel.app/api?username=lariasca1994&show_icons=true&hide_border=true&theme=default&locale=es)
+
+![Lenguajes](https://github-readme-stats.vercel.app/api/top-langs/?username=lariasca1994&layout=compact&hide_border=true&theme=default&locale=es)
+
+</div>
+
+---
+
+## 📫 ¡Conectemos!
+
+<div align="center">
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/lfac1/)
+[![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:ariascluisf@gmail.com)
+[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/lariasca1994)
+
+<br>
+
+**"El único modo de hacer un gran trabajo es amar lo que haces."**
+
+![Visitas](https://komarev.com/ghpvc/?username=lariasca1994&color=brightgreen&label=Visitas)
+
+</div>
 ---
 
 ## 📈 Estadísticas de GitHub

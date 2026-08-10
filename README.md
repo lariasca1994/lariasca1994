@@ -142,17 +142,6 @@ Mi trayectoria profesional incluye la ejecución de pruebas funcionales sobre AP
 
 ---
 
-## 📈 Estadísticas de GitHub
-
-<div align="center">
-
-![Luis Felipe's GitHub stats](https://github-readme-stats.vercel.app/api?username=lariasca1994&show_icons=true&theme=tokyonight&hide_border=true)
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=lariasca1994&layout=compact&theme=tokyonight&hide_border=true)
-
-</div>
-
----
-
 ## 📫 Contacto
 
 <div align="center">
@@ -161,5 +150,11 @@ Mi trayectoria profesional incluye la ejecución de pruebas funcionales sobre AP
 [![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:ariascluisf@gmail.com)
 [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/lariasca1994)
 [![WhatsApp](https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://tinyurl.com/carraian160)
+
+---
+
+</div>
+
+![Profile views](https://komarev.com/ghpvc/?username=lariasca1994&color=brightgreen)
 
 </div>

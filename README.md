@@ -103,18 +103,6 @@ construcción de aplicaciones web.
 * 🔗 [Ver repositorio](https://github.com/lariasca1994/taskflow)
 </details>
 <br>
-<details open>
-<summary><b>🎰 Lottery AI — Análisis estadístico de sorteos</b></summary>
-<br>
-* **Stack:** `Node.js` · `Express` · `PostgreSQL` · `Sequelize` · `Chart.js`
-* **Premisa:** los sorteos de lotería son estadísticamente independientes, así que el sistema **no predice nada**. La versión inicial generaba "predicciones" combinando frecuencias con números aleatorios; la reescribí para que describa el histórico y nada más.
-* **Qué hice:**
-  * **Recolección** de más de 1.800 sorteos de Baloto, Revancha y MiLoto, con detección tolerante de la estructura HTML y scripts de diagnóstico para cuando el sitio de origen cambia.
-  * **Prueba de bondad de ajuste:** chi cuadrado sobre la distribución observada, con su valor p, la banda esperada por número y los que quedan fuera de ella, traducido a lenguaje llano para quien no conoce la prueba.
-  * **Actualización automática** al abrir el panel, con un tiempo de espera que evita peticiones repetidas al sitio de origen.
-* 🔗 [Ver repositorio](https://github.com/lariasca1994/lottery-ai)
-</details>
-<br>
 <details>
 <summary><b>🧪 Software Testing — Ejercicio de pruebas con cobertura</b></summary>
 <br>
@@ -143,32 +131,6 @@ construcción de aplicaciones web.
 * **Portafolio web:** sitio estático en `HTML`, `CSS` y `JavaScript`, sin framework ni proceso de compilación. Organizado por área de interés, con formulario de contacto.
   🔗 [Ver repositorio](https://github.com/lariasca1994/PWDC)
 </details>
----
- 
-## 📈 Estadísticas de GitHub
- 
-<div align="center">
-![Estadísticas](https://github-readme-stats.vercel.app/api?username=lariasca1994&show_icons=true&hide_border=true&locale=es)
- 
-![Lenguajes](https://github-readme-stats.vercel.app/api/top-langs/?username=lariasca1994&layout=compact&hide_border=true&locale=es)
- 
-</div>
----
- 
-## 📫 ¡Conectemos!
- 
-<div align="center">
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/lfac1/)
-[![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:ariascluisf@gmail.com)
-[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/lariasca1994)
- 
-<br>
-**"El único modo de hacer un gran trabajo es amar lo que haces."**
- 
-![Visitas](https://komarev.com/ghpvc/?username=lariasca1994&color=brightgreen&label=Visitas)
- 
-</div>
-
 ---
 
 ## 📈 Estadísticas de GitHub

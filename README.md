@@ -153,7 +153,7 @@ Mi trayectoria profesional incluye la ejecución de pruebas funcionales sobre AP
 
 ---
 
-</div align="center">
+<div align="center">
 
 ![Profile views](https://komarev.com/ghpvc/?username=lariasca1994&color=brightgreen)
 

@@ -1,162 +1,126 @@
-# Luis Felipe Arias Carriazo
-### Ingeniero de Sistemas | Support Analyst N1/N2 | QA Tester
+## 👨‍💻 Sobre mí
 
-<div align="center">
+```javascript
+const luisFelipe: Profesional = {
+  nombre: "Luis Felipe Arias",
+  rol: "Ingeniero de Sistemas · QA & Automatización",
+  ubicación: "🇨🇴 Bogotá, Colombia",
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/lfac1/)
-[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/lariasca1994)
-[![Email](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:ariascluisf@gmail.com)
-[![WhatsApp](https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://tinyurl.com/carraian160)
+  enfoqueActual: [
+    "🧪 Pruebas funcionales y diseño de casos de prueba",
+    "🐍 Backend en Python conectado a MongoDB",
+    "☁️ Fundamentos de AWS Cloud aplicados a proyectos reales",
+  ],
 
----
+  enFormación: [
+    "SQL (Netzum)",
+    "Google Data Analytics Certificate",
+  ],
 
-</div>
+  stack: {
+    lenguajes: ["Python", "SQL", "Java"],
+    basesDeDatos: ["MongoDB", "MySQL", "PostgreSQL"],
+    testing: ["JUnit", "Mockito", "JaCoCo", "Selenium"],
+    cloud: ["AWS Cloud Foundations"],
+    metodologías: ["ITIL v4"],
+  },
+};
 
-## 📌 Perfil Profesional
+const filosofía = () => ({
+  pruebas: "Cada funcionalidad se valida antes de entregarse",
+  código: "Documentado y trazable",
+  aprendizaje: "Constante, un curso terminado a la vez",
+});
+```
 
-Ingeniero de Sistemas egresado de la **Universidad EAN** con más de 6 años de experiencia en **soporte técnico especializado N1/N2**, **monitoreo de plataformas** y **pruebas funcionales de software**.
+## 🚀 Proyecto destacado
 
-Mi trayectoria profesional incluye la ejecución de pruebas funcionales sobre APIs REST y validación en bases de datos Oracle en el **Banco de la República**, junto con la gestión de incidentes y monitoreo de eventos bajo el marco **ITIL v4** en **Global Hitss** y **OESIA**. Cuento con conocimientos en estructuración de pruebas (Equivalence Partitioning, Boundary Value Analysis), consultas SQL, desarrollo de aplicaciones web e integración continua.
+<table>
+  <tr>
+    <td width="100%" valign="top">
 
----
+### 🧪 Gestor de Casos de Prueba QA
 
-## ⚡ Áreas de Conocimiento y Competencias
+**Backend Python + MongoDB para documentación y gestión de casos de prueba**
 
-<div align="center">
+Proyecto ya creado; en ajuste para funcionar como portal web completo.
 
-| ⚙️ Soporte & Operaciones | 🧪 QA & Pruebas | 💻 Desarrollo & APIs | 🗄️ Bases de Datos |
-| :--- | :--- | :--- | :--- |
-| Soporte técnico N1/N2 y Mesa de Ayuda | Pruebas funcionales, de integración y regresión | Desarrollo web backend y frontend | Consultas y validación de datos con SQL |
-| Gestión de incidentes y cumplimiento de SLA | Pruebas de APIs REST (Postman, JSON) | Arquitecturas REST, GraphQL y WebSockets | Modelado relacional y NoSQL |
-| Monitoreo de eventos y alertas TI | Partición de equivalencia y análisis de valores límite | Lógica de negocio y procesamiento server-side | Persistencia y trazabilidad de información |
-| **Herramientas:** ITIL v4, Dynatrace, OBM, Linux | **Herramientas:** Postman, JUnit 5, Mockito, JaCoCo, Selenium | **Herramientas:** Java, Python (FastAPI), PHP (Laravel), Node.js (NestJS), React | **Herramientas:** Oracle, SQL Server, PostgreSQL, MongoDB |
-
-</div>
-
----
-
-## 🛠️ Stack Tecnológico
-
-<div align="center">
-
-### Lenguajes & Frameworks
-![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
-![Laravel](https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
-![NestJS](https://img.shields.io/badge/NestJS-E0234E?style=for-the-badge&logo=nestjs&logoColor=white)
-![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
-
-### Pruebas, Herramientas & Bases de Datos
-![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
-![JUnit5](https://img.shields.io/badge/JUnit5-25A162?style=for-the-badge&logo=junit5&logoColor=white)
-![Selenium](https://img.shields.io/badge/Selenium-43B02A?style=for-the-badge&logo=selenium&logoColor=white)
-![Oracle](https://img.shields.io/badge/Oracle-F80000?style=for-the-badge&logo=oracle&logoColor=white)
-![SQL Server](https://img.shields.io/badge/SQL_Server-CC2927?style=for-the-badge&logo=microsoftsqlserver&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-
-</div>
-
----
-
-## 🚀 Proyectos Destacados
-
-<details open>
-<summary><b>🏛️ Reservas Corferias — Sistema de Gestión de Reservas</b></summary>
+**Stack:**
 <br>
+<img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" />
+<img src="https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white" />
 
-* **Stack:** `PHP 8.3` · `Laravel 12` · `Azure SQL Server` · `PHPUnit` · `Bootstrap 5`
-* **Descripción:** Reconstrucción y modernización de un sistema legado de reservas de espacios académicos.
-* **Detalles técnicos:**
-  * Corrección de la condición de detección de solapamiento de fechas para evitar duplicidad de reservas.
-  * Cobertura de la lógica con pruebas automáticas en PHPUnit, incluyendo casos límite e integración continua con GitHub Actions.
-  * Normalización del modelo de datos, autenticación con tres roles, contraseñas encriptadas con bcrypt, notificaciones por correo con código QR y panel de administración.
-* 🔗 [Ver Repositorio](https://github.com/lariasca1994/reservas-corferias)
-</details>
+🔗 Repositorio: _(agregar enlace)_
+🔗 Demo / portal desplegado: _(pendiente — en ajuste)_
 
-<br>
+</td>
+  </tr>
+</table>
 
-<details open>
-<summary><b>🧪 Software Testing Portfolio — Pruebas Automatizadas y Cobertura</b></summary>
-<br>
+## 🔨 En ajuste
 
-* **Stack:** `Java` · `JUnit 5` · `Mockito` · `JaCoCo`
-* **Descripción:** Implementación de técnicas de control de calidad y diseño de pruebas sobre la aplicación *CoffeeMaker*.
-* **Detalles técnicos:**
-  * Pruebas unitarias sobre clases de dominio y aislamiento de componentes desacoplados mediante Mocks (Mockito).
-  * Medición y verificación de cobertura de ramas de código utilizando JaCoCo.
-* 🔗 [Ver Repositorio](https://github.com/lariasca1994/Software_Testing)
-</details>
+<table>
+<tr><td>
 
-<br>
+**Portales web en construcción**
+- reservas-corferias (Laravel) — completando flujo funcional
+- Suite de automatización QA (Selenium + JUnit + Mockito + JaCoCo)
 
-<details>
-<summary><b>🏠 ColombiaTech — Plataforma de Gestión Inmobiliaria</b></summary>
-<br>
+</td></tr>
+</table>
 
-* **Stack:** `NestJS` · `React` · `MongoDB` · `GraphQL` · `REST` · `WebSockets`
-* **Descripción:** Aplicación web de alquiler de vivienda con backend que expone servicios REST y GraphQL sobre la misma base de código.
-* **Detalles técnicos:** Autenticación con tokens JWT, aislamiento de información por usuario y comunicación en tiempo real mediante WebSockets.
-* 🔗 [Ver Repositorio](https://github.com/lariasca1994/ColombiaTech2)
-</details>
+## 📌 Otros proyectos
 
-<br>
+### 🎯 ColombiaTech
+Proyecto del BootCamp ColombiaTech.
+🔗 Repositorio: https://github.com/lariasca1994/ColombiaTech
+🔗 Desplegado: https://colombia-tech-toyd.vercel.app
+`JavaScript` `HTML` `CSS`
 
-<details>
-<summary><b>🎰 Lottery AI — Análisis de Sorteos Históricos</b></summary>
-<br>
+### 🎓 Desarrollo-de-Software
+Ejercicios y guías del curso de Desarrollo de Software — Universidad EAN.
+🔗 Repositorio: https://github.com/lariasca1994/Desarrollo-de-Software
 
-* **Stack:** `PostgreSQL (Neon)` · `SQL` · `Python`
-* **Descripción:** Herramienta para la consulta y análisis de resultados históricos de loterías (Baloto, Revancha, MiLoto).
-* **Detalles técnicos:** Migración de datos hacia un modelo relacional en PostgreSQL y ejecución de consultas orientadas a sorteos con registro de premio mayor.
-</details>
+## 💡 Hoja de ruta
 
-<br>
+```mermaid
+graph TB
+    A[Plan de portafolio] --> B[HV alineado a estudios culminados]
+    A --> C[Gestor de Casos QA]
+    A --> D[Despliegue multi-cloud]
 
-<details>
-<summary><b>💳 PRPagos — Aplicación Desktop de Gestión de Pagos</b></summary>
-<br>
+    B --> B1[✅ Perfil y habilidades reescritos]
 
-* **Stack:** `Java` · `Swing` · `Oracle DB`
-* **Descripción:** Aplicación de escritorio para la administración de transacciones y registro de pagos.
-* **Detalles técnicos:** Persistencia relacional en base de datos Oracle, contraseñas encriptadas y control de visibilidad por usuario.
-* 🔗 [Ver Repositorio](https://github.com/lariasca1994/Desarrollo-de-Software)
-</details>
+    C --> C1[✅ Backend creado]
+    C --> C2[🔄 Ajuste a portal web]
+    C --> C3[⏳ Suite Selenium/JUnit/Mockito/JaCoCo]
 
-<br>
+    D --> D1[⏳ AWS: Lambda + MongoDB Atlas]
+    D --> D2[⏳ Azure: reservas-corferias]
 
-<details>
-<summary><b>💼 Portafolio Web Personal</b></summary>
-<br>
-
-* **Stack:** `HTML5` · `CSS3` · `JavaScript`
-* **Descripción:** Sitio web estático de presentación profesional estructurado por áreas de interés con formulario de contacto.
-* 🔗 [Ver Repositorio](https://github.com/lariasca1994/PWDC)
-</details>
-
----
+    style A fill:#2563EB,stroke:#1E40AF,color:#fff
+    style B fill:#059669,stroke:#047857,color:#fff
+    style C fill:#D97706,stroke:#B45309,color:#fff
+    style D fill:#7C3AED,stroke:#6D28D9,color:#fff
+```
 
 ## 📫 Contacto
 
-<div align="center">
+[![Gmail](https://img.shields.io/badge/Gmail-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:ariascluisf@gmail.com)
+[![WhatsApp](https://img.shields.io/badge/WhatsApp-25D366?style=flat-square&logo=whatsapp&logoColor=white)](https://wa.me/carraian159)
+[![Telegram](https://img.shields.io/badge/Telegram-26A5E4?style=flat-square&logo=telegram&logoColor=white)](https://t.me/lfac6)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/luisfelipeariascarriazo)
+[![GitHub](https://img.shields.io/badge/GitHub-100000?style=flat-square&logo=github&logoColor=white)](https://github.com/lariasca1994)
+🔗 Portafolio: _(agregar enlace cuando esté listo)_
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/lfac1/)
-[![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:ariascluisf@gmail.com)
-[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/lariasca1994)
-[![WhatsApp](https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://tinyurl.com/carraian160)
-
-</div>
+- **📧 Email:** ariascluisf@gmail.com
+- **💬 WhatsApp:** @carraian159
+- **✈️ Telegram:** @lfac6
 
 ---
 
-<div align="center">
-
+![Stats](https://github-readme-stats.vercel.app/api?username=lariasca1994&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true)
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=lariasca1994&layout=compact&theme=tokyonight)
 ![Profile views](https://komarev.com/ghpvc/?username=lariasca1994&color=brightgreen)
 
-</div>
+**Última actualización:** Septiembre 2026

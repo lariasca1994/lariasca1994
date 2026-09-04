@@ -4,7 +4,6 @@
 const luisFelipe: Profesional = {
   nombre: "Luis Felipe Arias",
   rol: "Ingeniero de Sistemas · QA & Automatización",
-  ubicación: "🇨🇴 Bogotá, Colombia",
 
   enfoqueActual: [
     "🧪 Pruebas funcionales y diseño de casos de prueba",

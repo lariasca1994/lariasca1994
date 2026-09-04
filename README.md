@@ -112,14 +112,11 @@ graph TB
 [![GitHub](https://img.shields.io/badge/GitHub-100000?style=flat-square&logo=github&logoColor=white)](https://github.com/lariasca1994)
 🔗 Portafolio: _(agregar enlace cuando esté listo)_
 
-- **📧 Email:** ariascluisf@gmail.com
 - **💬 WhatsApp:** @carraian159
 - **✈️ Telegram:** @lfac6
 
 ---
 
-![Stats](https://github-readme-stats.vercel.app/api?username=lariasca1994&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true)
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=lariasca1994&layout=compact&theme=tokyonight)
 ![Profile views](https://komarev.com/ghpvc/?username=lariasca1994&color=brightgreen)
 
 **Última actualización:** Septiembre 2026

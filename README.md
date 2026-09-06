@@ -29,65 +29,24 @@ const filosofía = () => ({
 });
 ```
 
-## 🚀 Proyecto destacado
+## 🚀 Proyectos
 
-<table>
-  <tr>
-    <td width="100%" valign="top">
-
-### 🧪 Gestor de Casos de Prueba QA
-
-**Backend Python + MongoDB para documentación y gestión de casos de prueba, con su propia suite de automatización integrada**
-
-Organiza proyectos, suites y casos de prueba, registra ejecuciones con su resultado, vincula defectos y mide cobertura — con roles QA/ADMIN. La suite de automatización (JUnit, Mockito, JaCoCo, Cucumber y mutation testing con pitest, sobre el ejercicio CoffeeMaker de Coursera) vive en el mismo repositorio y alimenta las ejecuciones que se registran ahí.
-
-**Stack:**
-<br>
-<img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" />
-<img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" />
-<img src="https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white" />
-<img src="https://img.shields.io/badge/Java-007396?style=flat-square&logo=openjdk&logoColor=white" />
-<img src="https://img.shields.io/badge/JUnit-25A162?style=flat-square&logo=junit5&logoColor=white" />
-
-🔗 Repositorio: https://github.com/lariasca1994/gestor-casos-qa
-🔗 Demo / portal desplegado: _(pendiente — despliegue planeado en AWS Lambda + MongoDB Atlas)_
-
-</td>
-  </tr>
-</table>
-
-## 🔨 Portales en ajuste (funcionales, pendientes de despliegue)
-
-<table>
-<tr><td>
-
-- **reservas-corferias** — Laravel 12 + Azure SQL. Catálogo de escenarios, agenda, reservas con QR, cuenta de cliente y panel administrativo con métricas. Pruebas con PHPUnit y CI en GitHub Actions.
-  `PHP` `Laravel` `Azure SQL` — https://github.com/lariasca1994/reservas-corferias
-
-- **verificador-api** — FastAPI + PostgreSQL (Neon). Colecciones de pruebas de API con ejecución con un clic, historial de resultados y rol admin de solo lectura.
-  `Python` `FastAPI` `PostgreSQL` — https://github.com/lariasca1994/verificador-api
-
-- **calidad-afiliaciones** — FastAPI + MySQL (Aiven). Tablero de calidad y homologación de datos de afiliaciones multicanal, con exportación a CSV.
-  `Python` `FastAPI` `MySQL` — https://github.com/lariasca1994/calidad-afiliaciones
-
-- **TaskFlow** — FastAPI + MongoDB + HTMX. Gestor de tareas personales con módulo de analítica (pandas) sobre archivos propios y de ejemplo.
-  `Python` `FastAPI` `MongoDB` `pandas` — https://github.com/lariasca1994/taskflow
-
-- **ColombiaTech2** — NestJS (REST + GraphQL + WebSockets) + React + MongoDB. Plataforma de alquiler de vivienda con chat en tiempo real.
-  `NestJS` `React` `MongoDB` `GraphQL` — https://github.com/lariasca1994/ColombiaTech2
-
-- **PRPagos** — Spring Boot + Oracle Autonomous Database. Gestión de pagos personales con rol admin de solo lectura; falta correr la migración de base de datos y las pruebas finales.
-  `Java` `Spring Boot` `Oracle` — _(repositorio pendiente de confirmar/renombrar)_
-
-</td></tr>
-</table>
+| Nombre | Descripción | Plataformas | URL |
+|---|---|---|---|
+| Gestor de Casos de Prueba QA | App web de gestión de casos de prueba (proyectos, suites, casos, ejecuciones, defectos, dashboard), con su suite de automatización (JUnit, Mockito, JaCoCo, Cucumber, pitest) integrada en el mismo repositorio. | FastAPI (Python) · MongoDB Atlas · pensado para AWS Lambda + API Gateway | |
+| reservas-corferias | Reserva de escenarios de un centro de convenciones: catálogo, agenda, reservas con QR y panel administrativo con métricas. | Laravel 12 (PHP) · Azure SQL · pensado para Azure App Service | |
+| verificador-api | Automatización de pruebas de API (colecciones, ejecución con un clic, historial de resultados) — una versión propia de Postman/Newman. | FastAPI (Python) · PostgreSQL (Neon) | |
+| calidad-afiliaciones | Consolidación y tablero de calidad/homologación de datos de afiliaciones multicanal, con exportación a CSV. | FastAPI (Python) · MySQL (Aiven) | |
+| TaskFlow | Gestor de tareas personales con módulo de analítica de archivos (pandas) y actualización en tiempo real. | FastAPI (Python) · MongoDB | |
+| ColombiaTech2 | Plataforma de alquiler de vivienda con chat en tiempo real, backend con REST + GraphQL + WebSockets. | NestJS + React · MongoDB · pensado para Render + Vercel | |
+| PRPagos | Gestión de pagos personales, con rol admin de solo lectura sobre los pagos de todos los usuarios. | Spring Boot (Java) · Oracle Autonomous Database | |
 
 ## 💡 Hoja de ruta
 
 ```mermaid
 graph TB
     A[Plan de portafolio] --> B[HV y habilidades]
-    A --> C[Gestor de Casos QA · insignia]
+    A --> C[Gestor de Casos QA]
     A --> D[Otros portales del portafolio]
     A --> E[Despliegue multi-cloud]
 

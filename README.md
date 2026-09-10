@@ -1,99 +1,100 @@
-Aquí tienes el archivo **README.md** actualizado, incluyendo tus canales de **Telegram** (`@LFAC6`) y **WhatsApp** (`@carraian160`) tanto en los badges superiores como en la sección de contacto al final:
+## 👨‍💻 Sobre mí
 
-```markdown
-# Luis Felipe Arias Carriazo
-### Ingeniero de Sistemas
+```javascript
+const luisFelipe: Profesional = {
+  nombre: "Luis Felipe Arias",
+  rol: "Ingeniero de Sistemas · QA & Automatización",
+  enfoqueActual: [
+    "🧪 Pruebas funcionales, diseño de casos y validación de servicios API REST",
+    "🐍 Backends en Python (FastAPI) conectados a bases de datos",
+    "☁️ Fundamentos de AWS Cloud aplicados a proyectos reales",
+  ],
+  formacionYCertificaciones: [
+    "2026 · Software Testing and Automation (Coursera)",
+    "2026 · Connecting MongoDB to Python (Mongo University)",
+    "2025 · Ingeniería de Sistemas (Universidad EAN)",
+    "2024 · AWS Academy Cloud Foundations (AWS Academy)",
+    "2024 · Desarrollo Web Full Stack (Talento Tech Bogotá – MinTIC)",
+    "2023 · Programación Web Desde Cero (EGGApp)",
+    "2023 · Foundation: Introduction to SQL (Simplilearn)",
+    "2023 · Aprende a Programar con Python (EANx)",
+    "2023 · Testing (PROtalento)",
+    "2023 · Análisis Exploratorio de Datos con Python (SENA)",
+    "2019 · ITIL v4 Foundation (PeopleCert)",
+  ],
+  stack: {
+    lenguajes: ["Python", "SQL", "PHP", "JavaScript"],
+    basesDeDatos: ["MongoDB", "Azure SQL", "PostgreSQL", "MySQL"],
+    testing: ["Postman", "Pruebas funcionales API REST", "Diseño de casos de prueba"],
+    cloud: ["AWS Cloud Foundations"],
+    metodologías: ["ITIL v4"],
+  },
+};
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://acortar.link/JXVdUa)
-[![Portafolio](https://img.shields.io/badge/Portafolio-24292e?style=flat-square&logo=github&logoColor=white)](https://acortar.link/gA2DbE)
-[![Correo](https://img.shields.io/badge/Email-ariascluisf%40gmail.com-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:ariascluisf@gmail.com)
-[![Telegram](https://img.shields.io/badge/Telegram-@LFAC6-26A5E4?style=flat-square&logo=telegram&logoColor=white)](https://t.me/LFAC6)
-[![WhatsApp](https://img.shields.io/badge/WhatsApp-@carraian160-25D366?style=flat-square&logo=whatsapp&logoColor=white)](https://wa.me/573212563992)
-[![Ubicación](https://img.shields.io/badge/Bogot%C3%A1-Colombia-blue?style=flat-square)](#)
-
----
-
-## Perfil Profesional
-
-Ingeniero de Sistemas egresado de la Universidad EAN con 9+ años de experiencia combinada en soporte técnico, gestión de incidentes y, más recientemente, pruebas funcionales y validación de servicios API REST[cite: 1]. Especialista en diseño y ejecución de casos de prueba, validación de endpoints y documentación de evidencias con trazabilidad completa[cite: 1]. Combina disciplina de control de calidad con capacidad de desarrollo para construir y validar soluciones técnicas[cite: 1].
-
-* **Idiomas:** Español (Nativo), Inglés (B1)[cite: 1].
-
----
-
-## Experiencia Laboral
-
-* **Banco de la República** | *Profesional SPI* (Feb 2026 – Abr 2026)[cite: 1]
-  * Ejecución de pruebas funcionales en servicios tecnológicos mediante API REST[cite: 1].
-  * Diseño de casos de prueba técnicos y documentación de evidencias para trazabilidad y control de calidad[cite: 1].
-* **Global Hitss Colombia** | *Analista de Soporte Junior* (Jun 2019 – Feb 2026)[cite: 1]
-  * Gestión de incidentes críticos, soporte operativo y estandarización de procesos (90% de cobertura)[cite: 1].
-  * Análisis de datos y métricas mediante Google Sheets avanzado (QUERY, filtros, referencias cruzadas)[cite: 1].
-* **OESIA Colombia** | *Analista de Servicios Convergentes* (Ene 2017 – Jun 2019)[cite: 1]
-  * Soporte técnico de segundo y tercer nivel, seguimiento de tickets e indicadores y gestión de requerimientos[cite: 1].
-
----
-
-## Formación Académica
-
-* **Ingeniería de Sistemas** | *Universidad EAN* (Graduado en Noviembre de 2025)[cite: 1]
-
----
-
-## Repositorios y Proyectos
-
-| Repositorio | Enfoque / Descripción | Tecnologías / Herramientas | Enlace |
-| :--- | :--- | :--- | :--- |
-| **verificador-api** | Validación de endpoints de servicios API REST y pruebas de respuesta | Python, Requests, Pytest | [github.com/lariasca1994/verificador-api](https://github.com/lariasca1994/verificador-api) |
-| **gestor-casos-qa** | Aplicación para estructuración, diseño y control de casos de prueba | Python, Web | [github.com/lariasca1994/gestor-casos-qa](https://github.com/lariasca1994/gestor-casos-qa) |
-| **calidad-afiliaciones** | Control de calidad y validación de reglas de negocio para afiliaciones | Python, Scripts de validación | [github.com/lariasca1994/calidad-afiliaciones](https://github.com/lariasca1994/calidad-afiliaciones) |
-| **taskflow** | Gestión de tareas y análisis automatizado de archivos | Python, FastAPI, MongoDB, pandas, HTMX | [github.com/lariasca1994/taskflow](https://github.com/lariasca1994/taskflow) |
-| **PRPagos** | Validación y pruebas de flujos de pago y reglas transaccionales | Lógica transaccional, Python / JS | [github.com/lariasca1994/PRPagos](https://github.com/lariasca1994/PRPagos) |
-| **reservas-corferias** | Actualización y soporte del sistema de reservas | PHP, Laravel, Azure SQL Server | [github.com/lariasca1994/reservas-corferias](https://github.com/lariasca1994/reservas-corferias) |
-| **ColombiaTech2** | Desarrollo de plataforma web inmobiliaria | NestJS, React, MongoDB, WebSockets | [github.com/lariasca1994/ColombiaTech2](https://github.com/lariasca1994/ColombiaTech2) |
-| **job-search-automation** | Automatización de extracción y búsqueda de información laboral | Python, Selenium / Web Scraping | [github.com/lariasca1994/job-search-automation](https://github.com/lariasca1994/job-search-automation) |
-| **PWDC** | Prácticas y proyectos de fundamentos de desarrollo web | HTML5, CSS3, JavaScript | [github.com/lariasca1994/PWDC](https://github.com/lariasca1994/PWDC) |
-
----
-
-## Habilidades y Herramientas
-
-* **Aseguramiento de Calidad (QA) y Soporte:**
-  * Pruebas funcionales y validación de servicios API REST[cite: 1]
-  * Diseño y ejecución de casos de prueba[cite: 1]
-  * Documentación de evidencias y trazabilidad[cite: 1]
-  * Gestión y escalamiento de incidentes (SLA, ITIL v4)[cite: 1]
-  * Soporte N1/N2 y monitoreo de plataformas TI[cite: 1]
-
-* **Herramientas Técnicas:**
-  * **Lenguajes:** Python (bases), SQL (bases)[cite: 1]
-  * **Bases de datos:** MongoDB (bases), Azure SQL[cite: 1]
-  * **Nube y Metodologías:** AWS Cloud (fundamentos), ITIL v4[cite: 1]
-  * **Ofimática y Análisis:** Excel y Google Sheets avanzado (QUERY, filtros, referencias cruzadas)[cite: 1]
-
----
-
-## Certificaciones y Formación Complementaria
-
-* **Software Testing and Automation** — Coursera (2026)[cite: 1]
-* **Connecting MongoDB to Python** — Mongo University (2026)[cite: 1]
-* **AWS Academy Cloud Foundations** — AWS Academy (2024)[cite: 1]
-* **Desarrollo Web Full Stack** — Talento Tech Bogotá / MinTIC (2024)[cite: 1]
-* **Programación Web Desde Cero** — EGGApp (2023)[cite: 1]
-* **Foundation: Introduction to SQL** — Simplilearn (2023)[cite: 1]
-* **Aprende a Programar con Python** — EANx (2023)[cite: 1]
-* **Testing** — PROtalento (2023)[cite: 1]
-* **Análisis Exploratorio de Datos con Python** — SENA (2023)[cite: 1]
-* **ITIL v4 Foundation** — PeopleCert (2019)[cite: 1]
-
----
-
-## Contacto
-
-* **Correo:** [ariascluisf@gmail.com](mailto:ariascluisf@gmail.com)
-* **LinkedIn:** [Perfil en LinkedIn](https://acortar.link/JXVdUa)
-* **Portafolio:** [Enlace al Portafolio](https://acortar.link/gA2DbE)
-* **Telegram:** [@LFAC6](https://t.me/LFAC6)
-* **WhatsApp:** [@carraian160](https://wa.me/573212563992)
-
+const filosofía = () => ({
+  pruebas: "Cada funcionalidad se valida antes de entregarse",
+  código: "Documentado y trazable",
+  aprendizaje: "Constante, un curso terminado a la vez",
+});
 ```
+
+## 🚀 Proyectos
+
+| Nombre | Descripción | Plataformas | URL |
+|---|---|---|---|
+| Gestor de Casos de Prueba QA | App web de gestión de casos de prueba (proyectos, suites, casos, ejecuciones, defectos, dashboard). | <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" /> <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" /> <img src="https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white" /> | [Ver repo](https://github.com/lariasca1994/gestor-casos-qa) |
+| reservas-corferias | Reserva de escenarios de un centro de convenciones: catálogo, agenda, reservas y panel administrativo. | <img src="https://img.shields.io/badge/PHP-777BB4?style=flat-square&logo=php&logoColor=white" /> <img src="https://img.shields.io/badge/Laravel-FF2D20?style=flat-square&logo=laravel&logoColor=white" /> <img src="https://img.shields.io/badge/Azure_SQL-0078D4?style=flat-square&logo=microsoftazure&logoColor=white" /> | [Ver repo](https://github.com/lariasca1994/reservas-corferias) |
+| verificador-api | Validación de endpoints de servicios API REST y pruebas automatizadas de respuesta. | <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" /> <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" /> <img src="https://img.shields.io/badge/PostgreSQL-336791?style=flat-square&logo=postgresql&logoColor=white" /> | [Ver repo](https://github.com/lariasca1994/verificador-api) |
+| calidad-afiliaciones | Tablero y scripts de control de calidad y validación de reglas de negocio en procesos de afiliaciones. | <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" /> <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" /> <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white" /> | [Ver repo](https://github.com/lariasca1994/calidad-afiliaciones) |
+| TaskFlow | Gestor de tareas con módulo de analítica de archivos con pandas y procesamiento en tiempo real. | <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" /> <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" /> <img src="https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white" /> | [Ver repo](https://github.com/lariasca1994/taskflow) |
+| ColombiaTech2 | Plataforma de alquiler de vivienda con comunicación en tiempo real y arquitectura desacoplada. | <img src="https://img.shields.io/badge/NestJS-E0234E?style=flat-square&logo=nestjs&logoColor=white" /> <img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black" /> <img src="https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white" /> | [Ver repo](https://github.com/lariasca1994/ColombiaTech2) |
+| PRPagos | Simulación y validación de flujos de pagos y reglas transaccionales. | <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" /> <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" /> | [Ver repo](https://github.com/lariasca1994/PRPagos) |
+| job-search-automation | Automatización y extracción estructurada de ofertas de empleo mediante web scraping. | <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" /> <img src="https://img.shields.io/badge/Selenium-43B02A?style=flat-square&logo=selenium&logoColor=white" /> | [Ver repo](https://github.com/lariasca1994/job-search-automation) |
+| PWDC | Ejercicios y fundamentos de desarrollo web del programa Programación Web Desde Cero. | <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white" /> <img src="https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white" /> <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" /> | [Ver repo](https://github.com/lariasca1994/PWDC) |
+
+## 💡 Hoja de ruta
+
+```mermaid
+graph TB
+    A[Plan de portafolio] --> B[HV y habilidades]
+    A --> C[Gestor de Casos QA]
+    A --> D[Otros portales del portafolio]
+    A --> E[Despliegue multi-cloud]
+
+    B --> B1[✅ Perfil y habilidades actualizados]
+
+    C --> C1[✅ Backend y gestión de pruebas]
+    C --> C2[⏳ Despliegue en la nube]
+
+    D --> D1[✅ reservas-corferias, verificador-api, calidad-afiliaciones, TaskFlow, ColombiaTech2]
+    D --> D2[🔄 PRPagos: migración y pruebas]
+
+    E --> E1[⏳ AWS: Gestor de Casos QA]
+    E --> E2[⏳ Azure: reservas-corferias]
+    E --> E3[⏳ Definir hospedaje para el resto]
+
+    style A fill:#2563EB,stroke:#1E40AF,color:#fff
+    style B fill:#059669,stroke:#047857,color:#fff
+    style C fill:#D97706,stroke:#B45309,color:#fff
+    style D fill:#0EA5E9,stroke:#0369A1,color:#fff
+    style E fill:#7C3AED,stroke:#6D28D9,color:#fff
+```
+
+## 📫 Contacto
+
+[![Gmail](https://img.shields.io/badge/Gmail-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:ariascluisf@gmail.com)
+[![WhatsApp](https://img.shields.io/badge/WhatsApp-25D366?style=flat-square&logo=whatsapp&logoColor=white)](https://wa.me/573212563992)
+[![Telegram](https://img.shields.io/badge/Telegram-26A5E4?style=flat-square&logo=telegram&logoColor=white)](https://t.me/LFAC6)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/luisfelipeariascarriazo)
+[![GitHub](https://img.shields.io/badge/GitHub-100000?style=flat-square&logo=github&logoColor=white)](https://github.com/lariasca1994)
+
+🔗 Portafolio: [https://acortar.link/gA2DbE](https://acortar.link/gA2DbE)[cite: 1]
+
+- **💬 WhatsApp:** @carraian160
+- **✈️ Telegram:** @LFAC6
+
+---
+
+![Profile views](https://komarev.com/ghpvc/?username=lariasca1994&color=brightgreen)
+
+**Última actualización:** Septiembre 2026

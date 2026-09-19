@@ -48,9 +48,9 @@ const filosofía = () => ({
 | verificador-api | Suite de validación automatizada para endpoints REST: pruebas de contrato, tiempos de respuesta y códigos de estado. | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?style=flat-square&logo=postgresql&logoColor=white) | ![AWS](https://img.shields.io/badge/AWS-FF9900?style=flat-square&logo=amazonaws&logoColor=white) | [Ver](https://eofvlnitsiuodup4eywdcenxwu0adgbz.lambda-url.us-east-1.on.aws/) | [Ver repo](https://github.com/lariasca1994/verificador-api) |
 | calidad-afiliaciones | Motor de control de calidad para procesos de afiliación: validación de reglas de negocio y tablero de seguimiento de inconsistencias. | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white) ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white) | ![Azure](https://img.shields.io/badge/Azure-0078D4?style=flat-square&logo=microsoftazure&logoColor=white) | [Ver](https://calidad-afiliaciones.blueocean-86680030.eastus.azurecontainerapps.io/) | [Ver repo](https://github.com/lariasca1994/calidad-afiliaciones) |
 | TaskFlow | Gestor de tareas con módulo de analítica sobre archivos cargados, usando pandas para procesamiento y reportes en tiempo real. | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white) ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white) | ![Google Cloud](https://img.shields.io/badge/Google_Cloud-4285F4?style=flat-square&logo=googlecloud&logoColor=white) | [Ver](https://taskflow-812302804238.us-central1.run.app/) | [Ver repo](https://github.com/lariasca1994/taskflow) |
-| ColombiaTech2 | Plataforma de alquiler de vivienda con mensajería en tiempo real entre arrendador e inquilino, sobre una arquitectura desacoplada de microservicios. | ![NestJS](https://img.shields.io/badge/NestJS-E0234E?style=flat-square&logo=nestjs&logoColor=white) ![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black) ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white) | ![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white) | [Ver](https://colombia-tech2.vercel.app/) | [Ver repo](https://github.com/lariasca1994/ColombiaTech2) |
-| PRPagos | Simulador de flujos de pago y validación de reglas transaccionales, con interfaz de escritorio y backend independiente. | ![Java Swing](https://img.shields.io/badge/Java_Swing-ED8B00?style=flat-square&logo=openjdk&logoColor=white) ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white) ![Oracle DB](https://img.shields.io/badge/Oracle_DB-F80000?style=flat-square&logo=oracle&logoColor=white) | ![Google Cloud](https://img.shields.io/badge/Google_Cloud-4285F4?style=flat-square&logo=googlecloud&logoColor=white) | [Ver](https://prpagos-web-1087929107584.southamerica-east1.run.app) | [Ver repo](https://github.com/lariasca1994/PRPagos) |
-| job-search-automation | Automatización de búsqueda de empleo: scraping estructurado de ofertas y orquestación de flujos con n8n. | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![Selenium](https://img.shields.io/badge/Selenium-43B02A?style=flat-square&logo=selenium&logoColor=white) ![n8n](https://img.shields.io/badge/n8n-EA4B71?style=flat-square&logo=n8n&logoColor=white) ![Google Cloud](https://img.shields.io/badge/Google_Cloud-4285F4?style=flat-square&logo=googlecloud&logoColor=white) | — | — | [Ver repo](https://github.com/lariasca1994/job-search-automation) |
+| ColombiaTech2 | Plataforma de alquiler de vivienda con mensajería en tiempo real entre arrendador e inquilino, sobre un backend unificado en NestJS que expone REST, GraphQL y WebSockets. | ![NestJS](https://img.shields.io/badge/NestJS-E0234E?style=flat-square&logo=nestjs&logoColor=white) ![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black) ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white) | ![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white) | [Ver](https://colombia-tech2.vercel.app/) | [Ver repo](https://github.com/lariasca1994/ColombiaTech2) |
+| PRPagos | Simulador de flujos de pago y validación de reglas transaccionales, con interfaz de escritorio y backend web independiente. | ![Java Swing](https://img.shields.io/badge/Java_Swing-ED8B00?style=flat-square&logo=openjdk&logoColor=white) ![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white) ![Oracle DB](https://img.shields.io/badge/Oracle_DB-F80000?style=flat-square&logo=oracle&logoColor=white) | ![Google Cloud](https://img.shields.io/badge/Google_Cloud-4285F4?style=flat-square&logo=googlecloud&logoColor=white) | [Ver](https://prpagos-web-1087929107584.southamerica-east1.run.app) | [Ver repo](https://github.com/lariasca1994/PRPagos) |
+| job-search-automation | Automatización de búsqueda de empleo: scraping estructurado de ofertas y orquestación de flujos con n8n, corriendo de forma privada en un VPS propio. | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![n8n](https://img.shields.io/badge/n8n-EA4B71?style=flat-square&logo=n8n&logoColor=white) ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white) | ![Google Cloud](https://img.shields.io/badge/Google_Cloud-4285F4?style=flat-square&logo=googlecloud&logoColor=white) | — (uso privado) | [Ver repo](https://github.com/lariasca1994/job-search-automation) |
 | PWDC | Sitio de portafolio personal, construido con HTML, CSS y JavaScript puro. | ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black) | ![GitHub Pages](https://img.shields.io/badge/GitHub_Pages-222222?style=flat-square&logo=github&logoColor=white) | [Ver](https://lariasca1994.github.io/PWDC/) | [Ver repo](https://github.com/lariasca1994/PWDC) |
 
 ## 💡 Hoja de ruta
@@ -59,10 +59,9 @@ const filosofía = () => ({
 graph TB
     A[Portafolio desplegado] --> AWS[AWS Lambda]
     A --> AZ[Azure Container Apps]
-    A --> GCP[Google Cloud Run]
+    A --> GCP[Google Cloud]
     A --> VER[Vercel]
     A --> GHP[GitHub Pages]
-    A --> PEND[Pendiente de desplegar]
 
     AWS --> AWS1[✅ Gestor de Casos QA]
     AWS --> AWS2[✅ verificador-api]
@@ -73,12 +72,11 @@ graph TB
 
     GCP --> GCP1[✅ PRPagos web]
     GCP --> GCP2[✅ TaskFlow]
+    GCP --> GCP3[✅ job-search-automation · privado]
 
     VER --> VER1[✅ ColombiaTech2]
 
     GHP --> GHP1[✅ PWDC · portafolio]
-
-    PEND --> PEND1[⏳ job-search-automation]
 
     style A fill:#2563EB,stroke:#1E40AF,color:#fff
     style AWS fill:#D97706,stroke:#B45309,color:#fff
@@ -86,7 +84,6 @@ graph TB
     style GCP fill:#4285F4,stroke:#1A56C4,color:#fff
     style VER fill:#111111,stroke:#000000,color:#fff
     style GHP fill:#24292E,stroke:#0D1117,color:#fff
-    style PEND fill:#6B7280,stroke:#4B5563,color:#fff
 ```
 
 ## 📫 Contacto
@@ -94,7 +91,7 @@ graph TB
 [![Gmail](https://img.shields.io/badge/Gmail-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:ariascluisf@gmail.com)
 [![WhatsApp](https://img.shields.io/badge/WhatsApp-25D366?style=flat-square&logo=whatsapp&logoColor=white)](https://wa.me/carraian160)
 [![Telegram](https://img.shields.io/badge/Telegram-26A5E4?style=flat-square&logo=telegram&logoColor=white)](https://t.me/lfac6)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white)](www.linkedin.com/in/lfac1)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/lfac1)
 [![GitHub](https://img.shields.io/badge/GitHub-100000?style=flat-square&logo=github&logoColor=white)](https://lariasca1994.github.io/PWDC/)
 
 ---

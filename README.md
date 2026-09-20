@@ -153,6 +153,6 @@ flowchart LR
 
 ---
 
-![Profile views](https://komarev.com/ghpvc/?username=lariasca1994&color=brightred)
+![Profile views](https://komarev.com/ghpvc/?username=lariasca1994&color=brightgreen)
 
 **Última actualización:** Septiembre de 2026

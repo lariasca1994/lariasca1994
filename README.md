@@ -56,34 +56,50 @@ const filosofía = () => ({
 ## 💡 Hoja de ruta
 
 ```mermaid
-graph TB
-    A[Portafolio desplegado] --> AWS[AWS Lambda]
-    A --> AZ[Azure Container Apps]
-    A --> GCP[Google Cloud]
-    A --> VER[Vercel]
-    A --> GHP[GitHub Pages]
+## 🚀 Ecosistema de proyectos
 
-    AWS --> AWS1[✅ Gestor de Casos QA]
-    AWS --> AWS2[✅ verificador-api]
+```mermaid
+flowchart TB
+    P["🚀<br/><b>MI PORTAFOLIO</b><br/><small>Apps · APIs · Automatizaciones</small>"]
 
-    AZ --> AZ1[✅ reservas-corferias]
-    AZ --> AZ2[✅ calidad-afiliaciones]
-    AZ --> AZ3[✅ GestorIncidentesTI]
+    P --> AWS["🟧 AWS Lambda"]
+    P --> AZ["🔷 Azure Container Apps"]
+    P --> GCP["🔵 Google Cloud"]
+    P --> VER["▲ Vercel"]
+    P --> GH["◉ GitHub Pages"]
 
-    GCP --> GCP1[✅ PRPagos web]
-    GCP --> GCP2[✅ TaskFlow]
-    GCP --> GCP3[✅ job-search-automation · privado]
+    AWS --> QA["✅ Gestor de Casos QA"]
+    AWS --> VA["✅ Verificador API"]
 
-    VER --> VER1[✅ ColombiaTech2]
+    AZ --> RC["✅ Reservas Cafeterías"]
+    AZ --> CA["✅ Calidad Afiliaciones"]
+    AZ --> GI["✅ Gestor de Incidentes TI"]
 
-    GHP --> GHP1[✅ PWDC · portafolio]
+    GCP --> PRP["✅ PRP Pagos Web"]
+    GCP --> TF["✅ TaskFlow"]
+    GCP --> JSA["🔒 Job Search Automation<br/><small>Privado</small>"]
 
-    style A fill:#2563EB,stroke:#1E40AF,color:#fff
-    style AWS fill:#D97706,stroke:#B45309,color:#fff
-    style AZ fill:#0078D4,stroke:#005A9E,color:#fff
-    style GCP fill:#4285F4,stroke:#1A56C4,color:#fff
-    style VER fill:#111111,stroke:#000000,color:#fff
-    style GHP fill:#24292E,stroke:#0D1117,color:#fff
+    VER --> CT["✅ ColombiaTech2"]
+    GH --> PW["✅ PWDC · Portfolio"]
+
+    classDef root fill:#2563EB,stroke:#60A5FA,color:#FFFFFF,stroke-width:3px;
+    classDef aws fill:#B45309,stroke:#F59E0B,color:#FFFFFF,stroke-width:2px;
+    classDef azure fill:#0369A1,stroke:#38BDF8,color:#FFFFFF,stroke-width:2px;
+    classDef gcp fill:#1D4ED8,stroke:#60A5FA,color:#FFFFFF,stroke-width:2px;
+    classDef hosting fill:#18181B,stroke:#71717A,color:#FFFFFF,stroke-width:2px;
+    classDef app fill:#1E293B,stroke:#475569,color:#F8FAFC,stroke-width:1.5px;
+    classDef private fill:#292524,stroke:#F59E0B,color:#FDE68A,stroke-width:1.5px;
+
+    class P root;
+    class AWS aws;
+    class AZ azure;
+    class GCP gcp;
+    class VER,GH hosting;
+    class QA,VA,RC,CA,GI,PRP,TF,CT,PW app;
+    class JSA private;
+```
+
+<sub>✅ Público/desplegado · 🔒 Privado</sub>
 ```
 
 ## 📫 Contacto

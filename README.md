@@ -56,48 +56,84 @@ const filosofía = () => ({
 ## 💡 Hoja de ruta
 
 ```mermaid
-## 🚀 Ecosistema de proyectos
+## 🚀 Ecosistema de proyectos desplegados
+
+> Aplicaciones, APIs y automatizaciones desplegadas en plataformas cloud.
 
 ```mermaid
 flowchart TB
-    P["🚀<br/><b>MI PORTAFOLIO</b><br/><small>Apps · APIs · Automatizaciones</small>"]
+    PORTFOLIO["🚀<br/><b>MI ECOSISTEMA DE PROYECTOS</b><br/><small>Aplicaciones · APIs · Automatizaciones</small>"]
 
-    P --> AWS["🟧 AWS Lambda"]
-    P --> AZ["🔷 Azure Container Apps"]
-    P --> GCP["🔵 Google Cloud"]
-    P --> VER["▲ Vercel"]
-    P --> GH["◉ GitHub Pages"]
+    PORTFOLIO --> AWS
+    PORTFOLIO --> AZURE
+    PORTFOLIO --> GCP
+    PORTFOLIO --> VERCEL
+    PORTFOLIO --> GITHUB
 
-    AWS --> QA["✅ Gestor de Casos QA"]
-    AWS --> VA["✅ Verificador API"]
+    subgraph AWS_GROUP["AWS"]
+        direction TB
+        AWS["🟧 AWS Lambda<br/><small>Serverless</small>"]
+        QA["✅ Gestor de Casos QA<br/><small>API / QA</small>"]
+        VERIFY["✅ Verificador API<br/><small>API / Validación</small>"]
+        AWS --> QA
+        AWS --> VERIFY
+    end
 
-    AZ --> RC["✅ Reservas Cafeterías"]
-    AZ --> CA["✅ Calidad Afiliaciones"]
-    AZ --> GI["✅ Gestor de Incidentes TI"]
+    subgraph AZURE_GROUP["Azure"]
+        direction TB
+        AZURE["🔷 Azure Container Apps<br/><small>Contenedores</small>"]
+        CAFETERIA["✅ Reservas Cafeterías<br/><small>Aplicación web</small>"]
+        AFILIACIONES["✅ Calidad Afiliaciones<br/><small>Validación de datos</small>"]
+        INCIDENTES["✅ Gestor de Incidentes TI<br/><small>Soporte de aplicaciones</small>"]
+        AZURE --> CAFETERIA
+        AZURE --> AFILIACIONES
+        AZURE --> INCIDENTES
+    end
 
-    GCP --> PRP["✅ PRP Pagos Web"]
-    GCP --> TF["✅ TaskFlow"]
-    GCP --> JSA["🔒 Job Search Automation<br/><small>Privado</small>"]
+    subgraph GCP_GROUP["Google Cloud"]
+        direction TB
+        GCP["🔵 Google Cloud<br/><small>Cloud services</small>"]
+        PAGOS["✅ PRP Pagos Web<br/><small>Aplicación web</small>"]
+        TASKFLOW["✅ TaskFlow<br/><small>Gestión de tareas</small>"]
+        JOB["🔒 Job Search Automation<br/><small>Proyecto privado</small>"]
+        GCP --> PAGOS
+        GCP --> TASKFLOW
+        GCP --> JOB
+    end
 
-    VER --> CT["✅ ColombiaTech2"]
-    GH --> PW["✅ PWDC · Portfolio"]
+    subgraph VERCEL_GROUP["Vercel"]
+        direction TB
+        VERCEL["▲ Vercel<br/><small>Frontend</small>"]
+        COLOMBIA["✅ ColombiaTech2<br/><small>Aplicación web</small>"]
+        VERCEL --> COLOMBIA
+    end
 
-    classDef root fill:#2563EB,stroke:#60A5FA,color:#FFFFFF,stroke-width:3px;
+    subgraph GITHUB_GROUP["GitHub Pages"]
+        direction TB
+        GITHUB["◉ GitHub Pages<br/><small>Portfolio estático</small>"]
+        PWDC["✅ PWDC · Portfolio<br/><small>Portfolio personal</small>"]
+        GITHUB --> PWDC
+    end
+
+    classDef portfolio fill:#2563EB,stroke:#60A5FA,color:#FFFFFF,stroke-width:3px;
     classDef aws fill:#B45309,stroke:#F59E0B,color:#FFFFFF,stroke-width:2px;
     classDef azure fill:#0369A1,stroke:#38BDF8,color:#FFFFFF,stroke-width:2px;
     classDef gcp fill:#1D4ED8,stroke:#60A5FA,color:#FFFFFF,stroke-width:2px;
-    classDef hosting fill:#18181B,stroke:#71717A,color:#FFFFFF,stroke-width:2px;
-    classDef app fill:#1E293B,stroke:#475569,color:#F8FAFC,stroke-width:1.5px;
+    classDef platform fill:#18181B,stroke:#71717A,color:#FFFFFF,stroke-width:2px;
+    classDef project fill:#1E293B,stroke:#475569,color:#F8FAFC,stroke-width:1.5px;
     classDef private fill:#292524,stroke:#F59E0B,color:#FDE68A,stroke-width:1.5px;
 
-    class P root;
+    class PORTFOLIO portfolio;
     class AWS aws;
-    class AZ azure;
+    class AZURE azure;
     class GCP gcp;
-    class VER,GH hosting;
-    class QA,VA,RC,CA,GI,PRP,TF,CT,PW app;
-    class JSA private;
+    class VERCEL,GITHUB platform;
+    class QA,VERIFY,CAFETERIA,AFILIACIONES,INCIDENTES,PAGOS,TASKFLOW,COLOMBIA,PWDC project;
+    class JOB private;
 ```
+
+**Leyenda:** ✅ proyecto público/desplegado · 🔒 proyecto privado.
+
 
 <sub>✅ Público/desplegado · 🔒 Privado</sub>
 ```

@@ -62,7 +62,7 @@ const filosofía = () => ({
 
 ```mermaid
 flowchart TB
-    PORTFOLIO["🚀<br/><b>MI ECOSISTEMA DE PROYECTOS</b><br/><small>Aplicaciones · APIs · Automatizaciones</small>"]
+    PORTFOLIO["MI ECOSISTEMA DE PROYECTOS<br/>Aplicaciones · APIs · Automatizaciones"]
 
     PORTFOLIO --> AWS
     PORTFOLIO --> AZURE
@@ -72,19 +72,19 @@ flowchart TB
 
     subgraph AWS_GROUP["AWS"]
         direction TB
-        AWS["🟧 AWS Lambda<br/><small>Serverless</small>"]
-        QA["✅ Gestor de Casos QA<br/><small>API / QA</small>"]
-        VERIFY["✅ Verificador API<br/><small>API / Validación</small>"]
+        AWS["AWS Lambda<br/>Serverless"]
+        QA["Gestor de Casos QA<br/>API / QA"]
+        VERIFY["Verificador API<br/>API / Validación"]
         AWS --> QA
         AWS --> VERIFY
     end
 
     subgraph AZURE_GROUP["Azure"]
         direction TB
-        AZURE["🔷 Azure Container Apps<br/><small>Contenedores</small>"]
-        CAFETERIA["✅ Reservas Cafeterías<br/><small>Aplicación web</small>"]
-        AFILIACIONES["✅ Calidad Afiliaciones<br/><small>Validación de datos</small>"]
-        INCIDENTES["✅ Gestor de Incidentes TI<br/><small>Soporte de aplicaciones</small>"]
+        AZURE["Azure Container Apps<br/>Contenedores"]
+        CAFETERIA["Reservas Cafeterías<br/>Aplicación web"]
+        AFILIACIONES["Calidad Afiliaciones<br/>Validación de datos"]
+        INCIDENTES["Gestor de Incidentes TI<br/>Soporte de aplicaciones"]
         AZURE --> CAFETERIA
         AZURE --> AFILIACIONES
         AZURE --> INCIDENTES
@@ -92,10 +92,10 @@ flowchart TB
 
     subgraph GCP_GROUP["Google Cloud"]
         direction TB
-        GCP["🔵 Google Cloud<br/><small>Cloud services</small>"]
-        PAGOS["✅ PRP Pagos Web<br/><small>Aplicación web</small>"]
-        TASKFLOW["✅ TaskFlow<br/><small>Gestión de tareas</small>"]
-        JOB["🔒 Job Search Automation<br/><small>Proyecto privado</small>"]
+        GCP["Google Cloud<br/>Cloud services"]
+        PAGOS["PRP Pagos Web<br/>Aplicación web"]
+        TASKFLOW["TaskFlow<br/>Gestión de tareas"]
+        JOB["Job Search Automation<br/>Proyecto privado"]
         GCP --> PAGOS
         GCP --> TASKFLOW
         GCP --> JOB
@@ -103,15 +103,15 @@ flowchart TB
 
     subgraph VERCEL_GROUP["Vercel"]
         direction TB
-        VERCEL["▲ Vercel<br/><small>Frontend</small>"]
-        COLOMBIA["✅ ColombiaTech2<br/><small>Aplicación web</small>"]
+        VERCEL["Vercel<br/>Frontend"]
+        COLOMBIA["ColombiaTech2<br/>Aplicación web"]
         VERCEL --> COLOMBIA
     end
 
     subgraph GITHUB_GROUP["GitHub Pages"]
         direction TB
-        GITHUB["◉ GitHub Pages<br/><small>Portfolio estático</small>"]
-        PWDC["✅ PWDC · Portfolio<br/><small>Portfolio personal</small>"]
+        GITHUB["GitHub Pages<br/>Portfolio estático"]
+        PWDC["PWDC · Portfolio<br/>Portfolio personal"]
         GITHUB --> PWDC
     end
 
@@ -132,10 +132,7 @@ flowchart TB
     class JOB private;
 ```
 
-**Leyenda:** ✅ proyecto público/desplegado · 🔒 proyecto privado.
-
-
-<sub>✅ Público/desplegado · 🔒 Privado</sub>
+<sub>Proyectos públicos y desplegados · Job Search Automation: proyecto privado</sub>
 ```
 
 ## 📫 Contacto

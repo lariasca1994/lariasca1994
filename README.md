@@ -58,7 +58,7 @@ const filosofia = () => ({
 
 ## 🟢 Estado en vivo de mis proyectos
 
-[![Portfolio Status](https://img.shields.io/badge/dashboard-en%20vivo-2ea44f?style=for-the-badge)](https://frontend-nine-topaz-99.vercel.app)
+[![Portfolio Status](https://img.shields.io/badge/dashboard-en%20vivo-2ea44f?style=for-the-badge)](https://frontend-nine-topaz-99.vercel.app) <br><br>
 [![Estado en vivo](https://portafolio-status.onrender.com/api/status/badge.svg)](https://frontend-nine-topaz-99.vercel.app)
 
 Todos los proyectos de este portafolio se monitorean en tiempo real: disponibilidad, tiempo de respuesta y % de uptime de los últimos 7 días, con historial guardado en Oracle Autonomous Database.

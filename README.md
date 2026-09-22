@@ -1,7 +1,7 @@
-## 👨‍💻 Sobre mí
+![Busco](https://img.shields.io/badge/Busco-QA%20%2F%20Tester-2563EB?style=flat-square) ![Busco](https://img.shields.io/badge/Busco-Soporte-2563EB?style=flat-square) ![Modalidad](https://img.shields.io/badge/Modalidad-Remoto%20preferido-16A34A?style=flat-square)
 
-```javascript
-const luisFelipe = {
+```typescript
+const luisFelipe: Profesional = {
   nombre: "Luis Felipe Arias",
   rol: "Ingeniero de Sistemas · QA & Automatización",
   enfoqueActual: [
@@ -9,10 +9,12 @@ const luisFelipe = {
     "🐍 Backends en Python (FastAPI) conectados a bases de datos",
     "☁️ Fundamentos de AWS Cloud aplicados a proyectos reales",
   ],
-  formacionYCertificaciones: [
+  formacionAcademica: [
+    "Nov 2025 · Ingeniería de Sistemas (Universidad EAN)",
+  ],
+  certificaciones: [
     "2026 · Software Testing and Automation (Coursera)",
     "2026 · Connecting MongoDB to Python (Mongo University)",
-    "2025 · Ingeniería de Sistemas (Universidad EAN)",
     "2024 · AWS Academy Cloud Foundations (AWS Academy)",
     "2024 · Desarrollo Web Full Stack (Talento Tech Bogotá – MinTIC)",
     "2023 · Programación Web Desde Cero (EGGApp)",
@@ -23,33 +25,17 @@ const luisFelipe = {
     "2019 · ITIL v4 Foundation (PeopleCert)",
   ],
   stack: {
-    lenguajes: ["Python", "SQL", "PHP", "JavaScript", "C#"],
-    basesDeDatos: [
-      "MongoDB",
-      "Azure SQL",
-      "PostgreSQL",
-      "MySQL",
-      "Oracle Database",
-    ],
-    testing: [
-      "Postman",
-      "Pruebas funcionales de API REST",
-      "Diseño de casos de prueba",
-    ],
-    cloud: [
-      "AWS Lambda",
-      "Azure Container Apps",
-      "Google Cloud Run",
-      "Vercel",
-      "GitHub Pages",
-    ],
-    metodologias: ["ITIL v4"],
+    lenguajes: ["Python", "SQL", "PHP", "JavaScript"],
+    basesDeDatos: ["MongoDB", "Azure SQL", "PostgreSQL", "MySQL"],
+    testing: ["Postman", "Pruebas funcionales API REST", "Diseño de casos de prueba"],
+    cloud: ["AWS Cloud Foundations"],
+    metodologías: ["ITIL v4"],
   },
 };
 
-const filosofia = () => ({
+const filosofía = () => ({
   pruebas: "Cada funcionalidad se valida antes de entregarse",
-  codigo: "Documentado y trazable",
+  código: "Documentado y trazable",
   aprendizaje: "Constante, un curso terminado a la vez",
 });
 ```
@@ -186,11 +172,11 @@ Mini ITSM para soporte de aplicaciones: priorización, SLA, escalamiento automá
 
 **🔴 [PRPagos](https://github.com/lariasca1994/PRPagos)**
 
-Simulador de flujos de pago y validación de reglas transaccionales, con app de escritorio y backend web independiente.
+Simulador de flujos de pago y validación de reglas transaccionales, disponible en dos versiones dentro del mismo repositorio: aplicación de escritorio en Java Swing y aplicación web con Spring Boot.
 
 ![Java](https://img.shields.io/badge/Java_Swing-ED8B00?style=flat-square&logo=openjdk&logoColor=white) ![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white) ![Oracle DB](https://img.shields.io/badge/Oracle_DB-F80000?style=flat-square&logo=oracle&logoColor=white)
 
-☁️ Google Cloud Run · [🔗 Demo](https://prpagos-web-1087929107584.southamerica-east1.run.app)
+☁️ Google Cloud Run · [🔗 Demo web](https://prpagos-web-1087929107584.southamerica-east1.run.app)
 
 </td>
 </tr>

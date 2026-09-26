@@ -45,9 +45,10 @@ const filosofía = () => ({
 ## 🟢 Estado en vivo de mis proyectos
 
 [![Portfolio Status](https://img.shields.io/badge/dashboard-en%20vivo-2ea44f?style=for-the-badge)](https://frontend-nine-topaz-99.vercel.app) <br><br>
-[![Estado en vivo](https://portafolio-status.onrender.com/api/status/badge.svg)](https://frontend-nine-topaz-99.vercel.app)
+[![Estado en vivo](https://portafolio-status.onrender.com/api/status/badge.svg)](https://frontend-nine-topaz-99.vercel.app) <br><br>
+[![qa-evidencia](https://img.shields.io/badge/qa--evidencia-%C3%BAltima%20actualizaci%C3%B3n%20de%20pruebas-2563EB?style=for-the-badge)](https://d4i3vsgw7xwmh.cloudfront.net)
 
-Todos los proyectos de este portafolio se monitorean en tiempo real: disponibilidad, tiempo de respuesta y % de uptime de los últimos 7 días, con historial guardado en Oracle Autonomous Database.
+Todos los proyectos de este portafolio se monitorean en tiempo real: disponibilidad, tiempo de respuesta y % de uptime de los últimos 7 días, con historial guardado en Oracle Autonomous Database. Además, el proyecto qa-evidencia corre pruebas end-to-end automatizadas dos veces al día sobre 7 de estos proyectos y publica ahí mismo la fecha de la última corrida junto con la evidencia (capturas) de cada uno.
 
 ---
 
@@ -56,30 +57,34 @@ Todos los proyectos de este portafolio se monitorean en tiempo real: disponibili
 > Aplicaciones, APIs y proyectos de automatización desplegados en plataformas cloud.
 
 ```mermaid
-flowchart LR
+flowchart TB
     PORTFOLIO(["LUIS FELIPE ARIAS<br/>QA · Automatización · Backend · Cloud"])
 
-    AWS(["AWS Lambda<br/>Serverless"])
-    AZURE(["Azure Container Apps<br/>Contenedores"])
-    GCP(["Google Cloud Run<br/>Servicios cloud"])
-    VERCEL(["Vercel<br/>Frontend"])
-    GITHUB(["GitHub Pages<br/>Portfolio estático"])
-    RENDER(["Render<br/>Backend"])
+    subgraph CLOUD["☁️ Plataformas cloud"]
+        direction LR
+        AWS(["AWS Lambda<br/>Serverless"])
+        AZURE(["Azure Container Apps<br/>Contenedores"])
+        GCP(["Google Cloud Run<br/>Servicios cloud"])
+        VERCEL(["Vercel<br/>Frontend"])
+        GITHUB(["GitHub Pages<br/>Portfolio estático"])
+        RENDER(["Render<br/>Backend"])
+    end
 
-    QA["Gestor de Casos QA"]
-    VERIFY["Verificador API"]
+    subgraph APPS["🚀 Proyectos desplegados"]
+        direction LR
+        QA["Gestor de Casos QA"]
+        VERIFY["Verificador API"]
+        INCIDENTES["Gestor de Incidentes TI"]
+        RESERVAS["Reservas Corferias"]
+        AFILIACIONES["Calidad Afiliaciones"]
+        PAGOS["PRPagos"]
+        TASKFLOW["TaskFlow"]
+        COLOMBIA["ColombiaTech2"]
+        PWDC["PWDC · Portfolio"]
+        STATUS["Portfolio Status"]
+    end
 
-    INCIDENTES["Gestor de Incidentes TI"]
-    RESERVAS["Reservas Corferias"]
-    AFILIACIONES["Calidad Afiliaciones"]
-
-    PAGOS["PRPagos"]
-    TASKFLOW["TaskFlow"]
-
-    COLOMBIA["ColombiaTech2"]
-    PWDC["PWDC · Portfolio"]
-
-    STATUS["Portfolio Status"]
+    QAEVID{{"qa-evidencia<br/>Pruebas E2E automatizadas"}}
 
     PORTFOLIO --> AWS
     PORTFOLIO --> AZURE
@@ -90,17 +95,24 @@ flowchart LR
 
     AWS --> QA
     AWS --> VERIFY
-
     AZURE --> INCIDENTES
     AZURE --> RESERVAS
     AZURE --> AFILIACIONES
-
     GCP --> PAGOS
     GCP --> TASKFLOW
-
     VERCEL --> COLOMBIA
     GITHUB --> PWDC
     RENDER --> STATUS
+
+    AWS --> QAEVID
+
+    QAEVID -.->|prueba| COLOMBIA
+    QAEVID -.->|prueba| QA
+    QAEVID -.->|prueba| RESERVAS
+    QAEVID -.->|prueba| PAGOS
+    QAEVID -.->|prueba| TASKFLOW
+    QAEVID -.->|prueba| VERIFY
+    QAEVID -.->|prueba| AFILIACIONES
 
     classDef portfolio fill:#1D4ED8,stroke:#93C5FD,color:#FFFFFF,stroke-width:4px;
     classDef aws fill:#8A3B00,stroke:#FF9900,color:#FFFFFF,stroke-width:3px;
@@ -110,6 +122,7 @@ flowchart LR
     classDef github fill:#24292F,stroke:#8B949E,color:#FFFFFF,stroke-width:3px;
     classDef render fill:#0B3B36,stroke:#46E3B7,color:#FFFFFF,stroke-width:3px;
     classDef project fill:#1E293B,stroke:#64748B,color:#F8FAFC,stroke-width:2px;
+    classDef qaevid fill:#2563EB,stroke:#BFDBFE,color:#FFFFFF,stroke-width:3px;
 
     class PORTFOLIO portfolio;
     class AWS aws;
@@ -119,17 +132,21 @@ flowchart LR
     class GITHUB github;
     class RENDER render;
     class QA,VERIFY,INCIDENTES,RESERVAS,AFILIACIONES,PAGOS,TASKFLOW,COLOMBIA,PWDC,STATUS project;
+    class QAEVID qaevid;
+
+    style CLOUD fill:none,stroke:#475569,stroke-width:1px,stroke-dasharray: 4 3
+    style APPS fill:none,stroke:#475569,stroke-width:1px,stroke-dasharray: 4 3
 ```
 
 <sub>
-🟧 AWS Lambda · 🔷 Azure Container Apps · 🔵 Google Cloud Run · ▲ Vercel · ◉ GitHub Pages · 🟢 Render
+🟧 AWS Lambda · 🔷 Azure Container Apps · 🔵 Google Cloud Run · ▲ Vercel · ◉ GitHub Pages · 🟢 Render · 🟣 qa-evidencia (pruebas E2E automatizadas) — línea punteada = "prueba"
 </sub>
 
 ---
 
 ## 🚀 Proyectos destacados
 
-> Los 10 proyectos de mi portafolio, con su motor de base de datos identificado por color: 🔴 Oracle · 🟢 MongoDB · 🔵 PostgreSQL · 🔷 Azure SQL · 🟠 MySQL / estático.
+> Los 11 proyectos de mi portafolio, con su motor de base de datos identificado por color: 🔴 Oracle · 🟢 MongoDB · 🔵 PostgreSQL · 🔷 Azure SQL · 🟠 MySQL / estático · 🟣 DynamoDB.
 
 <table>
 <tr>
@@ -249,6 +266,19 @@ Dashboard de observabilidad que monitorea en tiempo real la disponibilidad y el 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white) ![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black) ![Oracle DB](https://img.shields.io/badge/Oracle_DB-F80000?style=flat-square&logo=oracle&logoColor=white)
 
 ☁️ Render + Vercel · [🔗 Demo](https://frontend-nine-topaz-99.vercel.app)
+
+</td>
+</tr>
+<tr>
+<td colspan="2">
+
+**🟣 [qa-evidencia](https://github.com/lariasca1994/qa-evidencia)**
+
+Suite de pruebas E2E automatizada que corre dos veces al día contra los demás proyectos desplegados de este portafolio (login y flujos positivos), sube la evidencia (capturas) a Cloudinary y los resultados a DynamoDB, y envía un correo de resumen — con panel de evidencia en vivo.
+
+![Playwright](https://img.shields.io/badge/Playwright-2EAD33?style=flat-square&logo=playwright&logoColor=white) ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) ![DynamoDB](https://img.shields.io/badge/DynamoDB-4053D6?style=flat-square&logo=amazondynamodb&logoColor=white)
+
+☁️ AWS CodeBuild + CloudFront · [🔗 Ver panel](https://d4i3vsgw7xwmh.cloudfront.net)
 
 </td>
 </tr>

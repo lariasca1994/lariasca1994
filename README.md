@@ -221,7 +221,7 @@ Dashboard de observabilidad que monitorea en tiempo real la disponibilidad y el 
 <tr>
 <td width="50%">
 
-**🟠 [Motor de Horarios](https://github.com/lariasca1994/motor-horarios-oci)**
+**🟠 [Motor de Horarios](https://github.com/lariasca1994/motor-horarios-oci)** ![En desarrollo](https://img.shields.io/badge/%F0%9F%9A%A7-En%20desarrollo-F59E0B?style=flat-square)
 
 Coordina reuniones entre varias personas: cada usuario registra su disponibilidad (con recurrencia RRULE) y sus reglas de horario; el motor propone los 3 mejores huecos comunes y avisa por correo a los participantes. Incluye autenticación y roles.
 

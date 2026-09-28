@@ -117,7 +117,7 @@ Plataforma de alquiler de vivienda con mensajería en tiempo real entre arrendad
 
 <img src="assets/tech/nestjs.svg" alt="NestJS" height="22"> <img src="assets/tech/react.svg" alt="React" height="22"> <img src="assets/tech/mongodb.svg" alt="MongoDB" height="22">
 
-☁️ Vercel · [🔗 Demo](https://colombia-tech2.vercel.app/)
+☁️ Vercel + Render · [🔗 Demo](https://colombia-tech2.vercel.app/)
 
 </td>
 </tr>

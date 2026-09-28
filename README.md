@@ -102,7 +102,7 @@ Coordina reuniones entre varias personas: cada usuario registra su disponibilida
 
 **🔴 [Portfolio Status](https://github.com/lariasca1994/portafolio-status)**
 
-Dashboard de observabilidad que monitorea en tiempo real la disponibilidad y el tiempo de respuesta de los 8 proyectos desplegados de este portafolio.
+Dashboard de observabilidad que monitorea en tiempo real la disponibilidad y el tiempo de respuesta de los 9 proyectos desplegados de este portafolio.
 
 <img src="assets/tech/python.svg" alt="Python" height="22"> <img src="assets/tech/fastapi.svg" alt="FastAPI" height="22"> <img src="assets/tech/react.svg" alt="React" height="22"> <img src="assets/tech/oracle-db.svg" alt="Oracle DB" height="22">
 
@@ -137,9 +137,9 @@ Mini ITSM para soporte de aplicaciones: priorización, SLA, escalamiento automá
 
 **🔴 [PRPagos](https://github.com/lariasca1994/PRPagos)**
 
-Simulador de flujos de pago y validación de reglas transaccionales, disponible en dos versiones dentro del mismo repositorio: aplicación de escritorio en Java Swing y aplicación web con Spring Boot.
+Simulador de flujos de pago y validación de reglas transaccionales, disponible en dos versiones dentro del mismo repositorio: aplicación de escritorio en Java Swing y aplicación web con FastAPI (Python).
 
-<img src="assets/tech/java-swing.svg" alt="Java Swing" height="22"> <img src="assets/tech/spring-boot.svg" alt="Spring Boot" height="22"> <img src="assets/tech/oracle-db.svg" alt="Oracle DB" height="22">
+<img src="assets/tech/java-swing.svg" alt="Java Swing" height="22"> <img src="assets/tech/fastapi.svg" alt="FastAPI" height="22"> <img src="assets/tech/oracle-db.svg" alt="Oracle DB" height="22">
 
 ☁️ Google Cloud Run · [🔗 Demo web](https://prpagos-web-1087929107584.southamerica-east1.run.app)
 

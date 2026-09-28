@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="206" height="24" viewBox="0 0 206 24" role="img" aria-label="BUSCO: QA / Tester · Soporte">
+  <defs><linearGradient id="f" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#1B2230"/><stop offset="1" stop-color="#0F141C"/></linearGradient></defs>
+  <rect x=".5" y=".5" width="205" height="23" rx="11.5" fill="url(#f)" stroke="#30363D"/>
+  <circle cx="12" cy="12" r="3.5" fill="#58A6FF"/>
+  <g font-family="Segoe UI, -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif">
+    <text x="22" y="15.6" font-size="9.5" font-weight="700" letter-spacing=".8" fill="#8B949E">BUSCO</text>
+    <rect x="69" y="6" width="1" height="12" fill="#30363D"/>
+    <text x="78" y="16.2" font-size="11.5" font-weight="600" fill="#E6EDF3">QA / Tester · Soporte</text>
+  </g>
+</svg>

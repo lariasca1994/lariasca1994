@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 900" width="1280" height="900" font-family="Segoe UI, -apple-system, Helvetica, Arial, sans-serif">
+<defs>
+  <radialGradient id="bg" cx="50%" cy="49%" r="65%">
+    <stop offset="0" stop-color="#16233F"/><stop offset="1" stop-color="#0A1020"/>
+  </radialGradient>
+  <radialGradient id="hub" cx="40%" cy="35%" r="75%">
+    <stop offset="0" stop-color="#3B82F6"/><stop offset="1" stop-color="#1E3A8A"/>
+  </radialGradient>
+  <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+    <feGaussianBlur stdDeviation="6" result="b"/>
+    <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+  <filter id="sh" x="-30%" y="-30%" width="160%" height="160%">
+    <feDropShadow dx="0" dy="3" stdDeviation="4" flood-color="#000" flood-opacity=".45"/>
+  </filter>
+</defs>
+<rect width="1280" height="900" rx="28" fill="url(#bg)"/>
+<ellipse cx="640" cy="440" rx="250" ry="200" fill="none" stroke="#334155" stroke-width="1" stroke-dasharray="2 6"/>
+<ellipse cx="640" cy="440" rx="490" ry="345" fill="none" stroke="#1E293B" stroke-width="1" stroke-dasharray="2 8"/>
+<path d="M640,440 Q668.0,340.0 640.0,240.0" fill="none" stroke="#FF9900" stroke-opacity=".55" stroke-width="5" stroke-linecap="round"/>
+<path d="M640.0,240.0 Q640.0,170.0 455.0,117.2" fill="none" stroke="#FFD08A" stroke-opacity=".6" stroke-width="2.2" stroke-linecap="round"/>
+<path d="M640.0,240.0 Q640.0,170.0 640.0,95.0" fill="none" stroke="#FFD08A" stroke-opacity=".6" stroke-width="2.2" stroke-linecap="round"/>
+<path d="M640.0,240.0 Q640.0,170.0 825.0,117.2" fill="none" stroke="#FFD08A" stroke-opacity=".6" stroke-width="2.2" stroke-linecap="round"/>
+<path d="M640,440 Q755.7,400.5 837.0,316.9" fill="none" stroke="#0078D4" stroke-opacity=".55" stroke-width="5" stroke-linecap="round"/>
+<path d="M837.0,316.9 Q892.2,273.8 979.3,180.5" fill="none" stroke="#7DD3FC" stroke-opacity=".6" stroke-width="2.2" stroke-linecap="round"/>
+<path d="M837.0,316.9 Q892.2,273.8 1026.1,227.6" fill="none" stroke="#7DD3FC" stroke-opacity=".6" stroke-width="2.2" stroke-linecap="round"/>
+<path d="M837.0,316.9 Q892.2,273.8 1060.5,284.5" fill="none" stroke="#7DD3FC" stroke-opacity=".6" stroke-width="2.2" stroke-linecap="round"/>
+<path d="M640,440 Q756.4,488.2 884.5,481.6" fill="none" stroke="#4285F4" stroke-opacity=".55" stroke-width="5" stroke-linecap="round"/>
+<path d="M884.5,481.6 Q953.0,496.1 1121.7,485.1" fill="none" stroke="#BFD4FF" stroke-opacity=".6" stroke-width="2.2" stroke-linecap="round"/>
+<path d="M884.5,481.6 Q953.0,496.1 1110.6,537.1" fill="none" stroke="#BFD4FF" stroke-opacity=".6" stroke-width="2.2" stroke-linecap="round"/>
+<path d="M640,440 Q674.0,541.4 757.4,616.6" fill="none" stroke="#C74634" stroke-opacity=".55" stroke-width="5" stroke-linecap="round"/>
+<path d="M757.4,616.6 Q790.2,678.4 915.8,712.7" fill="none" stroke="#F5A89C" stroke-opacity=".6" stroke-width="2.2" stroke-linecap="round"/>
+<path d="M757.4,616.6 Q790.2,678.4 818.0,764.7" fill="none" stroke="#F5A89C" stroke-opacity=".6" stroke-width="2.2" stroke-linecap="round"/>
+<path d="M640,440 Q560.0,517.6 530.4,619.8" fill="none" stroke="#46E3B7" stroke-opacity=".55" stroke-width="5" stroke-linecap="round"/>
+<path d="M530.4,619.8 Q499.7,682.7 481.6,769.7" fill="none" stroke="#B5F5E3" stroke-opacity=".6" stroke-width="2.2" stroke-linecap="round"/>
+<path d="M530.4,619.8 Q499.7,682.7 375.0,717.7" fill="none" stroke="#B5F5E3" stroke-opacity=".6" stroke-width="2.2" stroke-linecap="round"/>
+<path d="M640,440 Q511.9,437.0 397.4,488.4" fill="none" stroke="#E5E7EB" stroke-opacity=".55" stroke-width="5" stroke-linecap="round"/>
+<path d="M397.4,488.4 Q329.5,505.3 183.8,573.9" fill="none" stroke="#E5E7EB" stroke-opacity=".6" stroke-width="2.2" stroke-linecap="round"/>
+<path d="M397.4,488.4 Q329.5,505.3 164.6,523.5" fill="none" stroke="#E5E7EB" stroke-opacity=".6" stroke-width="2.2" stroke-linecap="round"/>
+<path d="M397.4,488.4 Q329.5,505.3 157.8,469.9" fill="none" stroke="#E5E7EB" stroke-opacity=".6" stroke-width="2.2" stroke-linecap="round"/>
+<path d="M640,440 Q558.7,356.4 443.0,316.9" fill="none" stroke="#8250DF" stroke-opacity=".55" stroke-width="5" stroke-linecap="round"/>
+<path d="M443.0,316.9 Q387.8,273.8 253.9,227.6" fill="none" stroke="#D2B8FF" stroke-opacity=".6" stroke-width="2.2" stroke-linecap="round"/>
+<g filter="url(#sh)"><rect x="362.5" y="99.2" width="185.0" height="36" rx="18.0" fill="#FF9900" stroke="#FFD08A" stroke-width="1.6"/><text x="443.0" y="121.8" text-anchor="middle" font-size="13" font-weight="600" fill="#1A1A1A">Gestor de Casos QA</text><circle cx="528.5" cy="117.2" r="11" fill="#2563EB" stroke="#BFDBFE" stroke-width="1.5"/><path d="M523.5,117.2 l3.6,3.8 l6.4,-7.4" fill="none" stroke="#fff" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></g>
+<g filter="url(#sh)"><rect x="557.9" y="77.0" width="164.3" height="36" rx="18.0" fill="#FF9900" stroke="#FFD08A" stroke-width="1.6"/><text x="628.0" y="99.6" text-anchor="middle" font-size="13" font-weight="600" fill="#1A1A1A">Verificador API</text><circle cx="703.1" cy="95.0" r="11" fill="#2563EB" stroke="#BFDBFE" stroke-width="1.5"/><path d="M698.1,95.0 l3.6,3.8 l6.4,-7.4" fill="none" stroke="#fff" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></g>
+<g filter="url(#sh)"><rect x="766.6" y="99.2" width="116.8" height="36" rx="18.0" fill="#FF9900" stroke="#FFD08A" stroke-width="1.6"/><text x="825.0" y="121.8" text-anchor="middle" font-size="13" font-weight="600" fill="#1A1A1A">qa-evidencia</text></g>
+<g filter="url(#sh)"><circle cx="640.0" cy="240.0" r="54" fill="#FF9900" stroke="#FFD08A" stroke-width="3"/><text x="640.0" y="238.0" text-anchor="middle" font-size="17" font-weight="700" fill="#1A1A1A">AWS</text><text x="640.0" y="256.0" text-anchor="middle" font-size="10.5" font-weight="500" fill="#1A1A1A" fill-opacity=".9">Lambda · CodeBuild</text></g>
+<g filter="url(#sh)"><rect x="881.5" y="162.5" width="195.5" height="36" rx="18.0" fill="#0078D4" stroke="#7DD3FC" stroke-width="1.6"/><text x="979.3" y="185.1" text-anchor="middle" font-size="13" font-weight="600" fill="#FFFFFF">Gestor de Incidentes TI</text></g>
+<g filter="url(#sh)"><rect x="934.3" y="209.6" width="183.6" height="36" rx="18.0" fill="#0078D4" stroke="#7DD3FC" stroke-width="1.6"/><text x="1014.1" y="232.2" text-anchor="middle" font-size="13" font-weight="600" fill="#FFFFFF">Reservas Corferias</text><circle cx="1098.9" cy="227.6" r="11" fill="#2563EB" stroke="#BFDBFE" stroke-width="1.5"/><path d="M1093.9,227.6 l3.6,3.8 l6.4,-7.4" fill="none" stroke="#fff" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></g>
+<g filter="url(#sh)"><rect x="961.8" y="266.5" width="197.4" height="36" rx="18.0" fill="#0078D4" stroke="#7DD3FC" stroke-width="1.6"/><text x="1048.5" y="289.1" text-anchor="middle" font-size="13" font-weight="600" fill="#FFFFFF">Calidad Afiliaciones</text><circle cx="1140.2" cy="284.5" r="11" fill="#2563EB" stroke="#BFDBFE" stroke-width="1.5"/><path d="M1135.2,284.5 l3.6,3.8 l6.4,-7.4" fill="none" stroke="#fff" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></g>
+<g filter="url(#sh)"><circle cx="837.0" cy="316.9" r="54" fill="#0078D4" stroke="#7DD3FC" stroke-width="3"/><text x="837.0" y="314.9" text-anchor="middle" font-size="17" font-weight="700" fill="#FFFFFF">Azure</text><text x="837.0" y="332.9" text-anchor="middle" font-size="10.5" font-weight="500" fill="#FFFFFF" fill-opacity=".9">Container Apps</text></g>
+<g filter="url(#sh)"><rect x="1067.5" y="467.1" width="108.4" height="36" rx="18.0" fill="#4285F4" stroke="#BFD4FF" stroke-width="1.6"/><text x="1109.7" y="489.7" text-anchor="middle" font-size="13" font-weight="600" fill="#FFFFFF">PRPagos</text><circle cx="1156.9" cy="485.1" r="11" fill="#2563EB" stroke="#BFDBFE" stroke-width="1.5"/><path d="M1151.9,485.1 l3.6,3.8 l6.4,-7.4" fill="none" stroke="#fff" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></g>
+<g filter="url(#sh)"><rect x="1053.3" y="519.1" width="114.6" height="36" rx="18.0" fill="#4285F4" stroke="#BFD4FF" stroke-width="1.6"/><text x="1098.6" y="541.7" text-anchor="middle" font-size="13" font-weight="600" fill="#FFFFFF">TaskFlow</text><circle cx="1148.9" cy="537.1" r="11" fill="#2563EB" stroke="#BFDBFE" stroke-width="1.5"/><path d="M1143.9,537.1 l3.6,3.8 l6.4,-7.4" fill="none" stroke="#fff" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></g>
+<g filter="url(#sh)"><circle cx="884.5" cy="481.6" r="54" fill="#4285F4" stroke="#BFD4FF" stroke-width="3"/><text x="884.5" y="479.6" text-anchor="middle" font-size="17" font-weight="700" fill="#FFFFFF">Google</text><text x="884.5" y="497.6" text-anchor="middle" font-size="10.5" font-weight="500" fill="#FFFFFF" fill-opacity=".9">Cloud Run</text></g>
+<g filter="url(#sh)"><rect x="799.4" y="694.7" width="232.8" height="36" rx="18.0" fill="#C74634" stroke="#F5A89C" stroke-width="1.6"/><text x="915.8" y="717.3" text-anchor="middle" font-size="13" font-weight="600" fill="#FFFFFF">Motor de Horarios · BD MySQL</text></g>
+<g filter="url(#sh)"><rect x="702.7" y="746.7" width="230.7" height="36" rx="18.0" fill="#C74634" stroke="#F5A89C" stroke-width="1.6"/><text x="818.0" y="769.3" text-anchor="middle" font-size="13" font-weight="600" fill="#FFFFFF">Portfolio Status · BD Oracle</text></g>
+<g filter="url(#sh)"><circle cx="757.4" cy="616.6" r="54" fill="#C74634" stroke="#F5A89C" stroke-width="3"/><text x="757.4" y="614.6" text-anchor="middle" font-size="17" font-weight="700" fill="#FFFFFF">Oracle</text><text x="757.4" y="632.6" text-anchor="middle" font-size="10.5" font-weight="500" fill="#FFFFFF" fill-opacity=".9">Cloud · OCI</text></g>
+<g filter="url(#sh)"><rect x="383.5" y="751.7" width="196.2" height="36" rx="18.0" fill="#46E3B7" stroke="#B5F5E3" stroke-width="1.6"/><text x="481.6" y="774.3" text-anchor="middle" font-size="13" font-weight="600" fill="#0B2B24">Motor de Horarios · API</text></g>
+<g filter="url(#sh)"><rect x="280.4" y="699.7" width="189.3" height="36" rx="18.0" fill="#46E3B7" stroke="#B5F5E3" stroke-width="1.6"/><text x="375.0" y="722.3" text-anchor="middle" font-size="13" font-weight="600" fill="#0B2B24">Portfolio Status · API</text></g>
+<g filter="url(#sh)"><circle cx="530.4" cy="619.8" r="54" fill="#46E3B7" stroke="#B5F5E3" stroke-width="3"/><text x="530.4" y="617.8" text-anchor="middle" font-size="17" font-weight="700" fill="#0B2B24">Render</text><text x="530.4" y="635.8" text-anchor="middle" font-size="10.5" font-weight="500" fill="#0B2B24" fill-opacity=".9">Backend</text></g>
+<g filter="url(#sh)"><rect x="92.9" y="555.9" width="181.7" height="36" rx="18.0" fill="#000000" stroke="#E5E7EB" stroke-width="1.6"/><text x="183.8" y="578.5" text-anchor="middle" font-size="13" font-weight="600" fill="#FFFFFF">Portfolio Status · UI</text></g>
+<g filter="url(#sh)"><rect x="70.3" y="505.5" width="188.6" height="36" rx="18.0" fill="#000000" stroke="#E5E7EB" stroke-width="1.6"/><text x="164.6" y="528.1" text-anchor="middle" font-size="13" font-weight="600" fill="#FFFFFF">Motor de Horarios · UI</text></g>
+<g filter="url(#sh)"><rect x="83.3" y="451.9" width="149.1" height="36" rx="18.0" fill="#000000" stroke="#E5E7EB" stroke-width="1.6"/><text x="145.8" y="474.5" text-anchor="middle" font-size="13" font-weight="600" fill="#FFFFFF">ColombiaTech2</text><circle cx="213.4" cy="469.9" r="11" fill="#2563EB" stroke="#BFDBFE" stroke-width="1.5"/><path d="M208.4,469.9 l3.6,3.8 l6.4,-7.4" fill="none" stroke="#fff" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></g>
+<g filter="url(#sh)"><circle cx="397.4" cy="488.4" r="54" fill="#000000" stroke="#E5E7EB" stroke-width="3"/><text x="397.4" y="486.4" text-anchor="middle" font-size="17" font-weight="700" fill="#FFFFFF">Vercel</text><text x="397.4" y="504.4" text-anchor="middle" font-size="10.5" font-weight="500" fill="#FFFFFF" fill-opacity=".9">Frontend</text></g>
+<g filter="url(#sh)"><rect x="179.9" y="209.6" width="147.9" height="36" rx="18.0" fill="#8250DF" stroke="#D2B8FF" stroke-width="1.6"/><text x="253.9" y="232.2" text-anchor="middle" font-size="13" font-weight="600" fill="#FFFFFF">PWDC · Portfolio</text></g>
+<g filter="url(#sh)"><circle cx="443.0" cy="316.9" r="54" fill="#8250DF" stroke="#D2B8FF" stroke-width="3"/><text x="443.0" y="314.9" text-anchor="middle" font-size="17" font-weight="700" fill="#FFFFFF">GitHub</text><text x="443.0" y="332.9" text-anchor="middle" font-size="10.5" font-weight="500" fill="#FFFFFF" fill-opacity=".9">Pages</text></g>
+<circle cx="640" cy="440" r="98" fill="#3B82F6" fill-opacity=".18" filter="url(#glow)"/>
+<circle cx="640" cy="440" r="88" fill="url(#hub)" stroke="#93C5FD" stroke-width="4"/>
+<text x="640" y="428" text-anchor="middle" font-size="18" font-weight="800" fill="#fff">Luis Felipe Arias</text>
+<text x="640" y="452" text-anchor="middle" font-size="12" font-weight="500" fill="#DBEAFE">QA · Automatización</text>
+<text x="640" y="469" text-anchor="middle" font-size="12" font-weight="500" fill="#DBEAFE">Backend · Cloud</text>
+<g font-size="12" fill="#CBD5E1"><circle cx="60" cy="866" r="8" fill="#64748B"/><text x="76" y="870">Plataforma</text><rect x="170" y="857" width="36" height="18" rx="9" fill="#64748B"/><text x="214" y="870">Proyecto (color = dónde está desplegado)</text><circle cx="500" cy="866" r="9" fill="#2563EB" stroke="#BFDBFE" stroke-width="1.5"/><path d="M496,866 l3,3.2 l5.4,-6.2" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round"/><text x="516" y="870">Probado por qa-evidencia (E2E automático 2 veces al día)</text></g>
+</svg>

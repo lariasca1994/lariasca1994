@@ -70,10 +70,45 @@ Cada proyecto tiene el color de la plataforma donde está desplegado: 🟧 AWS �
 
 ## 🚀 Proyectos destacados
 
-> Los 12 proyectos de mi portafolio, con su motor de base de datos identificado por color: 🔴 Oracle · 🟢 MongoDB · 🔵 PostgreSQL · 🔷 Azure SQL · 🟠 MySQL / estático · 🟣 DynamoDB.
+> Los 12 proyectos de mi portafolio, ordenados de mayor a menor complejidad, con su motor de base de datos identificado por color: 🔴 Oracle · 🟢 MongoDB · 🔵 PostgreSQL · 🔷 Azure SQL · 🟠 MySQL / estático · 🟣 DynamoDB.
 
 <table>
 <tr>
+<td width="50%">
+
+**🟣 [qa-evidencia](https://github.com/lariasca1994/qa-evidencia)**
+
+Suite de pruebas E2E automatizada que corre de lunes a viernes, dos veces al día, contra 8 proyectos desplegados de este portafolio (login fallido y flujo positivo), sube la evidencia (capturas) a Cloudinary y los resultados a DynamoDB, y envía un correo de resumen — con panel de evidencia en vivo. Se despliega sola en cada push con GitHub Actions (OIDC, sin llaves de AWS) y limpia cada semana la evidencia de más de 15 días.
+
+![Playwright](https://img.shields.io/badge/Playwright-2EAD33?style=flat-square&logo=playwright&logoColor=white) ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) ![DynamoDB](https://img.shields.io/badge/DynamoDB-4053D6?style=flat-square&logo=amazondynamodb&logoColor=white) ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
+
+☁️ AWS CodeBuild + CloudFront · [🔗 Ver panel](https://d4i3vsgw7xwmh.cloudfront.net)
+
+</td>
+<td width="50%">
+
+**🟠 [Motor de Horarios](https://github.com/lariasca1994/motor-horarios-oci)**
+
+Coordina reuniones entre varias personas: cada usuario registra su disponibilidad (con recurrencia RRULE) y sus reglas de horario; el motor propone los 3 mejores huecos comunes y avisa por correo a los participantes. Incluye autenticación y roles.
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white) ![MySQL](https://img.shields.io/badge/MySQL_HeatWave-4479A1?style=flat-square&logo=mysql&logoColor=white) ![Oracle Cloud](https://img.shields.io/badge/Oracle_Cloud-F80000?style=flat-square&logo=oracle&logoColor=white)
+
+☁️ Vercel + Render + OCI · [🔗 Demo](https://motor-horarios-oci.vercel.app)
+
+</td>
+</tr>
+<tr>
+<td width="50%">
+
+**🔴 [Portfolio Status](https://github.com/lariasca1994/portafolio-status)**
+
+Dashboard de observabilidad que monitorea en tiempo real la disponibilidad y el tiempo de respuesta de los 8 proyectos desplegados de este portafolio.
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white) ![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black) ![Oracle DB](https://img.shields.io/badge/Oracle_DB-F80000?style=flat-square&logo=oracle&logoColor=white)
+
+☁️ Render + Vercel · [🔗 Demo](https://frontend-nine-topaz-99.vercel.app)
+
+</td>
 <td width="50%">
 
 **🟢 [ColombiaTech2](https://github.com/lariasca1994/ColombiaTech2)**
@@ -83,17 +118,6 @@ Plataforma de alquiler de vivienda con mensajería en tiempo real entre arrendad
 ![NestJS](https://img.shields.io/badge/NestJS-E0234E?style=flat-square&logo=nestjs&logoColor=white) ![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black) ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white)
 
 ☁️ Vercel · [🔗 Demo](https://colombia-tech2.vercel.app/)
-
-</td>
-<td width="50%">
-
-**🟢 [Gestor de Casos de Prueba QA](https://github.com/lariasca1994/gestor-casos-qa)**
-
-Plataforma end-to-end para gestionar proyectos, suites, casos de prueba, ejecuciones, defectos y métricas de calidad.
-
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white) ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white)
-
-☁️ AWS Lambda · [🔗 Demo](https://immxew65sfxj7nubwzlszdimfi0qegzc.lambda-url.us-east-1.on.aws/)
 
 </td>
 </tr>
@@ -124,6 +148,17 @@ Simulador de flujos de pago y validación de reglas transaccionales, disponible 
 <tr>
 <td width="50%">
 
+**🟢 [Gestor de Casos de Prueba QA](https://github.com/lariasca1994/gestor-casos-qa)**
+
+Plataforma end-to-end para gestionar proyectos, suites, casos de prueba, ejecuciones, defectos y métricas de calidad.
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white) ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white)
+
+☁️ AWS Lambda · [🔗 Demo](https://immxew65sfxj7nubwzlszdimfi0qegzc.lambda-url.us-east-1.on.aws/)
+
+</td>
+<td width="50%">
+
 **🔷 [reservas-corferias](https://github.com/lariasca1994/reservas-corferias)**
 
 Sistema de reservas para un centro de convenciones: catálogo de escenarios, calendario de disponibilidad y panel administrativo.
@@ -131,17 +166,6 @@ Sistema de reservas para un centro de convenciones: catálogo de escenarios, cal
 ![PHP](https://img.shields.io/badge/PHP-777BB4?style=flat-square&logo=php&logoColor=white) ![Laravel](https://img.shields.io/badge/Laravel-FF2D20?style=flat-square&logo=laravel&logoColor=white) ![Azure SQL](https://img.shields.io/badge/Azure_SQL-0078D4?style=flat-square&logo=microsoftazure&logoColor=white)
 
 ☁️ Azure Container Apps · [🔗 Demo](https://reservas-corferias.blueocean-86680030.eastus.azurecontainerapps.io/)
-
-</td>
-<td width="50%">
-
-**🟠 [calidad-afiliaciones](https://github.com/lariasca1994/calidad-afiliaciones)**
-
-Motor de control de calidad para procesos de afiliación: validación de reglas de negocio y seguimiento de inconsistencias.
-
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white) ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
-
-☁️ Azure Container Apps · [🔗 Demo](https://calidad-afiliaciones.blueocean-86680030.eastus.azurecontainerapps.io/)
 
 </td>
 </tr>
@@ -172,6 +196,17 @@ Suite de validación automatizada para endpoints REST: pruebas de contrato, cód
 <tr>
 <td width="50%">
 
+**🟠 [calidad-afiliaciones](https://github.com/lariasca1994/calidad-afiliaciones)**
+
+Motor de control de calidad para procesos de afiliación: validación de reglas de negocio y seguimiento de inconsistencias.
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white) ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
+
+☁️ Azure Container Apps · [🔗 Demo](https://calidad-afiliaciones.blueocean-86680030.eastus.azurecontainerapps.io/)
+
+</td>
+<td width="50%">
+
 **🟠 [PWDC](https://github.com/lariasca1994/PWDC)**
 
 Sitio de portafolio personal construido sin frameworks, con HTML, CSS y JavaScript puro.
@@ -179,41 +214,6 @@ Sitio de portafolio personal construido sin frameworks, con HTML, CSS y JavaScri
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
 
 ☁️ GitHub Pages · [🔗 Demo](https://lariasca1994.github.io/PWDC/)
-
-</td>
-<td width="50%">
-
-**🔴 [Portfolio Status](https://github.com/lariasca1994/portafolio-status)**
-
-Dashboard de observabilidad que monitorea en tiempo real la disponibilidad y el tiempo de respuesta de los 8 proyectos desplegados de este portafolio.
-
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white) ![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black) ![Oracle DB](https://img.shields.io/badge/Oracle_DB-F80000?style=flat-square&logo=oracle&logoColor=white)
-
-☁️ Render + Vercel · [🔗 Demo](https://frontend-nine-topaz-99.vercel.app)
-
-</td>
-</tr>
-<tr>
-<td width="50%">
-
-**🟠 [Motor de Horarios](https://github.com/lariasca1994/motor-horarios-oci)**
-
-Coordina reuniones entre varias personas: cada usuario registra su disponibilidad (con recurrencia RRULE) y sus reglas de horario; el motor propone los 3 mejores huecos comunes y avisa por correo a los participantes. Incluye autenticación y roles.
-
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white) ![MySQL](https://img.shields.io/badge/MySQL_HeatWave-4479A1?style=flat-square&logo=mysql&logoColor=white) ![Oracle Cloud](https://img.shields.io/badge/Oracle_Cloud-F80000?style=flat-square&logo=oracle&logoColor=white)
-
-☁️ Vercel + Render + OCI · [🔗 Demo](https://motor-horarios-oci.vercel.app)
-
-</td>
-<td width="50%">
-
-**🟣 [qa-evidencia](https://github.com/lariasca1994/qa-evidencia)**
-
-Suite de pruebas E2E automatizada que corre de lunes a viernes, dos veces al día, contra 8 proyectos desplegados de este portafolio (login fallido y flujo positivo), sube la evidencia (capturas) a Cloudinary y los resultados a DynamoDB, y envía un correo de resumen — con panel de evidencia en vivo. Se despliega sola en cada push con GitHub Actions (OIDC, sin llaves de AWS) y limpia cada semana la evidencia de más de 15 días.
-
-![Playwright](https://img.shields.io/badge/Playwright-2EAD33?style=flat-square&logo=playwright&logoColor=white) ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) ![DynamoDB](https://img.shields.io/badge/DynamoDB-4053D6?style=flat-square&logo=amazondynamodb&logoColor=white) ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
-
-☁️ AWS CodeBuild + CloudFront · [🔗 Ver panel](https://d4i3vsgw7xwmh.cloudfront.net)
 
 </td>
 </tr>

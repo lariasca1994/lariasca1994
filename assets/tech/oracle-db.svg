@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="90" height="22" viewBox="0 0 90 22" role="img" aria-label="Oracle DB">
+  <defs><linearGradient id="f" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#1B2230"/><stop offset="1" stop-color="#0F141C"/></linearGradient></defs>
+  <rect x=".5" y=".5" width="89" height="21" rx="10.5" fill="url(#f)" stroke="#30363D"/>
+  <g transform="translate(9 5) scale(0.5)"><path fill="#FA3A3A" d="M16.412 4.412h-8.82a7.588 7.588 0 0 0-.008 15.176h8.828a7.588 7.588 0 0 0 0-15.176zm-.193 12.502H7.786a4.915 4.915 0 0 1 0-9.828h8.433a4.914 4.914 0 1 1 0 9.828z"/></g>
+  <text x="27" y="15" font-family="Segoe UI, -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="11" font-weight="600" fill="#E6EDF3">Oracle DB</text>
+</svg>

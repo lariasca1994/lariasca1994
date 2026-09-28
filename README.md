@@ -1,4 +1,4 @@
-![Busco](https://img.shields.io/badge/Busco-QA%20%2F%20Tester-2563EB?style=flat-square) ![Busco](https://img.shields.io/badge/Busco-Soporte-2563EB?style=flat-square) ![Modalidad](https://img.shields.io/badge/Modalidad-Remoto%20preferido-16A34A?style=flat-square)
+<img src="assets/perfil-busco.svg" alt="Busco: QA / Tester · Soporte" height="24"> <img src="assets/perfil-modalidad.svg" alt="Modalidad: Remoto preferido" height="24">
 
 ```typescript
 const luisFelipe: Profesional = {
@@ -223,14 +223,14 @@ Sitio de portafolio personal construido sin frameworks, con HTML, CSS y JavaScri
 
 ## 📫 Contacto
 
-[![Gmail](https://img.shields.io/badge/Gmail-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:ariascluisf@gmail.com)
-[![WhatsApp](https://img.shields.io/badge/WhatsApp-25D366?style=flat-square&logo=whatsapp&logoColor=white)](https://wa.me/carraian160)
-[![Telegram](https://img.shields.io/badge/Telegram-26A5E4?style=flat-square&logo=telegram&logoColor=white)](https://t.me/lfac6)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/lfac1)
-[![GitHub](https://img.shields.io/badge/GitHub-100000?style=flat-square&logo=github&logoColor=white)](https://github.com/lariasca1994)
+<a href="mailto:ariascluisf@gmail.com"><img src="assets/contacto-gmail.svg" alt="Gmail" height="24"></a>
+<a href="https://wa.me/carraian160"><img src="assets/contacto-whatsapp.svg" alt="WhatsApp" height="24"></a>
+<a href="https://t.me/lfac6"><img src="assets/contacto-telegram.svg" alt="Telegram" height="24"></a>
+<a href="https://www.linkedin.com/in/lfac1"><img src="assets/contacto-linkedin.svg" alt="LinkedIn" height="24"></a>
+<a href="https://github.com/lariasca1994"><img src="assets/contacto-github.svg" alt="GitHub" height="24"></a>
 
 ---
 
-![Profile views](https://komarev.com/ghpvc/?username=lariasca1994&color=brightgreen)
+![Visitas al perfil](https://komarev.com/ghpvc/?username=lariasca1994&label=Visitas&color=30363D&style=flat-square)
 
 **Última actualización:** Septiembre de 2026

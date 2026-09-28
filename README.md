@@ -56,39 +56,12 @@ Todos los proyectos de este portafolio se monitorean en tiempo real: disponibili
 
 > Aplicaciones, APIs y proyectos de automatización desplegados en plataformas cloud.
 
-```mermaid
-mindmap
-  root((Luis Felipe Arias<br/>QA · Automatización<br/>Backend · Cloud))
-    aws)🟧 AWS(
-      qa1(Gestor de Casos QA · Lambda)
-      va1(Verificador API · Lambda)
-      qe1(qa-evidencia · CodeBuild + CloudFront)
-    azure)🔷 Azure Container Apps(
-      gi1(Gestor de Incidentes TI)
-      rc1(Reservas Corferias)
-      ca1(Calidad Afiliaciones)
-    gcp)🔵 Google Cloud Run(
-      pp1(PRPagos)
-      tf1(TaskFlow)
-    oci)🔴 Oracle Cloud · OCI(
-      mh1(Motor de Horarios · MySQL HeatWave)
-      ps1(Portfolio Status · Autonomous DB)
-    vercel)▲ Vercel(
-      ct1(ColombiaTech2)
-      mh2(Motor de Horarios · frontend)
-      ps2(Portfolio Status · dashboard)
-    render)🟢 Render(
-      mh3(Motor de Horarios · API)
-      ps3(Portfolio Status · API)
-    ghp)◉ GitHub Pages(
-      pw1(PWDC · Portfolio)
-    qa{{🧪 Calidad continua}}
-      qe2(qa-evidencia · E2E Playwright 2×/día sobre 7 apps)
-      ps4(Portfolio Status · uptime y latencia 24/7)
-```
+<p align="center">
+  <img src="assets/ecosistema.svg" alt="Arquitectura de despliegue: plataformas cloud alrededor del perfil y proyectos coloreados según dónde están desplegados" width="100%">
+</p>
 
 <sub>
-Diagrama en estrella: al centro el perfil; cada rama ☁️ es una plataforma cloud con los proyectos que aloja, y la rama 🧪 agrupa la calidad continua (pruebas E2E automáticas + monitoreo en vivo).
+Cada proyecto tiene el color de la plataforma donde está desplegado: 🟧 AWS · 🔷 Azure Container Apps · 🔵 Google Cloud Run · 🔴 Oracle Cloud (OCI) · 🟢 Render · ⚫ Vercel · 🟣 GitHub Pages. Los que tienen ✔ se prueban automáticamente con qa-evidencia.
 </sub>
 
 ---

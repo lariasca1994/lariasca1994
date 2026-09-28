@@ -44,9 +44,11 @@ const filosofía = () => ({
 
 ## 🟢 Estado en vivo de mis proyectos
 
-[![Portfolio Status](https://img.shields.io/badge/dashboard-en%20vivo-2ea44f?style=for-the-badge)](https://frontend-nine-topaz-99.vercel.app) <br><br>
-[![Estado en vivo](https://portafolio-status.onrender.com/api/status/badge.svg)](https://frontend-nine-topaz-99.vercel.app) <br><br>
-[![qa-evidencia](https://img.shields.io/badge/qa--evidencia-%C3%BAltima%20actualizaci%C3%B3n%20de%20pruebas-2563EB?style=for-the-badge)](https://d4i3vsgw7xwmh.cloudfront.net)
+<p>
+  <a href="https://frontend-nine-topaz-99.vercel.app"><img src="assets/badge-dashboard.svg" alt="Dashboard de disponibilidad en vivo" height="32"></a><br>
+  <a href="https://frontend-nine-topaz-99.vercel.app"><img src="https://portafolio-status.onrender.com/api/status/badge.svg" alt="Estado en vivo de los proyectos" height="32"></a><br>
+  <a href="https://d4i3vsgw7xwmh.cloudfront.net"><img src="https://portafolio-status.onrender.com/api/status/qa-badge.svg" alt="Fecha y hora de la última corrida de pruebas E2E de qa-evidencia" height="32"></a>
+</p>
 
 Todos los proyectos de este portafolio se monitorean en tiempo real: disponibilidad, tiempo de respuesta y % de uptime de los últimos 7 días, con historial guardado en Oracle Autonomous Database. Además, el proyecto qa-evidencia corre pruebas end-to-end automatizadas dos veces al día sobre 7 de estos proyectos y publica ahí mismo la fecha de la última corrida junto con la evidencia (capturas) de cada uno.
 

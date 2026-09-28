@@ -25,10 +25,10 @@ const luisFelipe: Profesional = {
     "2019 · ITIL v4 Foundation (PeopleCert)",
   ],
   stack: {
-    lenguajes: ["Python", "SQL", "PHP", "JavaScript"],
-    basesDeDatos: ["MongoDB", "Azure SQL", "PostgreSQL", "MySQL"],
-    testing: ["Postman", "Pruebas funcionales API REST", "Diseño de casos de prueba"],
-    cloud: ["AWS Cloud Foundations"],
+    lenguajes: ["Python", "SQL", "PHP", "JavaScript", "TypeScript", "Java", "C#"],
+    basesDeDatos: ["MongoDB", "Azure SQL", "PostgreSQL", "MySQL", "Oracle DB", "DynamoDB"],
+    testing: ["Postman", "Playwright (E2E)", "Pruebas funcionales API REST", "Diseño de casos de prueba"],
+    cloud: ["AWS", "Azure", "Google Cloud", "Oracle Cloud (OCI)", "Vercel", "Render"],
     metodologías: ["ITIL v4"],
   },
 };
@@ -57,96 +57,45 @@ Todos los proyectos de este portafolio se monitorean en tiempo real: disponibili
 > Aplicaciones, APIs y proyectos de automatización desplegados en plataformas cloud.
 
 ```mermaid
-flowchart TB
-    PORTFOLIO(["LUIS FELIPE ARIAS<br/>QA · Automatización · Backend · Cloud"])
-
-    subgraph CLOUD["☁️ Plataformas cloud"]
-        direction LR
-        AWS(["AWS Lambda<br/>Serverless"])
-        AZURE(["Azure Container Apps<br/>Contenedores"])
-        GCP(["Google Cloud Run<br/>Servicios cloud"])
-        VERCEL(["Vercel<br/>Frontend"])
-        GITHUB(["GitHub Pages<br/>Portfolio estático"])
-        RENDER(["Render<br/>Backend"])
-    end
-
-    subgraph APPS["🚀 Proyectos desplegados"]
-        direction LR
-        QA["Gestor de Casos QA"]
-        VERIFY["Verificador API"]
-        INCIDENTES["Gestor de Incidentes TI"]
-        RESERVAS["Reservas Corferias"]
-        AFILIACIONES["Calidad Afiliaciones"]
-        PAGOS["PRPagos"]
-        TASKFLOW["TaskFlow"]
-        COLOMBIA["ColombiaTech2"]
-        PWDC["PWDC · Portfolio"]
-        STATUS["Portfolio Status"]
-    end
-
-    QAEVID{{"qa-evidencia<br/>Pruebas E2E automatizadas"}}
-
-    PORTFOLIO --> AWS
-    PORTFOLIO --> AZURE
-    PORTFOLIO --> GCP
-    PORTFOLIO --> VERCEL
-    PORTFOLIO --> GITHUB
-    PORTFOLIO --> RENDER
-
-    AWS --> QA
-    AWS --> VERIFY
-    AZURE --> INCIDENTES
-    AZURE --> RESERVAS
-    AZURE --> AFILIACIONES
-    GCP --> PAGOS
-    GCP --> TASKFLOW
-    VERCEL --> COLOMBIA
-    GITHUB --> PWDC
-    RENDER --> STATUS
-
-    AWS --> QAEVID
-
-    QAEVID -.->|prueba| COLOMBIA
-    QAEVID -.->|prueba| QA
-    QAEVID -.->|prueba| RESERVAS
-    QAEVID -.->|prueba| PAGOS
-    QAEVID -.->|prueba| TASKFLOW
-    QAEVID -.->|prueba| VERIFY
-    QAEVID -.->|prueba| AFILIACIONES
-
-    classDef portfolio fill:#1D4ED8,stroke:#93C5FD,color:#FFFFFF,stroke-width:4px;
-    classDef aws fill:#8A3B00,stroke:#FF9900,color:#FFFFFF,stroke-width:3px;
-    classDef azure fill:#0078D4,stroke:#7DD3FC,color:#FFFFFF,stroke-width:3px;
-    classDef gcp fill:#4285F4,stroke:#93C5FD,color:#FFFFFF,stroke-width:3px;
-    classDef vercel fill:#18181B,stroke:#A1A1AA,color:#FFFFFF,stroke-width:3px;
-    classDef github fill:#24292F,stroke:#8B949E,color:#FFFFFF,stroke-width:3px;
-    classDef render fill:#0B3B36,stroke:#46E3B7,color:#FFFFFF,stroke-width:3px;
-    classDef project fill:#1E293B,stroke:#64748B,color:#F8FAFC,stroke-width:2px;
-    classDef qaevid fill:#2563EB,stroke:#BFDBFE,color:#FFFFFF,stroke-width:3px;
-
-    class PORTFOLIO portfolio;
-    class AWS aws;
-    class AZURE azure;
-    class GCP gcp;
-    class VERCEL vercel;
-    class GITHUB github;
-    class RENDER render;
-    class QA,VERIFY,INCIDENTES,RESERVAS,AFILIACIONES,PAGOS,TASKFLOW,COLOMBIA,PWDC,STATUS project;
-    class QAEVID qaevid;
-
-    style CLOUD fill:none,stroke:#475569,stroke-width:1px,stroke-dasharray: 4 3
-    style APPS fill:none,stroke:#475569,stroke-width:1px,stroke-dasharray: 4 3
+mindmap
+  root((Luis Felipe Arias<br/>QA · Automatización<br/>Backend · Cloud))
+    aws)🟧 AWS(
+      qa1(Gestor de Casos QA · Lambda)
+      va1(Verificador API · Lambda)
+      qe1(qa-evidencia · CodeBuild + CloudFront)
+    azure)🔷 Azure Container Apps(
+      gi1(Gestor de Incidentes TI)
+      rc1(Reservas Corferias)
+      ca1(Calidad Afiliaciones)
+    gcp)🔵 Google Cloud Run(
+      pp1(PRPagos)
+      tf1(TaskFlow)
+    oci)🔴 Oracle Cloud · OCI(
+      mh1(Motor de Horarios · MySQL HeatWave)
+      ps1(Portfolio Status · Autonomous DB)
+    vercel)▲ Vercel(
+      ct1(ColombiaTech2)
+      mh2(Motor de Horarios · frontend)
+      ps2(Portfolio Status · dashboard)
+    render)🟢 Render(
+      mh3(Motor de Horarios · API)
+      ps3(Portfolio Status · API)
+    ghp)◉ GitHub Pages(
+      pw1(PWDC · Portfolio)
+    qa{{🧪 Calidad continua}}
+      qe2(qa-evidencia · E2E Playwright 2×/día sobre 7 apps)
+      ps4(Portfolio Status · uptime y latencia 24/7)
 ```
 
 <sub>
-🟧 AWS Lambda · 🔷 Azure Container Apps · 🔵 Google Cloud Run · ▲ Vercel · ◉ GitHub Pages · 🟢 Render · 🟣 qa-evidencia (pruebas E2E automatizadas) — línea punteada = "prueba"
+Diagrama en estrella: al centro el perfil; cada rama ☁️ es una plataforma cloud con los proyectos que aloja, y la rama 🧪 agrupa la calidad continua (pruebas E2E automáticas + monitoreo en vivo).
 </sub>
 
 ---
 
 ## 🚀 Proyectos destacados
 
-> Los 11 proyectos de mi portafolio, con su motor de base de datos identificado por color: 🔴 Oracle · 🟢 MongoDB · 🔵 PostgreSQL · 🔷 Azure SQL · 🟠 MySQL / estático · 🟣 DynamoDB.
+> Los 12 proyectos de mi portafolio, con su motor de base de datos identificado por color: 🔴 Oracle · 🟢 MongoDB · 🔵 PostgreSQL · 🔷 Azure SQL · 🟠 MySQL / estático · 🟣 DynamoDB.
 
 <table>
 <tr>
@@ -270,7 +219,18 @@ Dashboard de observabilidad que monitorea en tiempo real la disponibilidad y el 
 </td>
 </tr>
 <tr>
-<td colspan="2">
+<td width="50%">
+
+**🟠 [Motor de Horarios](https://github.com/lariasca1994/motor-horarios-oci)**
+
+Coordina reuniones entre varias personas: cada usuario registra su disponibilidad (con recurrencia RRULE) y sus reglas de horario; el motor propone los 3 mejores huecos comunes y avisa por correo a los participantes. Incluye autenticación y roles.
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white) ![MySQL](https://img.shields.io/badge/MySQL_HeatWave-4479A1?style=flat-square&logo=mysql&logoColor=white) ![Oracle Cloud](https://img.shields.io/badge/Oracle_Cloud-F80000?style=flat-square&logo=oracle&logoColor=white)
+
+☁️ Vercel + Render + OCI · [🔗 Demo](https://motor-horarios-oci.vercel.app)
+
+</td>
+<td width="50%">
 
 **🟣 [qa-evidencia](https://github.com/lariasca1994/qa-evidencia)**
 

@@ -80,7 +80,7 @@ Cada proyecto tiene el color de la plataforma donde está desplegado: 🟧 AWS �
 
 Suite de pruebas E2E automatizada que corre de lunes a viernes, dos veces al día, contra 8 proyectos desplegados de este portafolio (login fallido y flujo positivo), sube la evidencia (capturas) a Cloudinary y los resultados a DynamoDB, y envía un correo de resumen — con panel de evidencia en vivo. Se despliega sola en cada push con GitHub Actions (OIDC, sin llaves de AWS) y limpia cada semana la evidencia de más de 15 días.
 
-![Playwright](https://img.shields.io/badge/Playwright-2EAD33?style=flat-square&logo=playwright&logoColor=white) ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) ![DynamoDB](https://img.shields.io/badge/DynamoDB-4053D6?style=flat-square&logo=amazondynamodb&logoColor=white) ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
+<img src="assets/tech/playwright.svg" alt="Playwright" height="22"> <img src="assets/tech/typescript.svg" alt="TypeScript" height="22"> <img src="assets/tech/dynamodb.svg" alt="DynamoDB" height="22"> <img src="assets/tech/github-actions.svg" alt="GitHub Actions" height="22">
 
 ☁️ AWS CodeBuild + CloudFront · [🔗 Ver panel](https://d4i3vsgw7xwmh.cloudfront.net)
 
@@ -91,7 +91,7 @@ Suite de pruebas E2E automatizada que corre de lunes a viernes, dos veces al dí
 
 Coordina reuniones entre varias personas: cada usuario registra su disponibilidad (con recurrencia RRULE) y sus reglas de horario; el motor propone los 3 mejores huecos comunes y avisa por correo a los participantes. Incluye autenticación y roles.
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white) ![MySQL](https://img.shields.io/badge/MySQL_HeatWave-4479A1?style=flat-square&logo=mysql&logoColor=white) ![Oracle Cloud](https://img.shields.io/badge/Oracle_Cloud-F80000?style=flat-square&logo=oracle&logoColor=white)
+<img src="assets/tech/python.svg" alt="Python" height="22"> <img src="assets/tech/fastapi.svg" alt="FastAPI" height="22"> <img src="assets/tech/mysql-heatwave.svg" alt="MySQL HeatWave" height="22"> <img src="assets/tech/oracle-cloud.svg" alt="Oracle Cloud" height="22">
 
 ☁️ Vercel + Render + OCI · [🔗 Demo](https://motor-horarios-oci.vercel.app)
 
@@ -104,7 +104,7 @@ Coordina reuniones entre varias personas: cada usuario registra su disponibilida
 
 Dashboard de observabilidad que monitorea en tiempo real la disponibilidad y el tiempo de respuesta de los 8 proyectos desplegados de este portafolio.
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white) ![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black) ![Oracle DB](https://img.shields.io/badge/Oracle_DB-F80000?style=flat-square&logo=oracle&logoColor=white)
+<img src="assets/tech/python.svg" alt="Python" height="22"> <img src="assets/tech/fastapi.svg" alt="FastAPI" height="22"> <img src="assets/tech/react.svg" alt="React" height="22"> <img src="assets/tech/oracle-db.svg" alt="Oracle DB" height="22">
 
 ☁️ Render + Vercel · [🔗 Demo](https://frontend-nine-topaz-99.vercel.app)
 
@@ -115,7 +115,7 @@ Dashboard de observabilidad que monitorea en tiempo real la disponibilidad y el 
 
 Plataforma de alquiler de vivienda con mensajería en tiempo real entre arrendadores e inquilinos. Backend unificado en REST, GraphQL y WebSockets.
 
-![NestJS](https://img.shields.io/badge/NestJS-E0234E?style=flat-square&logo=nestjs&logoColor=white) ![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black) ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white)
+<img src="assets/tech/nestjs.svg" alt="NestJS" height="22"> <img src="assets/tech/react.svg" alt="React" height="22"> <img src="assets/tech/mongodb.svg" alt="MongoDB" height="22">
 
 ☁️ Vercel · [🔗 Demo](https://colombia-tech2.vercel.app/)
 
@@ -128,7 +128,7 @@ Plataforma de alquiler de vivienda con mensajería en tiempo real entre arrendad
 
 Mini ITSM para soporte de aplicaciones: priorización, SLA, escalamiento automático N1 → N2 → N3 y trazabilidad de incidentes.
 
-![C#](https://img.shields.io/badge/C%23-239120?style=flat-square&logo=csharp&logoColor=white) ![ASP.NET Core](https://img.shields.io/badge/ASP.NET_Core-512BD4?style=flat-square&logo=dotnet&logoColor=white) ![Azure SQL](https://img.shields.io/badge/Azure_SQL-0078D4?style=flat-square&logo=microsoftazure&logoColor=white)
+<img src="assets/tech/csharp.svg" alt="C#" height="22"> <img src="assets/tech/asp-net-core.svg" alt="ASP.NET Core" height="22"> <img src="assets/tech/azure-sql.svg" alt="Azure SQL" height="22">
 
 ☁️ Azure Container Apps · [🔗 Demo](https://gestorincidentesti.livelywater-fe29fe0b.australiaeast.azurecontainerapps.io/)
 
@@ -139,7 +139,7 @@ Mini ITSM para soporte de aplicaciones: priorización, SLA, escalamiento automá
 
 Simulador de flujos de pago y validación de reglas transaccionales, disponible en dos versiones dentro del mismo repositorio: aplicación de escritorio en Java Swing y aplicación web con Spring Boot.
 
-![Java](https://img.shields.io/badge/Java_Swing-ED8B00?style=flat-square&logo=openjdk&logoColor=white) ![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white) ![Oracle DB](https://img.shields.io/badge/Oracle_DB-F80000?style=flat-square&logo=oracle&logoColor=white)
+<img src="assets/tech/java-swing.svg" alt="Java Swing" height="22"> <img src="assets/tech/spring-boot.svg" alt="Spring Boot" height="22"> <img src="assets/tech/oracle-db.svg" alt="Oracle DB" height="22">
 
 ☁️ Google Cloud Run · [🔗 Demo web](https://prpagos-web-1087929107584.southamerica-east1.run.app)
 
@@ -152,7 +152,7 @@ Simulador de flujos de pago y validación de reglas transaccionales, disponible 
 
 Plataforma end-to-end para gestionar proyectos, suites, casos de prueba, ejecuciones, defectos y métricas de calidad.
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white) ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white)
+<img src="assets/tech/python.svg" alt="Python" height="22"> <img src="assets/tech/fastapi.svg" alt="FastAPI" height="22"> <img src="assets/tech/mongodb.svg" alt="MongoDB" height="22">
 
 ☁️ AWS Lambda · [🔗 Demo](https://immxew65sfxj7nubwzlszdimfi0qegzc.lambda-url.us-east-1.on.aws/)
 
@@ -163,7 +163,7 @@ Plataforma end-to-end para gestionar proyectos, suites, casos de prueba, ejecuci
 
 Sistema de reservas para un centro de convenciones: catálogo de escenarios, calendario de disponibilidad y panel administrativo.
 
-![PHP](https://img.shields.io/badge/PHP-777BB4?style=flat-square&logo=php&logoColor=white) ![Laravel](https://img.shields.io/badge/Laravel-FF2D20?style=flat-square&logo=laravel&logoColor=white) ![Azure SQL](https://img.shields.io/badge/Azure_SQL-0078D4?style=flat-square&logo=microsoftazure&logoColor=white)
+<img src="assets/tech/php.svg" alt="PHP" height="22"> <img src="assets/tech/laravel.svg" alt="Laravel" height="22"> <img src="assets/tech/azure-sql.svg" alt="Azure SQL" height="22">
 
 ☁️ Azure Container Apps · [🔗 Demo](https://reservas-corferias.blueocean-86680030.eastus.azurecontainerapps.io/)
 
@@ -176,7 +176,7 @@ Sistema de reservas para un centro de convenciones: catálogo de escenarios, cal
 
 Gestor de tareas con carga de archivos, procesamiento con pandas y generación de reportes y analítica en tiempo real.
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white) ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white)
+<img src="assets/tech/python.svg" alt="Python" height="22"> <img src="assets/tech/fastapi.svg" alt="FastAPI" height="22"> <img src="assets/tech/mongodb.svg" alt="MongoDB" height="22">
 
 ☁️ Google Cloud Run · [🔗 Demo](https://taskflow-812302804238.us-central1.run.app/)
 
@@ -187,7 +187,7 @@ Gestor de tareas con carga de archivos, procesamiento con pandas y generación d
 
 Suite de validación automatizada para endpoints REST: pruebas de contrato, códigos de estado y tiempos de respuesta.
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?style=flat-square&logo=postgresql&logoColor=white)
+<img src="assets/tech/python.svg" alt="Python" height="22"> <img src="assets/tech/fastapi.svg" alt="FastAPI" height="22"> <img src="assets/tech/postgresql.svg" alt="PostgreSQL" height="22">
 
 ☁️ AWS Lambda · [🔗 Demo](https://eofvlnitsiuodup4eywdcenxwu0adgbz.lambda-url.us-east-1.on.aws/)
 
@@ -200,7 +200,7 @@ Suite de validación automatizada para endpoints REST: pruebas de contrato, cód
 
 Motor de control de calidad para procesos de afiliación: validación de reglas de negocio y seguimiento de inconsistencias.
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white) ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
+<img src="assets/tech/python.svg" alt="Python" height="22"> <img src="assets/tech/fastapi.svg" alt="FastAPI" height="22"> <img src="assets/tech/mysql.svg" alt="MySQL" height="22">
 
 ☁️ Azure Container Apps · [🔗 Demo](https://calidad-afiliaciones.blueocean-86680030.eastus.azurecontainerapps.io/)
 
@@ -211,7 +211,7 @@ Motor de control de calidad para procesos de afiliación: validación de reglas 
 
 Sitio de portafolio personal construido sin frameworks, con HTML, CSS y JavaScript puro.
 
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+<img src="assets/tech/html5.svg" alt="HTML5" height="22"> <img src="assets/tech/css3.svg" alt="CSS3" height="22"> <img src="assets/tech/javascript.svg" alt="JavaScript" height="22">
 
 ☁️ GitHub Pages · [🔗 Demo](https://lariasca1994.github.io/PWDC/)
 

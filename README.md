@@ -236,7 +236,7 @@ Sitio de portafolio personal construido sin frameworks, con HTML, CSS y JavaScri
 
 ## 📫 Contacto
 
-<a href="mailto:correo-retirado"><img src="assets/contacto-gmail.svg" alt="Gmail" height="24"></a>
+<a href="mailto:correo-retirado"><img src="assets/contacto-correo.svg" alt="Correo" height="24"></a>
 <a href="https://wa.me/cortosvar26"><img src="assets/contacto-whatsapp.svg" alt="WhatsApp" height="24"></a>
 <a href="https://t.me/cortosvar26"><img src="assets/contacto-telegram.svg" alt="Telegram" height="24"></a>
 <a href="https://www.linkedin.com/in/lfac1"><img src="assets/contacto-linkedin.svg" alt="LinkedIn" height="24"></a>

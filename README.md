@@ -236,8 +236,8 @@ Sitio de portafolio personal construido sin frameworks, con HTML, CSS y JavaScri
 
 ## 📫 Contacto
 
-<a href="mailto:ariascluisf@gmail.com"><img src="assets/contacto-gmail.svg" alt="Gmail" height="24"></a>
-<a href="https://wa.me/carraian160"><img src="assets/contacto-whatsapp.svg" alt="WhatsApp" height="24"></a>
+<a href="mailto:ariascluisf@hotmail.com"><img src="assets/contacto-correo.svg" alt="Correo" height="24"></a>
+<a href="https://wa.me/573332458417"><img src="assets/contacto-whatsapp.svg" alt="WhatsApp" height="24"></a>
 <a href="https://t.me/lfac6"><img src="assets/contacto-telegram.svg" alt="Telegram" height="24"></a>
 <a href="https://www.linkedin.com/in/lfac1"><img src="assets/contacto-linkedin.svg" alt="LinkedIn" height="24"></a>
 <a href="https://github.com/lariasca1994"><img src="assets/contacto-github.svg" alt="GitHub" height="24"></a>

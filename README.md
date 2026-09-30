@@ -59,7 +59,7 @@ Todos los proyectos de este portafolio se monitorean en tiempo real: disponibili
 > Aplicaciones, APIs y proyectos de automatización desplegados en plataformas cloud.
 
 <p align="center">
-  <img src="assets/ecosistema.svg" alt="Arquitectura de despliegue: plataformas cloud alrededor del perfil y proyectos coloreados según dónde están desplegados" width="100%">
+  <img src="assets/ecosistema.svg" alt="Ecosistema de despliegue: desde el perfil salen flujos hacia siete plataformas cloud (AWS, Azure, Google Cloud Run, Oracle Cloud, Render, Vercel y GitHub Pages); cada una agrupa las tarjetas de sus proyectos con su tecnología, y los probados por qa-evidencia llevan una marca azul" width="100%">
 </p>
 
 <sub>

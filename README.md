@@ -50,7 +50,7 @@ const filosofía = () => ({
   <a href="https://d4i3vsgw7xwmh.cloudfront.net"><img src="https://portafolio-status.onrender.com/api/status/qa-badge.svg" alt="Fecha y hora de la última corrida de pruebas E2E de qa-evidencia" height="32"></a>
 </p>
 
-Todos los proyectos de este portafolio se monitorean en tiempo real: disponibilidad, tiempo de respuesta y % de uptime de los últimos 7 días, con historial guardado en Oracle Autonomous Database. Además, el proyecto qa-evidencia corre pruebas end-to-end automatizadas de lunes a viernes, dos veces al día, sobre 8 de estos proyectos y publica ahí mismo la fecha de la última corrida junto con la evidencia (capturas) de cada uno.
+Todos los proyectos de este portafolio se monitorean en tiempo real: disponibilidad, tiempo de respuesta y % de uptime de los últimos 7 días, con historial guardado en Oracle Autonomous Database. Además, el proyecto qa-evidencia corre pruebas end-to-end automatizadas de lunes a viernes, dos veces al día, sobre 9 de estos proyectos y publica ahí mismo la fecha de la última corrida junto con la evidencia (capturas) de cada uno.
 
 ---
 
@@ -70,7 +70,7 @@ Cada proyecto tiene el color de la plataforma donde está desplegado: 🟧 AWS �
 
 ## 🚀 Proyectos destacados
 
-> Los 12 proyectos de mi portafolio, ordenados de mayor a menor complejidad, con su motor de base de datos identificado por color: 🔴 Oracle · 🟢 MongoDB · 🔵 PostgreSQL · 🔷 Azure SQL · 🟠 MySQL / estático · 🟣 DynamoDB.
+> Los 13 proyectos de mi portafolio, ordenados de mayor a menor complejidad, con su motor de base de datos identificado por color: 🔴 Oracle · 🟢 MongoDB · 🔵 PostgreSQL · 🔷 Azure SQL · 🟠 MySQL / estático · 🟣 DynamoDB.
 
 <table>
 <tr>
@@ -78,7 +78,7 @@ Cada proyecto tiene el color de la plataforma donde está desplegado: 🟧 AWS �
 
 **🟣 [qa-evidencia](https://github.com/lariasca1994/qa-evidencia)**
 
-Suite de pruebas E2E automatizada que corre de lunes a viernes, dos veces al día, contra 8 proyectos desplegados de este portafolio (login fallido y flujo positivo), sube la evidencia (capturas) a Cloudinary y los resultados a DynamoDB, y envía un correo de resumen — con panel de evidencia en vivo. Se despliega sola en cada push con GitHub Actions (OIDC, sin llaves de AWS) y limpia cada semana la evidencia de más de 15 días.
+Suite de pruebas E2E automatizada que corre de lunes a viernes, dos veces al día, contra 9 proyectos desplegados de este portafolio (login fallido y flujo positivo), sube la evidencia (capturas) a Cloudinary y los resultados a DynamoDB, y envía un correo de resumen — con panel de evidencia en vivo. Se despliega sola en cada push con GitHub Actions (OIDC, sin llaves de AWS) y limpia cada semana la evidencia de más de 15 días.
 
 <img src="assets/tech/playwright.svg" alt="Playwright" height="22"> <img src="assets/tech/typescript.svg" alt="TypeScript" height="22"> <img src="assets/tech/dynamodb.svg" alt="DynamoDB" height="22"> <img src="assets/tech/github-actions.svg" alt="GitHub Actions" height="22">
 
@@ -100,6 +100,17 @@ Coordina reuniones entre varias personas: cada usuario registra su disponibilida
 <tr>
 <td width="50%">
 
+**🔵 [Lottery AI](https://lottery-ai-oa2p.onrender.com)**
+
+Análisis y modelos predictivos de las loterías colombianas (Baloto, Revancha, MiLoto y ColorLOTO). Recolecta resultados y premios, demuestra con backtesting *walk-forward* que los números no se pueden predecir y predice lo que sí: venta estimada, probabilidad de ganador del premio mayor y valor esperado del boleto. Envía un resumen diario por correo.
+
+<img src="assets/tech/javascript.svg" alt="JavaScript" height="22"> <img src="assets/tech/nodejs.svg" alt="Node.js" height="22"> <img src="assets/tech/postgresql.svg" alt="PostgreSQL" height="22"> <img src="assets/tech/github-actions.svg" alt="GitHub Actions" height="22">
+
+☁️ Render + GitHub Actions · [🔗 Demo](https://lottery-ai-oa2p.onrender.com)
+
+</td>
+<td width="50%">
+
 **🔴 [Portfolio Status](https://github.com/lariasca1994/portafolio-status)**
 
 Dashboard de observabilidad que monitorea en tiempo real la disponibilidad y el tiempo de respuesta de los 9 proyectos desplegados de este portafolio.
@@ -109,6 +120,8 @@ Dashboard de observabilidad que monitorea en tiempo real la disponibilidad y el 
 ☁️ Render + Vercel · [🔗 Demo](https://frontend-nine-topaz-99.vercel.app)
 
 </td>
+</tr>
+<tr>
 <td width="50%">
 
 **🟢 [ColombiaTech2](https://github.com/lariasca1994/ColombiaTech2)**
@@ -120,8 +133,6 @@ Plataforma de alquiler de vivienda con mensajería en tiempo real entre arrendad
 ☁️ Vercel + Render · [🔗 Demo](https://colombia-tech2.vercel.app/)
 
 </td>
-</tr>
-<tr>
 <td width="50%">
 
 **🔷 [Gestor de Incidentes TI](https://github.com/lariasca1994/GestorIncidentesTI)**
@@ -133,6 +144,8 @@ Mini ITSM para soporte de aplicaciones: priorización, SLA, escalamiento automá
 ☁️ Azure Container Apps · [🔗 Demo](https://gestorincidentesti.livelywater-fe29fe0b.australiaeast.azurecontainerapps.io/)
 
 </td>
+</tr>
+<tr>
 <td width="50%">
 
 **🔴 [PRPagos](https://github.com/lariasca1994/PRPagos)**
@@ -144,8 +157,6 @@ Simulador de flujos de pago y validación de reglas transaccionales, disponible 
 ☁️ Google Cloud Run · [🔗 Demo web](https://prpagos-web-1087929107584.southamerica-east1.run.app)
 
 </td>
-</tr>
-<tr>
 <td width="50%">
 
 **🟢 [Gestor de Casos de Prueba QA](https://github.com/lariasca1994/gestor-casos-qa)**
@@ -157,6 +168,8 @@ Plataforma end-to-end para gestionar proyectos, suites, casos de prueba, ejecuci
 ☁️ AWS Lambda · [🔗 Demo](https://immxew65sfxj7nubwzlszdimfi0qegzc.lambda-url.us-east-1.on.aws/)
 
 </td>
+</tr>
+<tr>
 <td width="50%">
 
 **🔷 [reservas-corferias](https://github.com/lariasca1994/reservas-corferias)**
@@ -168,8 +181,6 @@ Sistema de reservas para un centro de convenciones: catálogo de escenarios, cal
 ☁️ Azure Container Apps · [🔗 Demo](https://reservas-corferias.blueocean-86680030.eastus.azurecontainerapps.io/)
 
 </td>
-</tr>
-<tr>
 <td width="50%">
 
 **🟢 [TaskFlow](https://github.com/lariasca1994/taskflow)**
@@ -181,6 +192,8 @@ Gestor de tareas con carga de archivos, procesamiento con pandas y generación d
 ☁️ Google Cloud Run · [🔗 Demo](https://taskflow-812302804238.us-central1.run.app/)
 
 </td>
+</tr>
+<tr>
 <td width="50%">
 
 **🔵 [verificador-api](https://github.com/lariasca1994/verificador-api)**
@@ -192,8 +205,6 @@ Suite de validación automatizada para endpoints REST: pruebas de contrato, cód
 ☁️ AWS Lambda · [🔗 Demo](https://eofvlnitsiuodup4eywdcenxwu0adgbz.lambda-url.us-east-1.on.aws/)
 
 </td>
-</tr>
-<tr>
 <td width="50%">
 
 **🟠 [calidad-afiliaciones](https://github.com/lariasca1994/calidad-afiliaciones)**
@@ -205,6 +216,8 @@ Motor de control de calidad para procesos de afiliación: validación de reglas 
 ☁️ Azure Container Apps · [🔗 Demo](https://calidad-afiliaciones.blueocean-86680030.eastus.azurecontainerapps.io/)
 
 </td>
+</tr>
+<tr>
 <td width="50%">
 
 **🟠 [PWDC](https://github.com/lariasca1994/PWDC)**

@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="76" height="22" viewBox="0 0 76 22" role="img" aria-label="Node.js">
+  <defs><linearGradient id="f" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#1B2230"/><stop offset="1" stop-color="#0F141C"/></linearGradient></defs>
+  <rect x=".5" y=".5" width="75" height="21" rx="10.5" fill="url(#f)" stroke="#30363D"/>
+  <g transform="translate(9 5) scale(0.5)"><path fill="#5FA04E" d="M12 1.2 21.4 6.6v10.8L12 22.8l-9.4-5.4V6.6L12 1.2zm0 3.1L5.3 8.2v7.6L12 19.7l6.7-3.9V8.2L12 4.3z"/><path fill="#5FA04E" d="M12 7.4 16 9.7v4.6L12 16.6l-4-2.3V9.7l4-2.3z"/></g>
+  <text x="27" y="15" font-family="Segoe UI, -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="11" font-weight="600" fill="#E6EDF3">Node.js</text>
+</svg>

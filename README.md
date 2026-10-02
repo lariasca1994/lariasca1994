@@ -70,7 +70,11 @@ Cada proyecto tiene el color de la plataforma donde está desplegado: 🟧 AWS �
 
 ## 🚀 Proyectos destacados
 
-> Los 13 proyectos de mi portafolio, ordenados de mayor a menor complejidad, con su motor de base de datos identificado por color: 🔴 Oracle · 🟢 MongoDB · 🔵 PostgreSQL · 🔷 Azure SQL · 🟠 MySQL / estático · 🟣 DynamoDB.
+> Los 13 proyectos de mi portafolio, agrupados por área y, dentro de cada grupo, de mayor a menor complejidad, con su motor de base de datos identificado por color: 🔴 Oracle · 🟢 MongoDB · 🔵 PostgreSQL · 🔷 Azure SQL · 🟠 MySQL / estático · 🟣 DynamoDB.
+
+### 🧪 QA y automatización de pruebas
+
+<sub>Pruebas E2E automatizadas, gestión de casos de prueba y validación de APIs.</sub>
 
 <table>
 <tr>
@@ -83,78 +87,6 @@ Suite de pruebas E2E automatizada que corre de lunes a viernes, tres veces al d�
 <img src="assets/tech/playwright.svg" alt="Playwright" height="22"> <img src="assets/tech/typescript.svg" alt="TypeScript" height="22"> <img src="assets/tech/dynamodb.svg" alt="DynamoDB" height="22"> <img src="assets/tech/github-actions.svg" alt="GitHub Actions" height="22">
 
 ☁️ AWS CodeBuild + CloudFront · [🔗 Ver panel](https://d4i3vsgw7xwmh.cloudfront.net)
-
-</td>
-<td width="50%">
-
-**🟠 [Motor de Horarios](https://github.com/lariasca1994/motor-horarios-oci)**
-
-Coordina reuniones entre varias personas: cada usuario registra su disponibilidad (con recurrencia RRULE) y sus reglas de horario; el motor propone los 3 mejores huecos comunes y avisa por correo a los participantes. Incluye autenticación y roles.
-
-<img src="assets/tech/python.svg" alt="Python" height="22"> <img src="assets/tech/fastapi.svg" alt="FastAPI" height="22"> <img src="assets/tech/mysql-heatwave.svg" alt="MySQL HeatWave" height="22"> <img src="assets/tech/oracle-cloud.svg" alt="Oracle Cloud" height="22">
-
-☁️ Vercel + Render + OCI · [🔗 Demo](https://motor-horarios-oci.vercel.app)
-
-</td>
-</tr>
-<tr>
-<td width="50%">
-
-**🔵 [Lottery AI](https://lottery-ai-oa2p.onrender.com)**
-
-Análisis y modelos predictivos de las loterías colombianas (Baloto, Revancha, MiLoto y ColorLOTO). Recolecta resultados y premios, demuestra con backtesting *walk-forward* que los números no se pueden predecir y predice lo que sí: venta estimada, probabilidad de ganador del premio mayor y valor esperado del boleto. Envía un resumen diario por correo.
-
-<img src="assets/tech/javascript.svg" alt="JavaScript" height="22"> <img src="assets/tech/nodejs.svg" alt="Node.js" height="22"> <img src="assets/tech/postgresql.svg" alt="PostgreSQL" height="22"> <img src="assets/tech/github-actions.svg" alt="GitHub Actions" height="22">
-
-☁️ Render + GitHub Actions · [🔗 Demo](https://lottery-ai-oa2p.onrender.com)
-
-</td>
-<td width="50%">
-
-**🔴 [Portfolio Status](https://github.com/lariasca1994/portafolio-status)**
-
-Dashboard de observabilidad que monitorea en tiempo real la disponibilidad y el tiempo de respuesta de los 9 proyectos desplegados de este portafolio.
-
-<img src="assets/tech/python.svg" alt="Python" height="22"> <img src="assets/tech/fastapi.svg" alt="FastAPI" height="22"> <img src="assets/tech/react.svg" alt="React" height="22"> <img src="assets/tech/oracle-db.svg" alt="Oracle DB" height="22">
-
-☁️ Render + Vercel · [🔗 Demo](https://frontend-nine-topaz-99.vercel.app)
-
-</td>
-</tr>
-<tr>
-<td width="50%">
-
-**🟢 [ColombiaTech2](https://github.com/lariasca1994/ColombiaTech2)**
-
-Plataforma de alquiler de vivienda con mensajería en tiempo real entre arrendadores e inquilinos. Backend unificado en REST, GraphQL y WebSockets.
-
-<img src="assets/tech/nestjs.svg" alt="NestJS" height="22"> <img src="assets/tech/react.svg" alt="React" height="22"> <img src="assets/tech/mongodb.svg" alt="MongoDB" height="22">
-
-☁️ Vercel + Render · [🔗 Demo](https://colombia-tech2.vercel.app/)
-
-</td>
-<td width="50%">
-
-**🔷 [Gestor de Incidentes TI](https://github.com/lariasca1994/GestorIncidentesTI)**
-
-Mini ITSM para soporte de aplicaciones: priorización, SLA, escalamiento automático N1 → N2 → N3 y trazabilidad de incidentes.
-
-<img src="assets/tech/csharp.svg" alt="C#" height="22"> <img src="assets/tech/asp-net-core.svg" alt="ASP.NET Core" height="22"> <img src="assets/tech/azure-sql.svg" alt="Azure SQL" height="22">
-
-☁️ Azure Container Apps · [🔗 Demo](https://gestorincidentesti.livelywater-fe29fe0b.australiaeast.azurecontainerapps.io/)
-
-</td>
-</tr>
-<tr>
-<td width="50%">
-
-**🔴 [PRPagos](https://github.com/lariasca1994/PRPagos)**
-
-Simulador de flujos de pago y validación de reglas transaccionales, disponible en dos versiones dentro del mismo repositorio: aplicación de escritorio en Java Swing y aplicación web con FastAPI (Python).
-
-<img src="assets/tech/java-swing.svg" alt="Java Swing" height="22"> <img src="assets/tech/fastapi.svg" alt="FastAPI" height="22"> <img src="assets/tech/oracle-db.svg" alt="Oracle DB" height="22">
-
-☁️ Google Cloud Run · [🔗 Demo web](https://prpagos-web-1087929107584.southamerica-east1.run.app)
 
 </td>
 <td width="50%">
@@ -172,6 +104,61 @@ Plataforma end-to-end para gestionar proyectos, suites, casos de prueba, ejecuci
 <tr>
 <td width="50%">
 
+**🔵 [verificador-api](https://github.com/lariasca1994/verificador-api)**
+
+Suite de validación automatizada para endpoints REST: pruebas de contrato, códigos de estado y tiempos de respuesta.
+
+<img src="assets/tech/python.svg" alt="Python" height="22"> <img src="assets/tech/fastapi.svg" alt="FastAPI" height="22"> <img src="assets/tech/postgresql.svg" alt="PostgreSQL" height="22">
+
+☁️ AWS Lambda · [🔗 Demo](https://eofvlnitsiuodup4eywdcenxwu0adgbz.lambda-url.us-east-1.on.aws/)
+
+</td>
+</tr>
+</table>
+
+### 💻 Desarrollo de software
+
+<sub>Aplicaciones web y de escritorio de punta a punta: backend, frontend, autenticación y despliegue.</sub>
+
+<table>
+<tr>
+<td width="50%">
+
+**🟠 [Motor de Horarios](https://github.com/lariasca1994/motor-horarios-oci)**
+
+Coordina reuniones entre varias personas: cada usuario registra su disponibilidad (con recurrencia RRULE) y sus reglas de horario; el motor propone los 3 mejores huecos comunes y avisa por correo a los participantes. Incluye autenticación y roles.
+
+<img src="assets/tech/python.svg" alt="Python" height="22"> <img src="assets/tech/fastapi.svg" alt="FastAPI" height="22"> <img src="assets/tech/mysql-heatwave.svg" alt="MySQL HeatWave" height="22"> <img src="assets/tech/oracle-cloud.svg" alt="Oracle Cloud" height="22">
+
+☁️ Vercel + Render + OCI · [🔗 Demo](https://motor-horarios-oci.vercel.app)
+
+</td>
+<td width="50%">
+
+**🟢 [ColombiaTech2](https://github.com/lariasca1994/ColombiaTech2)**
+
+Plataforma de alquiler de vivienda con mensajería en tiempo real entre arrendadores e inquilinos. Backend unificado en REST, GraphQL y WebSockets.
+
+<img src="assets/tech/nestjs.svg" alt="NestJS" height="22"> <img src="assets/tech/react.svg" alt="React" height="22"> <img src="assets/tech/mongodb.svg" alt="MongoDB" height="22">
+
+☁️ Vercel + Render · [🔗 Demo](https://colombia-tech2.vercel.app/)
+
+</td>
+</tr>
+<tr>
+<td width="50%">
+
+**🔴 [PRPagos](https://github.com/lariasca1994/PRPagos)**
+
+Simulador de flujos de pago y validación de reglas transaccionales, disponible en dos versiones dentro del mismo repositorio: aplicación de escritorio en Java Swing y aplicación web con FastAPI (Python).
+
+<img src="assets/tech/java-swing.svg" alt="Java Swing" height="22"> <img src="assets/tech/fastapi.svg" alt="FastAPI" height="22"> <img src="assets/tech/oracle-db.svg" alt="Oracle DB" height="22">
+
+☁️ Google Cloud Run · [🔗 Demo web](https://prpagos-web-1087929107584.southamerica-east1.run.app)
+
+</td>
+<td width="50%">
+
 **🔷 [reservas-corferias](https://github.com/lariasca1994/reservas-corferias)**
 
 Sistema de reservas para un centro de convenciones: catálogo de escenarios, calendario de disponibilidad y panel administrativo.
@@ -181,6 +168,8 @@ Sistema de reservas para un centro de convenciones: catálogo de escenarios, cal
 ☁️ Azure Container Apps · [🔗 Demo](https://reservas-corferias.blueocean-86680030.eastus.azurecontainerapps.io/)
 
 </td>
+</tr>
+<tr>
 <td width="50%">
 
 **🟢 [TaskFlow](https://github.com/lariasca1994/taskflow)**
@@ -192,17 +181,35 @@ Gestor de tareas con carga de archivos, procesamiento con pandas y generación d
 ☁️ Google Cloud Run · [🔗 Demo](https://taskflow-812302804238.us-central1.run.app/)
 
 </td>
+<td width="50%">
+
+**🟠 [PWDC](https://github.com/lariasca1994/PWDC)**
+
+Sitio de portafolio personal construido sin frameworks, con HTML, CSS y JavaScript puro.
+
+<img src="assets/tech/html5.svg" alt="HTML5" height="22"> <img src="assets/tech/css3.svg" alt="CSS3" height="22"> <img src="assets/tech/javascript.svg" alt="JavaScript" height="22">
+
+☁️ GitHub Pages · [🔗 Demo](https://lariasca1994.github.io/PWDC/)
+
+</td>
 </tr>
+</table>
+
+### 📊 Datos y analítica
+
+<sub>Recolección, validación y análisis de datos con modelos y reglas de negocio.</sub>
+
+<table>
 <tr>
 <td width="50%">
 
-**🔵 [verificador-api](https://github.com/lariasca1994/verificador-api)**
+**🔵 [Lottery AI](https://lottery-ai-oa2p.onrender.com)**
 
-Suite de validación automatizada para endpoints REST: pruebas de contrato, códigos de estado y tiempos de respuesta.
+Análisis y modelos predictivos de las loterías colombianas (Baloto, Revancha, MiLoto y ColorLOTO). Recolecta resultados y premios, demuestra con backtesting *walk-forward* que los números no se pueden predecir y predice lo que sí: venta estimada, probabilidad de ganador del premio mayor y valor esperado del boleto. Envía un resumen diario por correo.
 
-<img src="assets/tech/python.svg" alt="Python" height="22"> <img src="assets/tech/fastapi.svg" alt="FastAPI" height="22"> <img src="assets/tech/postgresql.svg" alt="PostgreSQL" height="22">
+<img src="assets/tech/javascript.svg" alt="JavaScript" height="22"> <img src="assets/tech/nodejs.svg" alt="Node.js" height="22"> <img src="assets/tech/postgresql.svg" alt="PostgreSQL" height="22"> <img src="assets/tech/github-actions.svg" alt="GitHub Actions" height="22">
 
-☁️ AWS Lambda · [🔗 Demo](https://eofvlnitsiuodup4eywdcenxwu0adgbz.lambda-url.us-east-1.on.aws/)
+☁️ Render + GitHub Actions · [🔗 Demo](https://lottery-ai-oa2p.onrender.com)
 
 </td>
 <td width="50%">
@@ -217,16 +224,34 @@ Motor de control de calidad para procesos de afiliación: validación de reglas 
 
 </td>
 </tr>
+</table>
+
+### 🛠️ Operaciones y soporte TI
+
+<sub>Observabilidad de servicios y gestión de incidentes con SLA y escalamiento.</sub>
+
+<table>
 <tr>
 <td width="50%">
 
-**🟠 [PWDC](https://github.com/lariasca1994/PWDC)**
+**🔴 [Portfolio Status](https://github.com/lariasca1994/portafolio-status)**
 
-Sitio de portafolio personal construido sin frameworks, con HTML, CSS y JavaScript puro.
+Dashboard de observabilidad que monitorea en tiempo real la disponibilidad y el tiempo de respuesta de los 9 proyectos desplegados de este portafolio.
 
-<img src="assets/tech/html5.svg" alt="HTML5" height="22"> <img src="assets/tech/css3.svg" alt="CSS3" height="22"> <img src="assets/tech/javascript.svg" alt="JavaScript" height="22">
+<img src="assets/tech/python.svg" alt="Python" height="22"> <img src="assets/tech/fastapi.svg" alt="FastAPI" height="22"> <img src="assets/tech/react.svg" alt="React" height="22"> <img src="assets/tech/oracle-db.svg" alt="Oracle DB" height="22">
 
-☁️ GitHub Pages · [🔗 Demo](https://lariasca1994.github.io/PWDC/)
+☁️ Render + Vercel · [🔗 Demo](https://frontend-nine-topaz-99.vercel.app)
+
+</td>
+<td width="50%">
+
+**🔷 [Gestor de Incidentes TI](https://github.com/lariasca1994/GestorIncidentesTI)**
+
+Mini ITSM para soporte de aplicaciones: priorización, SLA, escalamiento automático N1 → N2 → N3 y trazabilidad de incidentes.
+
+<img src="assets/tech/csharp.svg" alt="C#" height="22"> <img src="assets/tech/asp-net-core.svg" alt="ASP.NET Core" height="22"> <img src="assets/tech/azure-sql.svg" alt="Azure SQL" height="22">
+
+☁️ Azure Container Apps · [🔗 Demo](https://gestorincidentesti.livelywater-fe29fe0b.australiaeast.azurecontainerapps.io/)
 
 </td>
 </tr>

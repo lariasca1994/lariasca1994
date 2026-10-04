@@ -88,7 +88,7 @@ Proyecto que reúne lo que trabajo en el resto del portafolio. Simula pagos inme
 
 ---
 
-## 🚀 Proyectos destacados
+## 🚀 Proyectos desarrollados
 
 > Los 13 proyectos de mi portafolio, agrupados por área y, dentro de cada grupo, de mayor a menor complejidad, con su motor de base de datos identificado por color: 🔴 Oracle · 🟢 MongoDB · 🔵 PostgreSQL · 🔷 Azure SQL · 🟠 MySQL / estático · 🟣 DynamoDB.
 

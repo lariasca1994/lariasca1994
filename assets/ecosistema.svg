@@ -8,7 +8,7 @@
 </defs>
 <rect width="1480" height="1060" rx="26" fill="url(#bg)"/>
 <text x="36" y="46" font-size="21" font-weight="800" fill="#F8FAFC">Ecosistema de despliegue</text>
-<text x="36" y="70" font-size="12.5" fill="#94A3B8">13 proyectos del portafolio, agrupados por la plataforma cloud donde están desplegados. Los que tienen ✔ se prueban solos con qa-evidencia.</text>
+<text x="36" y="70" font-size="12.5" fill="#94A3B8">14 proyectos del portafolio, agrupados por la plataforma cloud donde están desplegados; QALabSPBVI, el destacado, usa varias a la vez. Los que tienen ✔ se prueban solos con qa-evidencia.</text>
 <rect x="30" y="115" width="370" height="218" rx="22" fill="#FF9900" fill-opacity=".07" stroke="#FF9900" stroke-opacity=".6" stroke-width="1.6" stroke-dasharray="7 6"/>
 <rect x="48" y="103" width="189.60000000000002" height="24" rx="12" fill="#FF9900"/><text x="142.8" y="119" text-anchor="middle" font-size="11.5" font-weight="700" fill="#1A1A1A">AWS · Lambda + CodeBuild</text>
 <rect x="555" y="115" width="370" height="90" rx="22" fill="#8250DF" fill-opacity=".07" stroke="#8250DF" stroke-opacity=".6" stroke-width="1.6" stroke-dasharray="7 6"/>
@@ -105,7 +105,7 @@
 <circle r="2.6" fill="#7C8BA1"><animateMotion dur="2.6s" repeatCount="indefinite" path="M605,566 C502.5,566 502.5,846 400,846"/></circle>
 <path d="M875,566 C977.5,566 977.5,782 1080,782" fill="none" stroke="#7C8BA1" stroke-width="2.2" stroke-opacity=".9" marker-end="url(#fl)"/>
 <circle r="2.6" fill="#7C8BA1"><animateMotion dur="2.7s" repeatCount="indefinite" path="M875,566 C977.5,566 977.5,782 1080,782"/></circle>
-<g transform="translate(565,730)"><rect width="110" height="70" rx="14" fill="#162033" stroke="#26324A"/><text x="55" y="33" text-anchor="middle" font-size="22" font-weight="800" fill="#F1F5F9">13</text><text x="55" y="53" text-anchor="middle" font-size="10.5" fill="#94A3B8">proyectos</text></g>
+<g transform="translate(565,730)"><rect width="110" height="70" rx="14" fill="#162033" stroke="#26324A"/><text x="55" y="33" text-anchor="middle" font-size="22" font-weight="800" fill="#F1F5F9">14</text><text x="55" y="53" text-anchor="middle" font-size="10.5" fill="#94A3B8">proyectos</text></g>
 <g transform="translate(685,730)"><rect width="110" height="70" rx="14" fill="#162033" stroke="#26324A"/><text x="55" y="33" text-anchor="middle" font-size="22" font-weight="800" fill="#F1F5F9">7</text><text x="55" y="53" text-anchor="middle" font-size="10.5" fill="#94A3B8">plataformas</text></g>
 <g transform="translate(805,730)"><rect width="110" height="70" rx="14" fill="#162033" stroke="#26324A"/><text x="55" y="33" text-anchor="middle" font-size="22" font-weight="800" fill="#F1F5F9">9</text><text x="55" y="53" text-anchor="middle" font-size="10.5" fill="#94A3B8">con pruebas E2E</text></g>
 <rect x="453.2" y="318.6" width="83.1" height="20" rx="10" fill="#0F172A" stroke="#7C8BA1" stroke-opacity=".7"/><text x="494.8" y="332.4" text-anchor="middle" font-size="10.5" font-weight="600" fill="#E2E8F0">3 proyectos</text>
@@ -114,6 +114,19 @@
 <rect x="956.0" y="492.5" width="83.1" height="20" rx="10" fill="#0F172A" stroke="#7C8BA1" stroke-opacity=".7"/><text x="997.5" y="506.3" text-anchor="middle" font-size="10.5" font-weight="600" fill="#E2E8F0">2 proyectos</text>
 <rect x="453.2" y="716.9" width="83.1" height="20" rx="10" fill="#0F172A" stroke="#7C8BA1" stroke-opacity=".7"/><text x="494.8" y="730.7" text-anchor="middle" font-size="10.5" font-weight="600" fill="#E2E8F0">4 servicios</text>
 <rect x="928.4" y="680.1" width="113.6" height="20" rx="10" fill="#0F172A" stroke="#7C8BA1" stroke-opacity=".7"/><text x="985.2" y="693.9" text-anchor="middle" font-size="10.5" font-weight="600" fill="#E2E8F0">2 bases de datos</text>
+<rect x="440" y="840" width="620" height="150" rx="22" fill="#F5B301" fill-opacity=".07" stroke="#F5B301" stroke-opacity=".7" stroke-width="1.6" stroke-dasharray="7 6"/>
+<rect x="458" y="828" width="236" height="24" rx="12" fill="#F5B301"/><text x="576.0" y="844" text-anchor="middle" font-size="11.5" font-weight="700" fill="#1F1600">★ Proyecto destacado · multinube</text>
+<g filter="url(#sh)"><rect x="458" y="862" width="584" height="112" rx="14" fill="#111C30" stroke="#F5B301" stroke-opacity=".9" stroke-width="1.8"/></g>
+<circle cx="494" cy="898" r="18" fill="#F5B301"/><g transform="translate(494,898)" fill="none" stroke="#1F1600" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M-9,-2 L0,-8 L9,-2"/><path d="M-7,-1 V7 M-2.5,-1 V7 M2.5,-1 V7 M7,-1 V7"/><path d="M-10,8.5 H10"/></g>
+<text x="524" y="894" font-size="15" font-weight="800" fill="#F8FAFC">QALabSPBVI</text>
+<text x="524" y="912" font-size="11" fill="#94A3B8">Pagos Bre-B (DIFE/DICE, intra e inter, ISO 20022) + plataforma QA tipo Jira · FastAPI · React</text>
+<rect x="476.0" y="934" width="56.4" height="22" rx="11" fill="#71717A" fill-opacity=".18" stroke="#71717A" stroke-width="1.2"/><text x="504.2" y="949" text-anchor="middle" font-size="10.5" font-weight="700" fill="#E2E8F0">Vercel</text>
+<rect x="540.4" y="934" width="50.0" height="22" rx="11" fill="#0078D4" fill-opacity=".18" stroke="#0078D4" stroke-width="1.2"/><text x="565.4" y="949" text-anchor="middle" font-size="10.5" font-weight="700" fill="#E2E8F0">Azure</text>
+<rect x="598.4" y="934" width="37.2" height="22" rx="11" fill="#FF9900" fill-opacity=".18" stroke="#FF9900" stroke-width="1.2"/><text x="617.0" y="949" text-anchor="middle" font-size="10.5" font-weight="700" fill="#E2E8F0">AWS</text>
+<rect x="643.6" y="934" width="56.4" height="22" rx="11" fill="#1FA585" fill-opacity=".18" stroke="#1FA585" stroke-width="1.2"/><text x="671.8" y="949" text-anchor="middle" font-size="10.5" font-weight="700" fill="#E2E8F0">Render</text>
+<rect x="708.0" y="934" width="43.6" height="22" rx="11" fill="#00A37A" fill-opacity=".18" stroke="#00A37A" stroke-width="1.2"/><text x="729.8" y="949" text-anchor="middle" font-size="10.5" font-weight="700" fill="#E2E8F0">Neon</text>
+<rect x="759.6" y="934" width="94.8" height="22" rx="11" fill="#C74634" fill-opacity=".18" stroke="#C74634" stroke-width="1.2"/><text x="807.0" y="949" text-anchor="middle" font-size="10.5" font-weight="700" fill="#E2E8F0">Oracle Cloud</text>
+<rect x="862.4" y="934" width="101.2" height="22" rx="11" fill="#13AA52" fill-opacity=".18" stroke="#13AA52" stroke-width="1.2"/><text x="913.0" y="949" text-anchor="middle" font-size="10.5" font-weight="700" fill="#E2E8F0">MongoDB Atlas</text>
 <path d="M36,1020 h30" stroke="#7C8BA1" stroke-width="2.2"/><circle cx="51" cy="1020" r="2.6" fill="#7C8BA1"/>
 <text x="74" y="1024" font-size="11.5" fill="#94A3B8">Despliegue del perfil a cada plataforma</text>
 <rect x="330" y="1011" width="30" height="18" rx="9" fill="#64748B" fill-opacity=".15" stroke="#64748B" stroke-dasharray="7 6"/>

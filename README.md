@@ -50,7 +50,7 @@ const filosofía = () => ({
   <a href="https://d4i3vsgw7xwmh.cloudfront.net"><img src="https://portafolio-status.onrender.com/api/status/qa-badge.svg" alt="Fecha y hora de la última corrida de pruebas E2E de qa-evidencia" height="32"></a>
 </p>
 
-Todos los proyectos de este portafolio se monitorean en tiempo real: disponibilidad, tiempo de respuesta y % de uptime de los últimos 7 días, con historial guardado en Oracle Autonomous Database. Además, el proyecto qa-evidencia corre pruebas end-to-end automatizadas de lunes a viernes, dos veces al día (11:00 y 17:00), sobre 10 de estos proyectos y publica ahí mismo la fecha de la última corrida junto con la evidencia (capturas) de cada uno.
+Todos los proyectos de este portafolio se monitorean en tiempo real: disponibilidad, tiempo de respuesta y % de uptime de los últimos 7 días, con historial guardado en Oracle Autonomous Database. Además, el proyecto qa-evidencia corre pruebas end-to-end automatizadas de lunes a viernes, dos veces al día (11:00 y 17:00), sobre 11 de estos proyectos y publica ahí mismo la fecha de la última corrida junto con la evidencia (capturas) de cada uno.
 
 ---
 

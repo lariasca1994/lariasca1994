@@ -76,7 +76,7 @@ Cada proyecto tiene el color de la plataforma donde está desplegado: 🟧 AWS �
 
 ### 🏦 [QALabSPBVI](https://github.com/lariasca1994/QALabSPBVI) — Laboratorio de pagos inmediatos y plataforma QA
 
-Proyecto que reúne lo que trabajo en el resto del portafolio. Simula pagos inmediatos inspirados en Bre-B (llaves, pagos intra e inter-SPBVI, ISO 20022). Incluye una plataforma QA tipo Jira con casos REST/JSON ejecutables, desplegada en siete plataformas cloud.
+Proyecto que reúne lo que trabajo en el resto del portafolio. Simula un ecosistema de pagos inmediatos con llaves (directorios de llaves, pagos intra e inter-SPBVI, ISO 20022). Incluye una plataforma QA tipo Jira con casos REST/JSON ejecutables, desplegada en siete plataformas cloud.
 
 <img src="assets/tech/python.svg" alt="Python" height="22"> <img src="assets/tech/fastapi.svg" alt="FastAPI" height="22"> <img src="assets/tech/react.svg" alt="React" height="22"> <img src="assets/tech/playwright.svg" alt="Playwright" height="22"> <img src="assets/tech/postgresql.svg" alt="PostgreSQL" height="22"> <img src="assets/tech/azure-sql.svg" alt="Azure SQL" height="22"> <img src="assets/tech/oracle-db.svg" alt="Oracle DB" height="22"> <img src="assets/tech/mongodb.svg" alt="MongoDB" height="22">
 
@@ -179,7 +179,7 @@ Simulador de flujos de pago y validación de reglas transaccionales, disponible 
 </td>
 <td width="50%">
 
-**🔷 [reservas-corferias](https://github.com/lariasca1994/reservas-corferias)**
+**🔷 [Reservas de Recinto Ferial](https://github.com/lariasca1994/reservas-corferias)**
 
 Sistema de reservas para un centro de convenciones: catálogo de escenarios, calendario de disponibilidad y panel administrativo.
 
@@ -225,7 +225,7 @@ Sitio de portafolio personal construido sin frameworks, con HTML, CSS y JavaScri
 
 **🔵 [Lottery AI](https://lottery-ai-oa2p.onrender.com)**
 
-Análisis y modelos predictivos de las loterías colombianas (Baloto, Revancha, MiLoto y ColorLOTO). Recolecta resultados y premios, demuestra con backtesting *walk-forward* que los números no se pueden predecir y predice lo que sí: venta estimada, probabilidad de ganador del premio mayor y valor esperado del boleto. Envía un resumen diario por correo.
+Análisis y modelos predictivos de cuatro loterías colombianas (una principal con balota adicional, su segunda oportunidad, una de cinco números y una de colores). Recolecta resultados y premios, demuestra con backtesting *walk-forward* que los números no se pueden predecir y predice lo que sí: venta estimada, probabilidad de ganador del premio mayor y valor esperado del boleto. Envía un resumen diario por correo.
 
 <img src="assets/tech/javascript.svg" alt="JavaScript" height="22"> <img src="assets/tech/nodejs.svg" alt="Node.js" height="22"> <img src="assets/tech/postgresql.svg" alt="PostgreSQL" height="22"> <img src="assets/tech/github-actions.svg" alt="GitHub Actions" height="22">
 

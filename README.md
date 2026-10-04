@@ -70,7 +70,7 @@ Cada proyecto tiene el color de la plataforma donde está desplegado: 🟧 AWS �
 
 ## 🚀 Proyectos destacados
 
-> Los 13 proyectos de mi portafolio, agrupados por área y, dentro de cada grupo, de mayor a menor complejidad, con su motor de base de datos identificado por color: 🔴 Oracle · 🟢 MongoDB · 🔵 PostgreSQL · 🔷 Azure SQL · 🟠 MySQL / estático · 🟣 DynamoDB.
+> Los 14 proyectos de mi portafolio, agrupados por área y, dentro de cada grupo, de mayor a menor complejidad, con su motor de base de datos identificado por color: 🔴 Oracle · 🟢 MongoDB · 🔵 PostgreSQL · 🔷 Azure SQL · 🟠 MySQL / estático · 🟣 DynamoDB.
 
 ### 🧪 QA y automatización de pruebas
 
@@ -78,6 +78,17 @@ Cada proyecto tiene el color de la plataforma donde está desplegado: 🟧 AWS �
 
 <table>
 <tr>
+<td width="50%">
+
+**🔵 [QALabSPBVI](https://github.com/lariasca1994/QALabSPBVI)**
+
+Laboratorio de pagos inmediatos inspirado en Bre-B (Banrep) con plataforma QA tipo Jira: llaves DIFE/DICE con unicidad global, pagos intra e inter-SPBVI con mensajes ISO 20022 de laboratorio, y casos de prueba REST/JSON que se ejecutan con un clic y generan sus propias llaves según el tipo. Repartido en cinco nubes, todas en capa gratuita: cada dominio tiene su propia base (Neon, Azure SQL, Oracle ADB y MongoDB Atlas).
+
+<img src="assets/tech/python.svg" alt="Python" height="22"> <img src="assets/tech/fastapi.svg" alt="FastAPI" height="22"> <img src="assets/tech/react.svg" alt="React" height="22"> <img src="assets/tech/playwright.svg" alt="Playwright" height="22"> <img src="assets/tech/postgresql.svg" alt="PostgreSQL" height="22"> <img src="assets/tech/azure-sql.svg" alt="Azure SQL" height="22"> <img src="assets/tech/oracle-db.svg" alt="Oracle DB" height="22"> <img src="assets/tech/mongodb.svg" alt="MongoDB" height="22">
+
+☁️ Azure Container Apps + Vercel + AWS Lambda · [🔗 Demo](https://qalabspbvi.vercel.app)
+
+</td>
 <td width="50%">
 
 **🟣 [qa-evidencia](https://github.com/lariasca1994/qa-evidencia)**
@@ -89,6 +100,8 @@ Suite de pruebas E2E automatizada que corre de lunes a viernes, dos veces al dí
 ☁️ AWS CodeBuild + CloudFront · [🔗 Ver panel](https://d4i3vsgw7xwmh.cloudfront.net)
 
 </td>
+</tr>
+<tr>
 <td width="50%">
 
 **🟢 [Gestor de Casos de Prueba QA](https://github.com/lariasca1994/gestor-casos-qa)**
@@ -100,8 +113,6 @@ Plataforma end-to-end para gestionar proyectos, suites, casos de prueba, ejecuci
 ☁️ AWS Lambda · [🔗 Demo](https://immxew65sfxj7nubwzlszdimfi0qegzc.lambda-url.us-east-1.on.aws/)
 
 </td>
-</tr>
-<tr>
 <td width="50%">
 
 **🔵 [verificador-api](https://github.com/lariasca1994/verificador-api)**

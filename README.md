@@ -76,31 +76,11 @@ Cada proyecto tiene el color de la plataforma donde está desplegado: 🟧 AWS �
 
 ### 🏦 [QALabSPBVI](https://github.com/lariasca1994/QALabSPBVI) — Laboratorio de pagos inmediatos y plataforma QA
 
-Reúne en un solo proyecto todo lo que trabajo por separado en el resto del portafolio: backend en Python, bases de datos de cuatro motores, despliegue multinube, automatización de pruebas y gestión de calidad.
+Proyecto que reúne lo que trabajo en el resto del portafolio. Simula pagos inmediatos inspirados en Bre-B (llaves, pagos intra e inter-SPBVI, ISO 20022). Incluye una plataforma QA tipo Jira con casos REST/JSON ejecutables, desplegada en siete plataformas cloud, todas en capa gratuita.
 
-- **Dominio de pagos inspirado en Bre-B (Banrep):**
-  - Llaves de celular, correo, documento, alfanumérica y código de comercio, registradas en un directorio federado por entidad (DIFE) y en uno central (DICE) con unicidad global.
-  - Pagos intra e inter-SPBVI con idempotencia, límite de 1.000 UVB y mensajes ISO 20022 (pacs.008 / pacs.002) de laboratorio.
-- **Plataforma QA tipo Jira:**
-  - Épicas, HU, casos de prueba, tareas, bugs y fixes, con roles y MFA por correo.
-  - Cada caso es una solicitud REST/JSON que se ejecuta con un clic: muestra método, URL, solicitud y respuesta, y genera sus propias llaves según el tipo.
-  - Incluye un programa de pruebas ISO 20022 de 35 casos que pasa completo en la nube.
-- **Seis plataformas, todas en capa gratuita:**
-  - Vercel publica la interfaz y Azure Container Apps corre la API.
-  - Cada dominio tiene su propia base: Neon, Azure SQL, Oracle ADB y MongoDB Atlas.
-  - AWS SQS + Lambda entrega los avisos, y Render corre el gateway ISO 20022.
-  - Las bases se pausan cuando no hay uso.
-- **Calidad:**
-  - 131 pruebas automáticas y recorridos E2E con Playwright.
-  - CI/CD en GitHub Actions con OIDC, sin claves guardadas.
+<img src="assets/tech/python.svg" alt="Python" height="22"> <img src="assets/tech/fastapi.svg" alt="FastAPI" height="22"> <img src="assets/tech/react.svg" alt="React" height="22"> <img src="assets/tech/playwright.svg" alt="Playwright" height="22"> <img src="assets/tech/postgresql.svg" alt="PostgreSQL" height="22"> <img src="assets/tech/azure-sql.svg" alt="Azure SQL" height="22"> <img src="assets/tech/oracle-db.svg" alt="Oracle DB" height="22"> <img src="assets/tech/mongodb.svg" alt="MongoDB" height="22">
 
-<img src="assets/tech/python.svg" alt="Python" height="22"> <img src="assets/tech/fastapi.svg" alt="FastAPI" height="22"> <img src="assets/tech/react.svg" alt="React" height="22"> <img src="assets/tech/typescript.svg" alt="TypeScript" height="22"> <img src="assets/tech/playwright.svg" alt="Playwright" height="22"> <img src="assets/tech/postgresql.svg" alt="PostgreSQL" height="22"> <img src="assets/tech/azure-sql.svg" alt="Azure SQL" height="22"> <img src="assets/tech/oracle-db.svg" alt="Oracle DB" height="22"> <img src="assets/tech/mongodb.svg" alt="MongoDB" height="22"> <img src="assets/tech/github-actions.svg" alt="GitHub Actions" height="22">
-
-☁️ Vercel · Azure Container Apps · AWS Lambda · Render · Neon · Oracle Cloud · MongoDB Atlas · [🔗 Demo](https://qalabspbvi.vercel.app)
-
-<p align="center">
-  <a href="https://github.com/lariasca1994/QALabSPBVI"><img src="https://raw.githubusercontent.com/lariasca1994/QALabSPBVI/main/docs/arquitectura.svg" alt="Arquitectura de QALabSPBVI: Vercel, Azure Container Apps, Azure SQL, Oracle ADB, Neon, MongoDB Atlas, AWS SQS y Lambda, Render y Brevo" width="100%"></a>
-</p>
+☁️ Vercel · Azure · AWS · Render · Neon · Oracle Cloud · MongoDB Atlas · [🔗 Demo](https://qalabspbvi.vercel.app) · [📖 Arquitectura y detalle](https://github.com/lariasca1994/QALabSPBVI#arquitectura)
 
 </td>
 </tr>

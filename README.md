@@ -59,7 +59,7 @@ Todos los proyectos de este portafolio se monitorean en tiempo real: disponibili
 > Aplicaciones, APIs y proyectos de automatización desplegados en plataformas cloud.
 
 <p align="center">
-  <img src="assets/ecosistema.svg" alt="Ecosistema de despliegue: desde el perfil salen flujos hacia siete plataformas cloud (AWS, Azure, Google Cloud Run, Oracle Cloud, Render, Vercel y GitHub Pages); cada una agrupa las tarjetas de sus proyectos con su tecnología, y los probados por qa-evidencia llevan una marca azul" width="100%">
+  <img src="assets/ecosistema.svg" alt="Ecosistema de despliegue: desde el perfil salen flujos hacia siete plataformas cloud (AWS, Azure, Google Cloud Run, Oracle Cloud, Render, Vercel y GitHub Pages); cada una agrupa las tarjetas de sus proyectos con su tecnología, los probados por qa-evidencia llevan una marca azul, y abajo aparece QALabSPBVI, el proyecto destacado, que usa siete plataformas a la vez" width="100%">
 </p>
 
 <sub>
@@ -68,9 +68,49 @@ Cada proyecto tiene el color de la plataforma donde está desplegado: 🟧 AWS �
 
 ---
 
+## ⭐ Proyecto destacado
+
+<table>
+<tr>
+<td>
+
+### 🏦 [QALabSPBVI](https://github.com/lariasca1994/QALabSPBVI) — Laboratorio de pagos inmediatos y plataforma QA
+
+Reúne en un solo proyecto todo lo que trabajo por separado en el resto del portafolio: backend en Python, bases de datos de cuatro motores, despliegue multinube, automatización de pruebas y gestión de calidad.
+
+- **Dominio de pagos inspirado en Bre-B (Banrep):**
+  - Llaves de celular, correo, documento, alfanumérica y código de comercio, registradas en un directorio federado por entidad (DIFE) y en uno central (DICE) con unicidad global.
+  - Pagos intra e inter-SPBVI con idempotencia, límite de 1.000 UVB y mensajes ISO 20022 (pacs.008 / pacs.002) de laboratorio.
+- **Plataforma QA tipo Jira:**
+  - Épicas, HU, casos de prueba, tareas, bugs y fixes, con roles y MFA por correo.
+  - Cada caso es una solicitud REST/JSON que se ejecuta con un clic: muestra método, URL, solicitud y respuesta, y genera sus propias llaves según el tipo.
+  - Incluye un programa de pruebas ISO 20022 de 35 casos que pasa completo en la nube.
+- **Seis plataformas, todas en capa gratuita:**
+  - Vercel publica la interfaz y Azure Container Apps corre la API.
+  - Cada dominio tiene su propia base: Neon, Azure SQL, Oracle ADB y MongoDB Atlas.
+  - AWS SQS + Lambda entrega los avisos, y Render corre el gateway ISO 20022.
+  - Las bases se pausan cuando no hay uso.
+- **Calidad:**
+  - 131 pruebas automáticas y recorridos E2E con Playwright.
+  - CI/CD en GitHub Actions con OIDC, sin claves guardadas.
+
+<img src="assets/tech/python.svg" alt="Python" height="22"> <img src="assets/tech/fastapi.svg" alt="FastAPI" height="22"> <img src="assets/tech/react.svg" alt="React" height="22"> <img src="assets/tech/typescript.svg" alt="TypeScript" height="22"> <img src="assets/tech/playwright.svg" alt="Playwright" height="22"> <img src="assets/tech/postgresql.svg" alt="PostgreSQL" height="22"> <img src="assets/tech/azure-sql.svg" alt="Azure SQL" height="22"> <img src="assets/tech/oracle-db.svg" alt="Oracle DB" height="22"> <img src="assets/tech/mongodb.svg" alt="MongoDB" height="22"> <img src="assets/tech/github-actions.svg" alt="GitHub Actions" height="22">
+
+☁️ Vercel · Azure Container Apps · AWS Lambda · Render · Neon · Oracle Cloud · MongoDB Atlas · [🔗 Demo](https://qalabspbvi.vercel.app)
+
+<p align="center">
+  <a href="https://github.com/lariasca1994/QALabSPBVI"><img src="https://raw.githubusercontent.com/lariasca1994/QALabSPBVI/main/docs/arquitectura.svg" alt="Arquitectura de QALabSPBVI: Vercel, Azure Container Apps, Azure SQL, Oracle ADB, Neon, MongoDB Atlas, AWS SQS y Lambda, Render y Brevo" width="100%"></a>
+</p>
+
+</td>
+</tr>
+</table>
+
+---
+
 ## 🚀 Proyectos destacados
 
-> Los 14 proyectos de mi portafolio, agrupados por área y, dentro de cada grupo, de mayor a menor complejidad, con su motor de base de datos identificado por color: 🔴 Oracle · 🟢 MongoDB · 🔵 PostgreSQL · 🔷 Azure SQL · 🟠 MySQL / estático · 🟣 DynamoDB.
+> Los 13 proyectos de mi portafolio, agrupados por área y, dentro de cada grupo, de mayor a menor complejidad, con su motor de base de datos identificado por color: 🔴 Oracle · 🟢 MongoDB · 🔵 PostgreSQL · 🔷 Azure SQL · 🟠 MySQL / estático · 🟣 DynamoDB.
 
 ### 🧪 QA y automatización de pruebas
 
@@ -78,17 +118,6 @@ Cada proyecto tiene el color de la plataforma donde está desplegado: 🟧 AWS �
 
 <table>
 <tr>
-<td width="50%">
-
-**🔵 [QALabSPBVI](https://github.com/lariasca1994/QALabSPBVI)**
-
-Laboratorio de pagos inmediatos inspirado en Bre-B (Banrep) con plataforma QA tipo Jira: llaves DIFE/DICE con unicidad global, pagos intra e inter-SPBVI con mensajes ISO 20022 de laboratorio, y casos de prueba REST/JSON que se ejecutan con un clic y generan sus propias llaves según el tipo. Repartido en cinco nubes, todas en capa gratuita: cada dominio tiene su propia base (Neon, Azure SQL, Oracle ADB y MongoDB Atlas).
-
-<img src="assets/tech/python.svg" alt="Python" height="22"> <img src="assets/tech/fastapi.svg" alt="FastAPI" height="22"> <img src="assets/tech/react.svg" alt="React" height="22"> <img src="assets/tech/playwright.svg" alt="Playwright" height="22"> <img src="assets/tech/postgresql.svg" alt="PostgreSQL" height="22"> <img src="assets/tech/azure-sql.svg" alt="Azure SQL" height="22"> <img src="assets/tech/oracle-db.svg" alt="Oracle DB" height="22"> <img src="assets/tech/mongodb.svg" alt="MongoDB" height="22">
-
-☁️ Azure Container Apps + Vercel + AWS Lambda · [🔗 Demo](https://qalabspbvi.vercel.app)
-
-</td>
 <td width="50%">
 
 **🟣 [qa-evidencia](https://github.com/lariasca1994/qa-evidencia)**
@@ -100,8 +129,6 @@ Suite de pruebas E2E automatizada que corre de lunes a viernes, dos veces al dí
 ☁️ AWS CodeBuild + CloudFront · [🔗 Ver panel](https://d4i3vsgw7xwmh.cloudfront.net)
 
 </td>
-</tr>
-<tr>
 <td width="50%">
 
 **🟢 [Gestor de Casos de Prueba QA](https://github.com/lariasca1994/gestor-casos-qa)**
@@ -113,6 +140,8 @@ Plataforma end-to-end para gestionar proyectos, suites, casos de prueba, ejecuci
 ☁️ AWS Lambda · [🔗 Demo](https://immxew65sfxj7nubwzlszdimfi0qegzc.lambda-url.us-east-1.on.aws/)
 
 </td>
+</tr>
+<tr>
 <td width="50%">
 
 **🔵 [verificador-api](https://github.com/lariasca1994/verificador-api)**

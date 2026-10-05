@@ -102,7 +102,7 @@ Proyecto que reúne lo que trabajo en el resto del portafolio. Simula un ecosist
 
 **🟣 [qa-evidencia](https://github.com/lariasca1994/qa-evidencia)**
 
-Suite de pruebas E2E automatizada que corre de lunes a viernes, dos veces al día (11:00 y 17:00), contra 10 proyectos desplegados de este portafolio (login fallido y flujo positivo), sube la evidencia (capturas) a Cloudinary y los resultados a DynamoDB, y envía un correo de resumen — con panel de evidencia en vivo. Se despliega sola en cada push con GitHub Actions (OIDC, sin llaves de AWS) y limpia cada semana la evidencia de más de 15 días.
+Suite de pruebas E2E automatizada que corre de lunes a viernes, dos veces al día (11:00 y 17:00), contra 11 proyectos desplegados de este portafolio (login fallido y flujo positivo), sube la evidencia (capturas) a Cloudinary y los resultados a DynamoDB, y envía un correo de resumen — con panel de evidencia en vivo. Se despliega sola en cada push con GitHub Actions (OIDC, sin llaves de AWS) y limpia cada semana la evidencia de más de 15 días.
 
 <img src="assets/tech/playwright.svg" alt="Playwright" height="22"> <img src="assets/tech/typescript.svg" alt="TypeScript" height="22"> <img src="assets/tech/dynamodb.svg" alt="DynamoDB" height="22"> <img src="assets/tech/github-actions.svg" alt="GitHub Actions" height="22">
 

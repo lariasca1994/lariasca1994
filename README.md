@@ -80,7 +80,7 @@ Proyecto que reúne lo que trabajo en el resto del portafolio. Simula un ecosist
 
 <img src="assets/tech/python.svg" alt="Python" height="22"> <img src="assets/tech/fastapi.svg" alt="FastAPI" height="22"> <img src="assets/tech/react.svg" alt="React" height="22"> <img src="assets/tech/playwright.svg" alt="Playwright" height="22"> <img src="assets/tech/postgresql.svg" alt="PostgreSQL" height="22"> <img src="assets/tech/azure-sql.svg" alt="Azure SQL" height="22"> <img src="assets/tech/oracle-db.svg" alt="Oracle DB" height="22"> <img src="assets/tech/mongodb.svg" alt="MongoDB" height="22">
 
-☁️ Vercel · Azure · AWS · Render · Neon · Oracle Cloud · MongoDB Atlas · [🔗 Demo](https://qalabspbvi.vercel.app) · [📖 Arquitectura y detalle](https://github.com/lariasca1994/QALabSPBVI#arquitectura)
+☁️ Vercel · Azure · AWS · Render · Neon · Oracle Cloud · MongoDB Atlas · [🔗 Demo](https://qalabspbvi-prod.vercel.app) · [📖 Arquitectura y detalle](https://github.com/lariasca1994/QALabSPBVI#arquitectura)
 
 </td>
 </tr>

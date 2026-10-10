@@ -59,7 +59,7 @@ Todos los proyectos de este portafolio se monitorean en tiempo real: disponibili
 > Aplicaciones, APIs y proyectos de automatización desplegados en plataformas cloud.
 
 <p align="center">
-  <img src="assets/ecosistema.svg" alt="Ecosistema de despliegue: desde el perfil salen flujos hacia siete plataformas cloud (AWS, Azure, Google Cloud Run, Oracle Cloud, Render, Vercel y GitHub Pages); cada una agrupa las tarjetas de sus proyectos con su tecnología, los probados por qa-evidencia llevan una marca azul, y abajo aparece QALabSPBVI, el proyecto destacado, que usa siete plataformas a la vez" width="100%">
+  <img src="assets/ecosistema.svg" alt="Ecosistema de despliegue: desde el perfil salen flujos hacia siete plataformas cloud (AWS, Azure, Google Cloud Run, Oracle Cloud, Render, Vercel y GitHub Pages); cada una agrupa las tarjetas de sus proyectos con su tecnología, los probados por qa-evidencia llevan una marca azul, y abajo aparecen los proyectos destacados: QALabSPBVI, que usa siete plataformas a la vez, y SysPulse, la plataforma de operaciones TI" width="100%">
 </p>
 
 <sub>
@@ -90,7 +90,7 @@ Proyecto que reúne lo que trabajo en el resto del portafolio. Simula un ecosist
 
 ## 🚀 Proyectos desarrollados
 
-> Los 13 proyectos de mi portafolio, agrupados por área y, dentro de cada grupo, de mayor a menor complejidad, con su motor de base de datos identificado por color: 🔴 Oracle · 🟢 MongoDB · 🔵 PostgreSQL · 🔷 Azure SQL · 🟠 MySQL / estático · 🟣 DynamoDB.
+> Los 14 proyectos de mi portafolio, agrupados por área y, dentro de cada grupo, de mayor a menor complejidad, con su motor de base de datos identificado por color: 🔴 Oracle · 🟢 MongoDB · 🔵 PostgreSQL · 🔷 Azure SQL · 🟠 MySQL / estático · 🟣 DynamoDB.
 
 ### 🧪 QA y automatización de pruebas
 
@@ -102,11 +102,11 @@ Proyecto que reúne lo que trabajo en el resto del portafolio. Simula un ecosist
 
 **🟣 [qa-evidencia](https://github.com/lariasca1994/qa-evidencia)**
 
-Suite de pruebas E2E automatizada que corre de lunes a viernes, dos veces al día (11:00 y 17:00), contra 11 proyectos desplegados de este portafolio (login fallido y flujo positivo), sube la evidencia (capturas) a Cloudinary y los resultados a DynamoDB, y envía un correo de resumen — con panel de evidencia en vivo. Se despliega sola en cada push con GitHub Actions (OIDC, sin llaves de AWS) y limpia cada semana la evidencia de más de 15 días.
+Suite de pruebas E2E automatizada que corre de lunes a viernes a las 11:00 en GitHub Actions contra 11 proyectos desplegados de este portafolio (login fallido y flujo positivo), sube la evidencia (capturas) a Cloudinary y los resultados a DynamoDB, y envía un correo de resumen — con panel de evidencia en vivo. Se despliega sola en cada push con GitHub Actions (OIDC, sin llaves de AWS) y limpia cada semana la evidencia de más de 15 días.
 
 <img src="assets/tech/playwright.svg" alt="Playwright" height="22"> <img src="assets/tech/typescript.svg" alt="TypeScript" height="22"> <img src="assets/tech/dynamodb.svg" alt="DynamoDB" height="22"> <img src="assets/tech/github-actions.svg" alt="GitHub Actions" height="22">
 
-☁️ AWS CodeBuild + CloudFront · [🔗 Ver panel](https://d4i3vsgw7xwmh.cloudfront.net)
+☁️ GitHub Actions + AWS CloudFront · [🔗 Ver panel](https://d4i3vsgw7xwmh.cloudfront.net)
 
 </td>
 <td width="50%">
@@ -215,6 +215,24 @@ Sitio de portafolio personal construido sin frameworks, con HTML, CSS y JavaScri
 </tr>
 </table>
 
+### ⭐ Proyecto destacado · Operaciones TI
+
+<table>
+<tr>
+<td>
+
+### 📡 [SysPulse](https://syspulse.vercel.app) — Monitoreo de equipos y gestión de incidentes con ITIL
+
+Plataforma de operaciones TI de punta a punta: agentes para Windows y Android reportan la salud de computadores, tablets y celulares; las alertas sostenidas abren incidentes con prioridad, SLA y escalamiento N1 → N2 → N3, que se resuelven solos si la métrica se normaliza. Avisos por Telegram, chat de mesa de servicio en tiempo real, analítica ITIL, MFA y alta de equipos con código de un solo uso. Los agentes se actualizan solos desde GitHub Releases con verificación de huella.
+
+<img src="assets/tech/csharp.svg" alt="C#" height="22"> <img src="assets/tech/asp-net-core.svg" alt="ASP.NET Core" height="22"> <img src="assets/tech/react.svg" alt="React" height="22"> <img src="assets/tech/typescript.svg" alt="TypeScript" height="22"> <img src="assets/tech/mongodb.svg" alt="MongoDB" height="22">
+
+☁️ Vercel · Render · MongoDB Atlas · GitHub Releases · [🔗 Demo](https://syspulse.vercel.app)
+
+</td>
+</tr>
+</table>
+
 ### 📊 Datos y analítica
 
 <sub>Recolección, validación y análisis de datos con modelos y reglas de negocio.</sub>
@@ -256,7 +274,7 @@ Motor de control de calidad para procesos de afiliación: validación de reglas 
 
 **🔴 [Portfolio Status](https://github.com/lariasca1994/portafolio-status)**
 
-Dashboard de observabilidad que monitorea en tiempo real la disponibilidad y el tiempo de respuesta de los 9 proyectos desplegados de este portafolio.
+Dashboard de observabilidad que monitorea en tiempo real la disponibilidad y el tiempo de respuesta de los 11 proyectos desplegados de este portafolio.
 
 <img src="assets/tech/python.svg" alt="Python" height="22"> <img src="assets/tech/fastapi.svg" alt="FastAPI" height="22"> <img src="assets/tech/react.svg" alt="React" height="22"> <img src="assets/tech/oracle-db.svg" alt="Oracle DB" height="22">
 

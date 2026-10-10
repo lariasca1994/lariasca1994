@@ -203,7 +203,7 @@ Gestor de tareas con carga de archivos, procesamiento con pandas y generación d
 </td>
 <td width="50%">
 
-**🟠 [PWDC](https://github.com/lariasca1994/PWDC)**
+**🟠 [PWDC](https://lariasca1994.github.io/PWDC/)**
 
 Sitio de portafolio personal construido sin frameworks, con HTML, CSS y JavaScript puro.
 

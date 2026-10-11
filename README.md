@@ -68,7 +68,7 @@ Cada proyecto tiene el color de la plataforma donde está desplegado: 🟧 AWS �
 
 ---
 
-## ⭐ Proyecto destacado
+## ⭐ Proyecto destacado QA y Automatización
 
 <table>
 <tr>
@@ -221,7 +221,7 @@ Sitio de portafolio personal construido sin frameworks, con HTML, CSS y JavaScri
 <tr>
 <td>
 
-### 📡 [SysPulse](https://syspulse.vercel.app) — Monitoreo de equipos y gestión de incidentes con ITIL
+### 📡 [SysPulse](https://github.com/lariasca1994/SysPulse) — Monitoreo de equipos y gestión de incidentes con ITIL
 
 Plataforma de operaciones TI de punta a punta: agentes para Windows y Android reportan la salud de computadores, tablets y celulares; las alertas sostenidas abren incidentes con prioridad, SLA y escalamiento N1 → N2 → N3, que se resuelven solos si la métrica se normaliza. Avisos por Telegram, chat de mesa de servicio en tiempo real, analítica ITIL, MFA y alta de equipos con código de un solo uso. Los agentes se actualizan solos desde GitHub Releases con verificación de huella.
 

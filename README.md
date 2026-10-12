@@ -90,11 +90,11 @@ Proyecto que reúne lo que trabajo en el resto del portafolio. Simula un ecosist
 
 ## 🚀 Proyectos desarrollados
 
-> Los 14 proyectos de mi portafolio, agrupados por área y, dentro de cada grupo, de mayor a menor complejidad, con su motor de base de datos identificado por color: 🔴 Oracle · 🟢 MongoDB · 🔵 PostgreSQL · 🔷 Azure SQL · 🟠 MySQL / estático · 🟣 DynamoDB.
+> Los 15 proyectos de mi portafolio, agrupados por área y, dentro de cada grupo, de mayor a menor complejidad, con su motor de base de datos identificado por color: 🔴 Oracle · 🟢 MongoDB · 🔵 PostgreSQL · 🔷 Azure SQL · 🟠 MySQL / estático · 🟣 DynamoDB · ⚪ Google Sheets.
 
 ### 🧪 QA y automatización de pruebas
 
-<sub>Pruebas E2E automatizadas, gestión de casos de prueba y validación de APIs.</sub>
+<sub>Pruebas E2E automatizadas, gestión de casos de prueba, validación de APIs y automatización de procesos con IA.</sub>
 
 <table>
 <tr>
@@ -131,6 +131,17 @@ Suite de validación automatizada para endpoints REST: pruebas de contrato, cód
 <img src="assets/tech/python.svg" alt="Python" height="22"> <img src="assets/tech/fastapi.svg" alt="FastAPI" height="22"> <img src="assets/tech/postgresql.svg" alt="PostgreSQL" height="22">
 
 ☁️ AWS Lambda · [🔗 Demo](https://eofvlnitsiuodup4eywdcenxwu0adgbz.lambda-url.us-east-1.on.aws/)
+
+</td>
+<td width="50%">
+
+**⚪ [Job Search Automation](https://github.com/lariasca1994/job-search-automation)**
+
+Automatiza la búsqueda de empleo de lunes a viernes: recolecta ofertas de cuatro portales, una IA (Gemini) califica cada una contra la hoja de vida y se queda con las 5 mejores por portal (match ≥ 90 %), genera una HV adaptada en Google Docs y PDF sin inventar experiencia y avisa por Telegram. La VM se enciende sola de 9:00 a 12:00 y limpia el Drive cada viernes.
+
+<img src="assets/tech/n8n.svg" alt="n8n" height="22"> <img src="assets/tech/gemini.svg" alt="Gemini" height="22"> <img src="assets/tech/docker.svg" alt="Docker" height="22"> <img src="assets/tech/google-sheets.svg" alt="Google Sheets" height="22"> <img src="assets/tech/telegram.svg" alt="Telegram" height="22">
+
+☁️ Google Cloud (VM) · [📖 Manual](https://github.com/lariasca1994/job-search-automation/blob/main/docs/MANUAL.md)
 
 </td>
 </tr>
@@ -309,4 +320,4 @@ Mini ITSM para soporte de aplicaciones: priorización, SLA, escalamiento automá
 
 ![Visitas al perfil](https://komarev.com/ghpvc/?username=lariasca1994&label=Visitas&color=30363D&style=flat-square)
 
-**Última actualización:** Septiembre de 2026
+**Última actualización:** Octubre de 2026

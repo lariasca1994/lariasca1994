@@ -96,7 +96,7 @@ Proyecto que reúne lo que trabajo en el resto del portafolio. Simula un ecosist
 
 ## 🚀 Proyectos desarrollados
 
-> Los 15 proyectos de mi portafolio, agrupados por área y, dentro de cada grupo, de mayor a menor complejidad, con su motor de base de datos identificado por color: 🔴 Oracle · 🟢 MongoDB · 🔵 PostgreSQL · 🔷 Azure SQL · 🟠 MySQL / estático · 🟣 DynamoDB · ⚪ Google Sheets.
+> Los otros 15 proyectos de mi portafolio (16 en total con el destacado), agrupados por área y, dentro de cada grupo, de mayor a menor complejidad, con su motor de base de datos identificado por color: 🔴 Oracle · 🟢 MongoDB · 🔵 PostgreSQL · 🔷 Azure SQL · 🟠 MySQL / estático · 🟣 DynamoDB · ⚪ Google Sheets.
 
 ### 🧪 QA y automatización de pruebas
 

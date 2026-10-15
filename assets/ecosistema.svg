@@ -8,7 +8,7 @@
 </defs>
 <rect width="1480" height="1200" rx="26" fill="url(#bg)"/>
 <text x="36" y="46" font-size="21" font-weight="800" fill="#F8FAFC">Ecosistema de despliegue</text>
-<text x="36" y="70" font-size="12.5" fill="#94A3B8">15 proyectos del portafolio, agrupados por la plataforma cloud donde están desplegados; QALabSPBVI y SysPulse, los destacados, usan varias a la vez. Los que tienen ✔ se prueban solos con qa-evidencia.</text>
+<text x="36" y="70" font-size="12.5" fill="#94A3B8">16 proyectos del portafolio, agrupados por la plataforma cloud donde están desplegados; QALabSPBVI y SysPulse, los destacados, usan varias a la vez. Los que tienen ✔ se prueban solos con qa-evidencia.</text>
 <rect x="30" y="115" width="370" height="218" rx="22" fill="#FF9900" fill-opacity=".07" stroke="#FF9900" stroke-opacity=".6" stroke-width="1.6" stroke-dasharray="7 6"/>
 <rect x="48" y="103" width="189.60000000000002" height="24" rx="12" fill="#FF9900"/><text x="142.8" y="119" text-anchor="middle" font-size="11.5" font-weight="700" fill="#1A1A1A">AWS · Lambda + CloudFront</text>
 <rect x="555" y="115" width="370" height="90" rx="22" fill="#8250DF" fill-opacity=".07" stroke="#8250DF" stroke-opacity=".6" stroke-width="1.6" stroke-dasharray="7 6"/>
@@ -17,8 +17,8 @@
 <rect x="1098" y="103" width="175.8" height="24" rx="12" fill="#0078D4"/><text x="1185.9" y="119" text-anchor="middle" font-size="11.5" font-weight="700" fill="#FFFFFF">Azure · Container Apps</text>
 <rect x="30" y="410" width="370" height="218" rx="22" fill="#E5E7EB" fill-opacity=".07" stroke="#E5E7EB" stroke-opacity=".6" stroke-width="1.6" stroke-dasharray="7 6"/>
 <rect x="48" y="398" width="141.3" height="24" rx="12" fill="#E5E7EB"/><text x="118.65" y="414" text-anchor="middle" font-size="11.5" font-weight="700" fill="#0A1020">Vercel · Frontend</text>
-<rect x="1080" y="410" width="370" height="154" rx="22" fill="#4285F4" fill-opacity=".07" stroke="#4285F4" stroke-opacity=".6" stroke-width="1.6" stroke-dasharray="7 6"/>
-<rect x="1098" y="398" width="148.2" height="24" rx="12" fill="#4285F4"/><text x="1172.1" y="414" text-anchor="middle" font-size="11.5" font-weight="700" fill="#FFFFFF">Google · Cloud Run</text>
+<rect x="1080" y="410" width="370" height="218" rx="22" fill="#4285F4" fill-opacity=".07" stroke="#4285F4" stroke-opacity=".6" stroke-width="1.6" stroke-dasharray="7 6"/>
+<rect x="1098" y="398" width="188" height="24" rx="12" fill="#4285F4"/><text x="1192" y="414" text-anchor="middle" font-size="11.5" font-weight="700" fill="#FFFFFF">Google Cloud · Run + VM</text>
 <rect x="30" y="705" width="370" height="282" rx="22" fill="#46E3B7" fill-opacity=".07" stroke="#46E3B7" stroke-opacity=".6" stroke-width="1.6" stroke-dasharray="7 6"/>
 <rect x="48" y="693" width="134.4" height="24" rx="12" fill="#46E3B7"/><text x="115.2" y="709" text-anchor="middle" font-size="11.5" font-weight="700" fill="#0B2B24">Render · Backend</text>
 <rect x="1080" y="705" width="370" height="154" rx="22" fill="#C74634" fill-opacity=".07" stroke="#C74634" stroke-opacity=".6" stroke-width="1.6" stroke-dasharray="7 6"/>
@@ -42,7 +42,7 @@
 <text x="1152" y="174" font-size="11" fill="#94A3B8">ASP.NET Core · Azure SQL</text>
 <circle cx="1408" cy="161" r="10" fill="#2563EB" stroke="#BFDBFE" stroke-width="1.5"/><path d="M1403.5,161 l3.2,3.4 l5.8,-6.6" fill="none" stroke="#fff" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round"/>
 <g filter="url(#sh)"><rect x="1100" y="199" width="330" height="52" rx="16" fill="#162033" stroke="#0078D4" stroke-width="2"/><circle cx="1127" cy="225" r="16" fill="#0078D4"/><g transform="translate(1127,225)" fill="none" stroke="#FFFFFF" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><rect x="-9" y="-8" width="18" height="17" rx="2"/><path d="M-9,-3 h18 M-5,-11 v5 M5,-11 v5"/></g></g>
-<text x="1152" y="222" font-size="13.5" font-weight="700" fill="#F1F5F9">Reservas Corferias</text>
+<text x="1152" y="222" font-size="13.5" font-weight="700" fill="#F1F5F9">Reservas de Recinto Ferial</text>
 <text x="1152" y="238" font-size="11" fill="#94A3B8">Laravel · Azure SQL</text>
 <circle cx="1408" cy="225" r="10" fill="#2563EB" stroke="#BFDBFE" stroke-width="1.5"/><path d="M1403.5,225 l3.2,3.4 l5.8,-6.6" fill="none" stroke="#fff" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round"/>
 <g filter="url(#sh)"><rect x="1100" y="263" width="330" height="52" rx="16" fill="#162033" stroke="#0078D4" stroke-width="2"/><circle cx="1127" cy="289" r="16" fill="#0078D4"/><g transform="translate(1127,289)" fill="none" stroke="#FFFFFF" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M-4,-9 c-4,0 -4,2 -4,5 c0,3 -2,4 -3,4 c1,0 3,1 3,4 c0,3 0,5 4,5 M4,-9 c4,0 4,2 4,5 c0,3 2,4 3,4 c-1,0 -3,1 -3,4 c0,3 0,5 -4,5"/></g></g>
@@ -68,6 +68,9 @@
 <text x="1152" y="517" font-size="13.5" font-weight="700" fill="#F1F5F9">TaskFlow</text>
 <text x="1152" y="533" font-size="11" fill="#94A3B8">FastAPI · MongoDB</text>
 <circle cx="1408" cy="520" r="10" fill="#2563EB" stroke="#BFDBFE" stroke-width="1.5"/><path d="M1403.5,520 l3.2,3.4 l5.8,-6.6" fill="none" stroke="#fff" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round"/>
+<g filter="url(#sh)"><rect x="1100" y="558" width="330" height="52" rx="16" fill="#162033" stroke="#4285F4" stroke-width="2"/><circle cx="1127" cy="584" r="16" fill="#4285F4"/><g transform="translate(1127,584)" fill="none" stroke="#FFFFFF" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><rect x="-9" y="-5" width="18" height="13" rx="2"/><path d="M-4,-5 v-3 h8 v3 M-9,1 h18"/></g></g>
+<text x="1152" y="581" font-size="13.5" font-weight="700" fill="#F1F5F9">Job Search Automation</text>
+<text x="1152" y="597" font-size="11" fill="#94A3B8">n8n · Gemini · Google Sheets · VM</text>
 <g filter="url(#sh)"><rect x="50" y="725" width="330" height="52" rx="16" fill="#162033" stroke="#46E3B7" stroke-width="2"/><circle cx="77" cy="751" r="16" fill="#46E3B7"/><g transform="translate(77,751)" fill="none" stroke="#0A1020" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M-9,7 l6,-6 l4,4 l8,-10"/><path d="M4,-5 h5 v5"/></g></g>
 <text x="102" y="748" font-size="13.5" font-weight="700" fill="#F1F5F9">Lottery AI</text>
 <text x="102" y="764" font-size="11" fill="#94A3B8">Node.js · PostgreSQL · GitHub Actions</text>
@@ -105,13 +108,13 @@
 <circle r="2.6" fill="#7C8BA1"><animateMotion dur="2.6s" repeatCount="indefinite" path="M605,566 C502.5,566 502.5,846 400,846"/></circle>
 <path d="M875,566 C977.5,566 977.5,782 1080,782" fill="none" stroke="#7C8BA1" stroke-width="2.2" stroke-opacity=".9" marker-end="url(#fl)"/>
 <circle r="2.6" fill="#7C8BA1"><animateMotion dur="2.7s" repeatCount="indefinite" path="M875,566 C977.5,566 977.5,782 1080,782"/></circle>
-<g transform="translate(1090,1140)"><rect width="112" height="40" rx="12" fill="#162033" stroke="#26324A"/><text x="56" y="18" text-anchor="middle" font-size="15" font-weight="800" fill="#F1F5F9">15</text><text x="56" y="32" text-anchor="middle" font-size="9.5" fill="#94A3B8">proyectos</text></g>
+<g transform="translate(1090,1140)"><rect width="112" height="40" rx="12" fill="#162033" stroke="#26324A"/><text x="56" y="18" text-anchor="middle" font-size="15" font-weight="800" fill="#F1F5F9">16</text><text x="56" y="32" text-anchor="middle" font-size="9.5" fill="#94A3B8">proyectos</text></g>
 <g transform="translate(1210,1140)"><rect width="112" height="40" rx="12" fill="#162033" stroke="#26324A"/><text x="56" y="18" text-anchor="middle" font-size="15" font-weight="800" fill="#F1F5F9">7</text><text x="56" y="32" text-anchor="middle" font-size="9.5" fill="#94A3B8">plataformas</text></g>
-<g transform="translate(1330,1140)"><rect width="112" height="40" rx="12" fill="#162033" stroke="#26324A"/><text x="56" y="18" text-anchor="middle" font-size="15" font-weight="800" fill="#F1F5F9">10</text><text x="56" y="32" text-anchor="middle" font-size="9.5" fill="#94A3B8">con pruebas E2E</text></g>
+<g transform="translate(1330,1140)"><rect width="112" height="40" rx="12" fill="#162033" stroke="#26324A"/><text x="56" y="18" text-anchor="middle" font-size="15" font-weight="800" fill="#F1F5F9">12</text><text x="56" y="32" text-anchor="middle" font-size="9.5" fill="#94A3B8">con pruebas E2E</text></g>
 <rect x="453.2" y="318.6" width="83.1" height="20" rx="10" fill="#0F172A" stroke="#7C8BA1" stroke-opacity=".7"/><text x="494.8" y="332.4" text-anchor="middle" font-size="10.5" font-weight="600" fill="#E2E8F0">3 proyectos</text>
 <rect x="943.7" y="318.6" width="83.1" height="20" rx="10" fill="#0F172A" stroke="#7C8BA1" stroke-opacity=".7"/><text x="985.2" y="332.4" text-anchor="middle" font-size="10.5" font-weight="600" fill="#E2E8F0">3 proyectos</text>
 <rect x="440.9" y="508.5" width="83.1" height="20" rx="10" fill="#0F172A" stroke="#7C8BA1" stroke-opacity=".7"/><text x="482.5" y="522.3" text-anchor="middle" font-size="10.5" font-weight="600" fill="#E2E8F0">3 frontends</text>
-<rect x="956.0" y="492.5" width="83.1" height="20" rx="10" fill="#0F172A" stroke="#7C8BA1" stroke-opacity=".7"/><text x="997.5" y="506.3" text-anchor="middle" font-size="10.5" font-weight="600" fill="#E2E8F0">2 proyectos</text>
+<rect x="956.0" y="492.5" width="83.1" height="20" rx="10" fill="#0F172A" stroke="#7C8BA1" stroke-opacity=".7"/><text x="997.5" y="506.3" text-anchor="middle" font-size="10.5" font-weight="600" fill="#E2E8F0">3 proyectos</text>
 <rect x="453.2" y="716.9" width="83.1" height="20" rx="10" fill="#0F172A" stroke="#7C8BA1" stroke-opacity=".7"/><text x="494.8" y="730.7" text-anchor="middle" font-size="10.5" font-weight="600" fill="#E2E8F0">4 servicios</text>
 <rect x="928.4" y="680.1" width="113.6" height="20" rx="10" fill="#0F172A" stroke="#7C8BA1" stroke-opacity=".7"/><text x="985.2" y="693.9" text-anchor="middle" font-size="10.5" font-weight="600" fill="#E2E8F0">2 bases de datos</text>
 <path d="M740,566 C740,697 740,697 740,826" fill="none" stroke="#7C8BA1" stroke-width="2.2" stroke-opacity=".9" marker-end="url(#fl)"/>
@@ -147,4 +150,6 @@
 <text x="368" y="1164" font-size="11.5" fill="#94A3B8">Plataforma cloud (color = dónde está desplegado)</text>
 <circle cx="700" cy="1160" r="9" fill="#2563EB" stroke="#BFDBFE" stroke-width="1.5"/><path d="M695.5,1160 l3.2,3.4 l5.8,-6.6" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round"/>
 <text x="716" y="1164" font-size="11.5" fill="#94A3B8">Probado por qa-evidencia (E2E automático, L-V 11:00)</text>
+<!-- ✔ de SysPulse: al final para quedar sobre su tarjeta -->
+<circle cx="1014" cy="1032" r="10" fill="#2563EB" stroke="#BFDBFE" stroke-width="1.5"/><path d="M1009.5,1032 l3.2,3.4 l5.8,-6.6" fill="none" stroke="#fff" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>

@@ -50,7 +50,13 @@ const filosofía = () => ({
   <a href="https://d4i3vsgw7xwmh.cloudfront.net"><img src="https://portafolio-status.onrender.com/api/status/qa-badge.svg" alt="Fecha y hora de la última corrida de pruebas E2E de qa-evidencia" height="32"></a>
 </p>
 
-Todos los proyectos de este portafolio se monitorean en tiempo real: disponibilidad, tiempo de respuesta y % de uptime de los últimos 7 días, con historial guardado en Oracle Autonomous Database. Además, el proyecto qa-evidencia corre pruebas end-to-end automatizadas de lunes a viernes, dos veces al día (11:00 y 17:00), sobre 11 de estos proyectos y publica ahí mismo la fecha de la última corrida junto con la evidencia (capturas) de cada uno.
+Todos los proyectos de este portafolio se monitorean en tiempo real: disponibilidad, tiempo de respuesta y % de uptime de los últimos 7 días, con historial guardado en Oracle Autonomous Database. Además, el proyecto qa-evidencia corre pruebas end-to-end automatizadas de lunes a viernes a las 11:00, sobre 12 de estos proyectos y publica ahí mismo la fecha de la última corrida junto con la evidencia (capturas) de cada uno.
+
+### 🛡️ Lo que comparten todos los proyectos
+
+- **Pantalla de mantenimiento:** si la API o la base de datos no responden, cada aplicación muestra una pantalla propia, con sus colores, en lugar de un error genérico, y vuelve a la normalidad apenas el servicio responde (en la mayoría, sin recargar a mano). Ninguna acción queda a medias.
+- **Manual de usuario con la misma estructura:** objetivos y alcances, glosario, tabla de nube / base de datos / API, paso a paso con imágenes y seguridad de la información personal.
+- **Acceso con identidad propia:** cada login tiene un panel de marca animado con el motivo del proyecto (agenda de reservas, flujo de pagos, SLA de incidentes…).
 
 ---
 
@@ -80,7 +86,7 @@ Proyecto que reúne lo que trabajo en el resto del portafolio. Simula un ecosist
 
 <img src="assets/tech/python.svg" alt="Python" height="22"> <img src="assets/tech/fastapi.svg" alt="FastAPI" height="22"> <img src="assets/tech/react.svg" alt="React" height="22"> <img src="assets/tech/playwright.svg" alt="Playwright" height="22"> <img src="assets/tech/postgresql.svg" alt="PostgreSQL" height="22"> <img src="assets/tech/azure-sql.svg" alt="Azure SQL" height="22"> <img src="assets/tech/oracle-db.svg" alt="Oracle DB" height="22"> <img src="assets/tech/mongodb.svg" alt="MongoDB" height="22">
 
-☁️ Vercel · Azure · AWS · Render · Neon · Oracle Cloud · MongoDB Atlas · [🔗 Demo](https://qalabspbvi-prod.vercel.app) · [📖 Arquitectura y detalle](https://github.com/lariasca1994/QALabSPBVI#arquitectura)
+☁️ Vercel · Azure · AWS · Render · Neon · Oracle Cloud · MongoDB Atlas · [🔗 Demo](https://qalabspbvi-prod.vercel.app) · [📖 Arquitectura y detalle](https://github.com/lariasca1994/QALabSPBVI#arquitectura) · [📖 Manual](https://github.com/lariasca1994/QALabSPBVI/blob/main/docs/MANUAL.md)
 
 </td>
 </tr>
@@ -102,7 +108,7 @@ Proyecto que reúne lo que trabajo en el resto del portafolio. Simula un ecosist
 
 **🟣 [qa-evidencia](https://github.com/lariasca1994/qa-evidencia)**
 
-Suite de pruebas E2E automatizada que corre de lunes a viernes a las 11:00 en GitHub Actions contra 11 proyectos desplegados de este portafolio (login fallido y flujo positivo), sube la evidencia (capturas) a Cloudinary y los resultados a DynamoDB, y envía un correo de resumen — con panel de evidencia en vivo. Se despliega sola en cada push con GitHub Actions (OIDC, sin llaves de AWS) y limpia cada semana la evidencia de más de 15 días.
+Suite de pruebas E2E automatizada que corre de lunes a viernes a las 11:00 en GitHub Actions contra 12 proyectos desplegados de este portafolio (login fallido y flujo positivo), sube la evidencia (capturas) a Cloudinary y los resultados a DynamoDB, y envía un correo de resumen — con panel de evidencia en vivo. Se despliega sola en cada push con GitHub Actions (OIDC, sin llaves de AWS) y limpia cada semana la evidencia de más de 15 días.
 
 <img src="assets/tech/playwright.svg" alt="Playwright" height="22"> <img src="assets/tech/typescript.svg" alt="TypeScript" height="22"> <img src="assets/tech/dynamodb.svg" alt="DynamoDB" height="22"> <img src="assets/tech/github-actions.svg" alt="GitHub Actions" height="22">
 
@@ -117,7 +123,7 @@ Plataforma end-to-end para gestionar proyectos, suites, casos de prueba, ejecuci
 
 <img src="assets/tech/python.svg" alt="Python" height="22"> <img src="assets/tech/fastapi.svg" alt="FastAPI" height="22"> <img src="assets/tech/mongodb.svg" alt="MongoDB" height="22">
 
-☁️ AWS Lambda · [🔗 Demo](https://immxew65sfxj7nubwzlszdimfi0qegzc.lambda-url.us-east-1.on.aws/)
+☁️ AWS Lambda · [🔗 Demo](https://immxew65sfxj7nubwzlszdimfi0qegzc.lambda-url.us-east-1.on.aws/) · [📖 Manual](https://github.com/lariasca1994/gestor-casos-qa/blob/main/docs/MANUAL.md)
 
 </td>
 </tr>
@@ -130,7 +136,7 @@ Suite de validación automatizada para endpoints REST: pruebas de contrato, cód
 
 <img src="assets/tech/python.svg" alt="Python" height="22"> <img src="assets/tech/fastapi.svg" alt="FastAPI" height="22"> <img src="assets/tech/postgresql.svg" alt="PostgreSQL" height="22">
 
-☁️ AWS Lambda · [🔗 Demo](https://eofvlnitsiuodup4eywdcenxwu0adgbz.lambda-url.us-east-1.on.aws/)
+☁️ AWS Lambda · [🔗 Demo](https://eofvlnitsiuodup4eywdcenxwu0adgbz.lambda-url.us-east-1.on.aws/) · [📖 Manual](https://github.com/lariasca1994/verificador-api/blob/main/docs/MANUAL.md)
 
 </td>
 <td width="50%">
@@ -161,7 +167,7 @@ Coordina reuniones entre varias personas: cada usuario registra su disponibilida
 
 <img src="assets/tech/python.svg" alt="Python" height="22"> <img src="assets/tech/fastapi.svg" alt="FastAPI" height="22"> <img src="assets/tech/mysql-heatwave.svg" alt="MySQL HeatWave" height="22"> <img src="assets/tech/oracle-cloud.svg" alt="Oracle Cloud" height="22">
 
-☁️ Vercel + Render + OCI · [🔗 Demo](https://motor-horarios-oci.vercel.app)
+☁️ Vercel + Render + OCI · [🔗 Demo](https://motor-horarios-oci.vercel.app) · [📖 Manual](https://github.com/lariasca1994/motor-horarios-oci/blob/main/docs/MANUAL.md)
 
 </td>
 <td width="50%">
@@ -172,7 +178,7 @@ Plataforma de alquiler de vivienda con mensajería en tiempo real entre arrendad
 
 <img src="assets/tech/nestjs.svg" alt="NestJS" height="22"> <img src="assets/tech/react.svg" alt="React" height="22"> <img src="assets/tech/mongodb.svg" alt="MongoDB" height="22">
 
-☁️ Vercel + Render · [🔗 Demo](https://colombia-tech2.vercel.app/)
+☁️ Vercel + Render · [🔗 Demo](https://colombia-tech2.vercel.app/) · [📖 Manual](https://github.com/lariasca1994/ColombiaTech2/blob/main/docs/MANUAL.md)
 
 </td>
 </tr>
@@ -185,7 +191,7 @@ Simulador de flujos de pago y validación de reglas transaccionales, disponible 
 
 <img src="assets/tech/java-swing.svg" alt="Java Swing" height="22"> <img src="assets/tech/fastapi.svg" alt="FastAPI" height="22"> <img src="assets/tech/oracle-db.svg" alt="Oracle DB" height="22">
 
-☁️ Google Cloud Run · [🔗 Demo web](https://prpagos-web-1087929107584.southamerica-east1.run.app)
+☁️ Google Cloud Run · [🔗 Demo web](https://prpagos-web-1087929107584.southamerica-east1.run.app) · [📖 Manual](https://github.com/lariasca1994/PRPagos/blob/main/docs/MANUAL.md)
 
 </td>
 <td width="50%">
@@ -196,7 +202,7 @@ Sistema de reservas para un centro de convenciones: catálogo de escenarios, cal
 
 <img src="assets/tech/php.svg" alt="PHP" height="22"> <img src="assets/tech/laravel.svg" alt="Laravel" height="22"> <img src="assets/tech/azure-sql.svg" alt="Azure SQL" height="22">
 
-☁️ Azure Container Apps · [🔗 Demo](https://reservas-corferias.blueocean-86680030.eastus.azurecontainerapps.io/)
+☁️ Azure Container Apps · [🔗 Demo](https://reservas-corferias.blueocean-86680030.eastus.azurecontainerapps.io/) · [📖 Manual](https://github.com/lariasca1994/reservas-corferias/blob/main/docs/MANUAL.md)
 
 </td>
 </tr>
@@ -209,7 +215,7 @@ Gestor de tareas con carga de archivos, procesamiento con pandas y generación d
 
 <img src="assets/tech/python.svg" alt="Python" height="22"> <img src="assets/tech/fastapi.svg" alt="FastAPI" height="22"> <img src="assets/tech/mongodb.svg" alt="MongoDB" height="22">
 
-☁️ Google Cloud Run · [🔗 Demo](https://taskflow-812302804238.us-central1.run.app/)
+☁️ Google Cloud Run · [🔗 Demo](https://taskflow-812302804238.us-central1.run.app/) · [📖 Manual](https://github.com/lariasca1994/taskflow/blob/main/docs/MANUAL.md)
 
 </td>
 <td width="50%">
@@ -220,7 +226,7 @@ Sitio de portafolio personal construido sin frameworks, con HTML, CSS y JavaScri
 
 <img src="assets/tech/html5.svg" alt="HTML5" height="22"> <img src="assets/tech/css3.svg" alt="CSS3" height="22"> <img src="assets/tech/javascript.svg" alt="JavaScript" height="22">
 
-☁️ GitHub Pages · [🔗 Demo](https://lariasca1994.github.io/PWDC/)
+☁️ GitHub Pages · [🔗 Demo](https://lariasca1994.github.io/PWDC/) · [📖 Manual](https://github.com/lariasca1994/PWDC/blob/main/docs/MANUAL.md)
 
 </td>
 </tr>
@@ -238,7 +244,7 @@ Plataforma de operaciones TI de punta a punta: agentes para Windows y Android re
 
 <img src="assets/tech/csharp.svg" alt="C#" height="22"> <img src="assets/tech/asp-net-core.svg" alt="ASP.NET Core" height="22"> <img src="assets/tech/react.svg" alt="React" height="22"> <img src="assets/tech/typescript.svg" alt="TypeScript" height="22"> <img src="assets/tech/mongodb.svg" alt="MongoDB" height="22">
 
-☁️ Vercel · Render · MongoDB Atlas · GitHub Releases · [🔗 Demo](https://syspulse.vercel.app)
+☁️ Vercel · Render · MongoDB Atlas · GitHub Releases · [🔗 Demo](https://syspulse.vercel.app) · [📖 Manual](https://github.com/lariasca1994/SysPulse/blob/main/docs/MANUAL.md)
 
 </td>
 </tr>
@@ -269,7 +275,7 @@ Motor de control de calidad para procesos de afiliación: validación de reglas 
 
 <img src="assets/tech/python.svg" alt="Python" height="22"> <img src="assets/tech/fastapi.svg" alt="FastAPI" height="22"> <img src="assets/tech/mysql.svg" alt="MySQL" height="22">
 
-☁️ Azure Container Apps · [🔗 Demo](https://calidad-afiliaciones.blueocean-86680030.eastus.azurecontainerapps.io/)
+☁️ Azure Container Apps · [🔗 Demo](https://calidad-afiliaciones.blueocean-86680030.eastus.azurecontainerapps.io/) · [📖 Manual](https://github.com/lariasca1994/calidad-afiliaciones/blob/main/docs/MANUAL.md)
 
 </td>
 </tr>
@@ -289,7 +295,7 @@ Dashboard de observabilidad que monitorea en tiempo real la disponibilidad y el 
 
 <img src="assets/tech/python.svg" alt="Python" height="22"> <img src="assets/tech/fastapi.svg" alt="FastAPI" height="22"> <img src="assets/tech/react.svg" alt="React" height="22"> <img src="assets/tech/oracle-db.svg" alt="Oracle DB" height="22">
 
-☁️ Render + Vercel · [🔗 Demo](https://frontend-nine-topaz-99.vercel.app)
+☁️ Render + Vercel · [🔗 Demo](https://frontend-nine-topaz-99.vercel.app) · [📖 Manual](https://github.com/lariasca1994/portafolio-status/blob/main/docs/MANUAL.md)
 
 </td>
 <td width="50%">
@@ -300,7 +306,7 @@ Mini ITSM para soporte de aplicaciones: priorización, SLA, escalamiento automá
 
 <img src="assets/tech/csharp.svg" alt="C#" height="22"> <img src="assets/tech/asp-net-core.svg" alt="ASP.NET Core" height="22"> <img src="assets/tech/azure-sql.svg" alt="Azure SQL" height="22">
 
-☁️ Azure Container Apps · [🔗 Demo](https://gestorincidentesti.livelywater-fe29fe0b.australiaeast.azurecontainerapps.io/)
+☁️ Azure Container Apps · [🔗 Demo](https://gestorincidentesti.livelywater-fe29fe0b.australiaeast.azurecontainerapps.io/) · [📖 Manual](https://github.com/lariasca1994/GestorincidentesTI/blob/main/docs/MANUAL.md)
 
 </td>
 </tr>

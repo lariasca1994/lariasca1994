@@ -187,7 +187,7 @@ Plataforma de alquiler de vivienda con mensajería en tiempo real entre arrendad
 
 **🔴 [PRPagos](https://github.com/lariasca1994/PRPagos)**
 
-Simulador de flujos de pago y validación de reglas transaccionales, disponible en dos versiones dentro del mismo repositorio: aplicación de escritorio en Java Swing y aplicación web con FastAPI (Python).
+Registro, consulta y exportación de pagos con dos versiones idénticas en el mismo repositorio —escritorio en Java Swing y web con FastAPI, instalable como app (PWA)— sobre la misma base Oracle. Verificación en dos pasos (TOTP) obligatoria y compartida entre ambas, contraseñas con PBKDF2 y reglas y auditoría en procedimientos almacenados.
 
 <img src="assets/tech/java-swing.svg" alt="Java Swing" height="22"> <img src="assets/tech/fastapi.svg" alt="FastAPI" height="22"> <img src="assets/tech/oracle-db.svg" alt="Oracle DB" height="22">
 

@@ -187,11 +187,11 @@ Plataforma de alquiler de vivienda con mensajería en tiempo real entre arrendad
 
 **🔴 [PRPagos](https://github.com/lariasca1994/PRPagos)**
 
-Registro, consulta y exportación de pagos con dos versiones idénticas en el mismo repositorio —escritorio en Java Swing y web con FastAPI, instalable como app (PWA)— sobre la misma base Oracle. Verificación en dos pasos (TOTP) obligatoria y compartida entre ambas, contraseñas con PBKDF2 y reglas y auditoría en procedimientos almacenados.
+Gestor de presupuesto personal: ingresos y gastos por categoría, plan 50/30/20 y dashboard con gráficas, con dos versiones idénticas sobre la misma base Oracle —web con FastAPI, instalable como app (PWA), y escritorio en Java Swing como ejecutable de Windows con actualización automática—. Resúmenes por correo cada viernes y cada día 29, verificación en dos pasos (TOTP) compartida con códigos de respaldo, y reglas y auditoría en procedimientos almacenados.
 
 <img src="assets/tech/java-swing.svg" alt="Java Swing" height="22"> <img src="assets/tech/fastapi.svg" alt="FastAPI" height="22"> <img src="assets/tech/oracle-db.svg" alt="Oracle DB" height="22">
 
-☁️ Google Cloud Run · [🔗 Demo web](https://prpagos-web-1087929107584.southamerica-east1.run.app) · [📖 Manual](https://github.com/lariasca1994/PRPagos/blob/main/docs/MANUAL.md)
+☁️ Google Cloud Run · [🔗 Demo web](https://prpagos-web-1087929107584.southamerica-east1.run.app) · [💻 Descarga escritorio](https://github.com/lariasca1994/PRPagos/releases/latest) · [📖 Manual web](https://github.com/lariasca1994/PRPagos/blob/main/docs/MANUAL-WEB.md) · [📖 Manual escritorio](https://github.com/lariasca1994/PRPagos/blob/main/docs/MANUAL-ESCRITORIO.md)
 
 </td>
 <td width="50%">

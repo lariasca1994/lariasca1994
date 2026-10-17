@@ -187,7 +187,7 @@ Plataforma de alquiler de vivienda con mensajería en tiempo real entre arrendad
 
 **🔴 [PRPagos](https://github.com/lariasca1994/PRPagos)**
 
-Gestor de presupuesto personal: ingresos y gastos por categoría, plan 50/30/20 y dashboard con gráficas, con dos versiones idénticas sobre la misma base Oracle —web con FastAPI, instalable como app (PWA), y escritorio en Java Swing como ejecutable de Windows con actualización automática—. Resúmenes por correo cada viernes y cada día 29, verificación en dos pasos (TOTP) compartida con códigos de respaldo, y reglas y auditoría en procedimientos almacenados.
+Gestor de presupuesto personal: ingresos y gastos por categoría, plan 50/30/20 y dashboard con gráficas, con dos versiones idénticas sobre la misma base Oracle —web con FastAPI, instalable como app (PWA), y escritorio en Java Swing como ejecutable de Windows con actualización automática—. Resúmenes por correo cada viernes y cada día 29, verificación en dos pasos (TOTP) compartida con códigos de respaldo, ingreso con llaves de acceso (Windows Hello, huella o PIN), y reglas y auditoría en procedimientos almacenados.
 
 <img src="assets/tech/java-swing.svg" alt="Java Swing" height="22"> <img src="assets/tech/fastapi.svg" alt="FastAPI" height="22"> <img src="assets/tech/oracle-db.svg" alt="Oracle DB" height="22">
 

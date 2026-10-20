@@ -258,13 +258,13 @@ Plataforma de operaciones TI de punta a punta: agentes para Windows y Android re
 <tr>
 <td width="50%">
 
-**🔵 [Lottery AI](https://lottery-ai-oa2p.onrender.com)**
+**🔵 [Lottery AI](https://lottery-ai-app-cawi.onrender.com)**
 
 Análisis y modelos predictivos de cuatro loterías colombianas (una principal con balota adicional, su segunda oportunidad, una de cinco números y una de colores). Recolecta resultados y premios, demuestra con backtesting *walk-forward* que los números no se pueden predecir y predice lo que sí: venta estimada, probabilidad de ganador del premio mayor y valor esperado del boleto. Envía un resumen diario por correo.
 
 <img src="assets/tech/javascript.svg" alt="JavaScript" height="22"> <img src="assets/tech/nodejs.svg" alt="Node.js" height="22"> <img src="assets/tech/postgresql.svg" alt="PostgreSQL" height="22"> <img src="assets/tech/github-actions.svg" alt="GitHub Actions" height="22">
 
-☁️ Render + GitHub Actions · [🔗 Demo](https://lottery-ai-oa2p.onrender.com)
+☁️ Render + GitHub Actions · [🔗 Demo](https://lottery-ai-app-cawi.onrender.com)
 
 </td>
 <td width="50%">

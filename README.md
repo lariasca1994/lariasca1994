@@ -215,7 +215,7 @@ Gestor de tareas con carga de archivos, procesamiento con pandas y generación d
 
 <img src="assets/tech/python.svg" alt="Python" height="22"> <img src="assets/tech/fastapi.svg" alt="FastAPI" height="22"> <img src="assets/tech/mongodb.svg" alt="MongoDB" height="22">
 
-☁️ Google Cloud Run · [🔗 Demo](https://taskflow-812302804238.us-central1.run.app/) · [📖 Manual](https://github.com/lariasca1994/taskflow/blob/main/docs/MANUAL.md)
+☁️ Google Cloud Run · [🔗 Demo](https://taskflow-812302804238.us-east4.run.app/) · [📖 Manual](https://github.com/lariasca1994/taskflow/blob/main/docs/MANUAL.md)
 
 </td>
 <td width="50%">

@@ -106,7 +106,7 @@ Proyecto que reúne lo que trabajo en el resto del portafolio. Simula un ecosist
 <tr>
 <td width="50%">
 
-**🟣 [qa-evidencia](https://github.com/lariasca1994/qa-evidencia)**
+**🟣 [qa-evidencia](https://d4i3vsgw7xwmh.cloudfront.net)** <sub>(repositorio privado: se muestra el panel público)</sub>
 
 Suite de pruebas E2E automatizada que corre de lunes a viernes a las 11:00 en GitHub Actions contra 12 proyectos desplegados de este portafolio (login fallido y flujo positivo), sube la evidencia (capturas) a Cloudinary y los resultados a DynamoDB, y envía un correo de resumen — con panel de evidencia en vivo. Se despliega sola en cada push con GitHub Actions (OIDC, sin llaves de AWS) y limpia cada semana la evidencia de más de 15 días.
 
@@ -240,7 +240,7 @@ Sitio de portafolio personal construido sin frameworks, con HTML, CSS y JavaScri
 
 ### 📡 [SysPulse](https://github.com/lariasca1994/SysPulse) — Monitoreo de equipos y gestión de incidentes con ITIL
 
-Plataforma de operaciones TI de punta a punta: agentes para Windows y Android reportan la salud de computadores, tablets y celulares; las alertas sostenidas abren incidentes con prioridad, SLA y escalamiento N1 → N2 → N3, que se resuelven solos si la métrica se normaliza. Avisos por Telegram, chat de mesa de servicio en tiempo real, analítica ITIL, MFA y alta de equipos con código de un solo uso. Los agentes se actualizan solos desde GitHub Releases con verificación de huella.
+Plataforma de operaciones TI de punta a punta: agentes para Windows y Android reportan la salud de computadores, tablets y celulares; las alertas sostenidas abren incidentes con prioridad, SLA y escalamiento N1 → N2 → N3, que se resuelven solos si la métrica se normaliza. Avisos por Telegram, chat de mesa de servicio en tiempo real, analítica ITIL, MFA y alta de equipos con código de un solo uso, que pueden hacer los técnicos N2 y N3. Los agentes no guardan secretos de la plataforma (solo una credencial de base limitada a sus métricas) y se actualizan solos desde GitHub Releases con verificación de huella.
 
 <img src="assets/tech/csharp.svg" alt="C#" height="22"> <img src="assets/tech/asp-net-core.svg" alt="ASP.NET Core" height="22"> <img src="assets/tech/react.svg" alt="React" height="22"> <img src="assets/tech/typescript.svg" alt="TypeScript" height="22"> <img src="assets/tech/mongodb.svg" alt="MongoDB" height="22">
 

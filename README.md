@@ -56,6 +56,7 @@ Todos los proyectos de este portafolio se monitorean en tiempo real: disponibili
 
 - **Pantalla de mantenimiento:** si la API o la base de datos no responden, cada aplicación muestra una pantalla propia, con sus colores, en lugar de un error genérico, y vuelve a la normalidad apenas el servicio responde (en la mayoría, sin recargar a mano). Ninguna acción queda a medias.
 - **Manual de usuario con la misma estructura:** objetivos y alcances, glosario, tabla de nube / base de datos / API, paso a paso con imágenes y seguridad de la información personal.
+- **Verificación en dos pasos obligatoria:** en cada plataforma con cuentas, cada persona elige app autenticadora (TOTP) o código por correo, y desde Seguridad o Perfil agrega el otro método y escoge cuál se pide por defecto. Un código no se acepta dos veces y los errores repetidos bloquean el acceso por unos minutos.
 - **Runtimes con parches de seguridad:** cada imagen fija la versión exacta de Node.js, Python, .NET o PHP (y Java en el escritorio de PRPagos) con los parches de octubre de 2026: la ejecución remota de código de Node.js, *php2shell* y los certificados comprometidos de eMudhra.
 - **Acceso con identidad propia:** cada login tiene un panel de marca animado con el motivo del proyecto (agenda de reservas, flujo de pagos, SLA de incidentes…).
 

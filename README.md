@@ -194,7 +194,7 @@ Gestor de presupuesto personal: ingresos y gastos por categoría, plan 50/30/20 
 
 <img src="assets/tech/java-swing.svg" alt="Java Swing" height="22"> <img src="assets/tech/fastapi.svg" alt="FastAPI" height="22"> <img src="assets/tech/oracle-db.svg" alt="Oracle DB" height="22">
 
-☁️ Google Cloud Run · [🔗 Demo web](https://prpagos-web-1087929107584.southamerica-east1.run.app) · [💻 Descarga escritorio](https://github.com/lariasca1994/PRPagos/releases/latest) · [📖 Manual web](https://github.com/lariasca1994/PRPagos/blob/main/docs/MANUAL-WEB.md) · [📖 Manual escritorio](https://github.com/lariasca1994/PRPagos/blob/main/docs/MANUAL-ESCRITORIO.md)
+☁️ Google Cloud Run · [🔗 Demo web](https://prpagos-web-1087929107584.us-east4.run.app) · [💻 Descarga escritorio](https://github.com/lariasca1994/PRPagos/releases/latest) · [📖 Manual web](https://github.com/lariasca1994/PRPagos/blob/main/docs/MANUAL-WEB.md) · [📖 Manual escritorio](https://github.com/lariasca1994/PRPagos/blob/main/docs/MANUAL-ESCRITORIO.md)
 
 </td>
 <td width="50%">

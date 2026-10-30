@@ -146,7 +146,7 @@ Suite de validación automatizada para endpoints REST: pruebas de contrato, cód
 
 **⚪ [Job Search Automation](https://github.com/lariasca1994/job-search-automation)**
 
-Automatiza la búsqueda de empleo de lunes a viernes: recolecta ofertas de cuatro portales, una IA (Gemini) califica cada una contra la hoja de vida y se queda con las 5 mejores por portal (match ≥ 90 %), genera una HV adaptada en Google Docs y PDF sin inventar experiencia y avisa por Telegram. La VM se enciende sola de 9:00 a 12:00 y limpia el Drive cada viernes.
+Automatiza la búsqueda de empleo de lunes a viernes: recolecta ofertas de cuatro portales, una IA (Gemini) califica cada una contra la hoja de vida y se queda con las 5 mejores por portal (match ≥ 90 %), genera una HV adaptada en Google Docs y PDF sin inventar experiencia y avisa por Telegram. La VM se enciende sola de 8:40 a 12:00, se actualiza sola desde GitHub y limpia el Drive cada viernes.
 
 <img src="assets/tech/n8n.svg" alt="n8n" height="22"> <img src="assets/tech/gemini.svg" alt="Gemini" height="22"> <img src="assets/tech/docker.svg" alt="Docker" height="22"> <img src="assets/tech/google-sheets.svg" alt="Google Sheets" height="22"> <img src="assets/tech/telegram.svg" alt="Telegram" height="22">
 

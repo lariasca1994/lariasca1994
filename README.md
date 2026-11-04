@@ -98,9 +98,29 @@ Proyecto que reúne lo que trabajo en el resto del portafolio. Simula un ecosist
 
 ---
 
+## ⭐ Proyecto destacado · Plataforma integral
+
+<table>
+<tr>
+<td>
+
+### 🎪 ExpoNexo — Plataforma de un recinto de ferias y eventos
+
+El proyecto que integra todo el portafolio en un solo sistema: los expositores reservan y pagan su stand con QR, los visitantes compran su entrada y agendan citas de negocios, y el personal atiende tickets con SLA y vigila kioscos y torniquetes. Cuatro servicios con su propia base de datos que se avisan por eventos, verificación en dos pasos obligatoria con llaves de acceso, procedimientos almacenados, datos de demostración coherentes entre las tres bases y despliegue continuo desde GitHub en cuatro nubes, todo en planes gratuitos y escalando a cero.
+
+<img src="assets/tech/react.svg" alt="React" height="22"> <img src="assets/tech/typescript.svg" alt="TypeScript" height="22"> <img src="assets/tech/python.svg" alt="Python" height="22"> <img src="assets/tech/fastapi.svg" alt="FastAPI" height="22"> <img src="assets/tech/spring-boot.svg" alt="Spring Boot" height="22"> <img src="assets/tech/asp-net-core.svg" alt="ASP.NET Core" height="22"> <img src="assets/tech/azure-sql.svg" alt="Azure SQL" height="22"> <img src="assets/tech/oracle-db.svg" alt="Oracle DB" height="22"> <img src="assets/tech/mongodb.svg" alt="MongoDB" height="22"> <img src="assets/tech/github-actions.svg" alt="GitHub Actions" height="22">
+
+☁️ Vercel · Azure Container Apps · Google Cloud Run · AWS Lambda · Oracle Cloud · MongoDB Atlas · [🔗 Demo](https://exponexo-portal.vercel.app)
+
+</td>
+</tr>
+</table>
+
+---
+
 ## 🚀 Proyectos desarrollados
 
-> Los otros 15 proyectos de mi portafolio (16 en total con el destacado), agrupados por área y, dentro de cada grupo, de mayor a menor complejidad, con su motor de base de datos identificado por color: 🔴 Oracle · 🟢 MongoDB · 🔵 PostgreSQL · 🔷 Azure SQL · 🟠 MySQL / estático · 🟣 DynamoDB · ⚪ Google Sheets.
+> Los otros 15 proyectos de mi portafolio (17 en total con los dos destacados), agrupados por área y, dentro de cada grupo, de mayor a menor complejidad, con su motor de base de datos identificado por color: 🔴 Oracle · 🟢 MongoDB · 🔵 PostgreSQL · 🔷 Azure SQL · 🟠 MySQL / estático · 🟣 DynamoDB · ⚪ Google Sheets.
 
 ### 🧪 QA y automatización de pruebas
 

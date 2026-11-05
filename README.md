@@ -50,7 +50,7 @@ const filosofía = () => ({
   <a href="https://d4i3vsgw7xwmh.cloudfront.net"><img src="https://portafolio-status.onrender.com/api/status/qa-badge.svg" alt="Fecha y hora de la última corrida de pruebas E2E de qa-evidencia" height="32"></a>
 </p>
 
-Todos los proyectos de este portafolio se monitorean en tiempo real: disponibilidad, tiempo de respuesta y % de uptime de los últimos 7 días, con historial guardado en Oracle Autonomous Database. Además, el proyecto qa-evidencia corre pruebas end-to-end automatizadas de lunes a viernes a las 11:00, sobre 12 de estos proyectos y publica ahí mismo la fecha de la última corrida junto con la evidencia (capturas) de cada uno.
+Todos los proyectos de este portafolio se monitorean en tiempo real: disponibilidad, tiempo de respuesta y % de uptime de los últimos 7 días, con historial guardado en Oracle Autonomous Database. Además, el proyecto qa-evidencia corre pruebas end-to-end automatizadas de lunes a viernes a las 11:00, sobre 13 de estos proyectos y publica ahí mismo la fecha de la última corrida junto con la evidencia (capturas) de cada uno.
 
 ### 🛡️ Lo que comparten todos los proyectos
 
@@ -69,7 +69,7 @@ Todos los proyectos de este portafolio se monitorean en tiempo real: disponibili
 > Aplicaciones, APIs y proyectos de automatización desplegados en plataformas cloud.
 
 <p align="center">
-  <img src="assets/ecosistema.svg" alt="Ecosistema de despliegue: desde el perfil salen flujos hacia siete plataformas cloud (AWS, Azure, Google Cloud Run, Oracle Cloud, Render, Vercel y GitHub Pages); cada una agrupa las tarjetas de sus proyectos con su tecnología, los probados por qa-evidencia llevan una marca azul, y abajo aparecen los proyectos destacados: QALabSPBVI, que usa siete plataformas a la vez, y SysPulse, la plataforma de operaciones TI" width="100%">
+  <img src="assets/ecosistema.svg" alt="Ecosistema de despliegue: desde el perfil salen flujos hacia siete plataformas cloud (AWS, Azure, Google Cloud Run, Oracle Cloud, Render, Vercel y GitHub Pages); cada una agrupa las tarjetas de sus proyectos con su tecnología, los probados por qa-evidencia llevan una marca azul, y abajo aparecen los proyectos destacados: QALabSPBVI, que usa siete plataformas a la vez; SysPulse, la plataforma de operaciones TI, y ExpoNexo, el recinto de ferias con cuatro servicios en seis plataformas" width="100%">
 </p>
 
 <sub>
@@ -132,7 +132,7 @@ El proyecto que integra todo el portafolio en un solo sistema: los expositores r
 
 **🟣 [qa-evidencia](https://d4i3vsgw7xwmh.cloudfront.net)** <sub>(repositorio privado: se muestra el panel público)</sub>
 
-Suite de pruebas E2E automatizada que corre de lunes a viernes a las 11:00 en GitHub Actions contra 12 proyectos desplegados de este portafolio (login fallido y flujo positivo), sube la evidencia (capturas) a Cloudinary y los resultados a DynamoDB, y envía un correo de resumen — con panel de evidencia en vivo. Se despliega sola en cada push con GitHub Actions (OIDC, sin llaves de AWS) y limpia cada semana la evidencia de más de 15 días.
+Suite de pruebas E2E automatizada que corre de lunes a viernes a las 11:00 en GitHub Actions contra 13 proyectos desplegados de este portafolio (login fallido y flujo positivo), sube la evidencia (capturas) a Cloudinary y los resultados a DynamoDB, y envía un correo de resumen — con panel de evidencia en vivo. Se despliega sola en cada push con GitHub Actions (OIDC, sin llaves de AWS) y limpia cada semana la evidencia de más de 15 días.
 
 <img src="assets/tech/playwright.svg" alt="Playwright" height="22"> <img src="assets/tech/typescript.svg" alt="TypeScript" height="22"> <img src="assets/tech/dynamodb.svg" alt="DynamoDB" height="22"> <img src="assets/tech/github-actions.svg" alt="GitHub Actions" height="22">
 
@@ -315,7 +315,7 @@ Motor de control de calidad para procesos de afiliación: validación de reglas 
 
 **🔴 [Portfolio Status](https://github.com/lariasca1994/portafolio-status)**
 
-Dashboard de observabilidad que monitorea en tiempo real la disponibilidad y el tiempo de respuesta de los 11 proyectos desplegados de este portafolio.
+Dashboard de observabilidad que monitorea en tiempo real la disponibilidad y el tiempo de respuesta de los 12 proyectos desplegados de este portafolio.
 
 <img src="assets/tech/python.svg" alt="Python" height="22"> <img src="assets/tech/fastapi.svg" alt="FastAPI" height="22"> <img src="assets/tech/react.svg" alt="React" height="22"> <img src="assets/tech/oracle-db.svg" alt="Oracle DB" height="22">
 

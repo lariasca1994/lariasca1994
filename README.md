@@ -198,7 +198,7 @@ Coordina reuniones entre varias personas: cada usuario registra su disponibilida
 
 **🟢 [ColombiaTech2](https://github.com/lariasca1994/ColombiaTech2)**
 
-Plataforma de alquiler de vivienda con mensajería en tiempo real entre arrendadores e inquilinos. Backend unificado en REST, GraphQL y WebSockets.
+Plataforma de alquiler de vivienda con mensajería en tiempo real entre arrendadores e inquilinos e ilustraciones generadas automáticamente para cada inmueble sin foto. Backend unificado en REST, GraphQL y WebSockets.
 
 <img src="assets/tech/nestjs.svg" alt="NestJS" height="22"> <img src="assets/tech/react.svg" alt="React" height="22"> <img src="assets/tech/mongodb.svg" alt="MongoDB" height="22">
 

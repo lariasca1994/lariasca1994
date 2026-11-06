@@ -84,7 +84,7 @@ Cada proyecto tiene el color de la plataforma donde está desplegado: 🟧 AWS �
 <tr>
 <td>
 
-### 🏦 [QALabSPBVI](https://github.com/lariasca1994/QALabSPBVI) — Laboratorio de pagos inmediatos y plataforma QA
+### 🏦 [Laboratorio de pagos inmediatos](https://github.com/lariasca1994/QALabSPBVI) — Pagos con llaves y plataforma QA
 
 Proyecto que reúne lo que trabajo en el resto del portafolio. Simula un ecosistema de pagos inmediatos con llaves (directorios de llaves, pagos intra e inter-SPBVI, ISO 20022). Incluye una plataforma QA tipo Jira con casos REST/JSON ejecutables, desplegada en siete plataformas cloud.
 
@@ -104,7 +104,7 @@ Proyecto que reúne lo que trabajo en el resto del portafolio. Simula un ecosist
 <tr>
 <td>
 
-### 🎪 [ExpoNexo](https://github.com/lariasca1994/exponexo) — Plataforma de un recinto de ferias y eventos
+### 🎪 [Plataforma de ferias y eventos](https://github.com/lariasca1994/exponexo) — Stands, entradas y negocios en un recinto ferial
 
 El proyecto que integra todo el portafolio en un solo sistema: los expositores reservan y pagan su stand con QR, los visitantes compran su entrada y agendan citas de negocios, y el personal atiende tickets con SLA y vigila kioscos y torniquetes. Cuatro servicios con su propia base de datos que se avisan por eventos, verificación en dos pasos obligatoria con llaves de acceso y recuperación de contraseña, avisos por correo y Telegram a cada persona, procedimientos almacenados, datos de demostración coherentes entre las tres bases y despliegue continuo desde GitHub en cuatro nubes, con servicios que escalan a cero.
 
@@ -185,7 +185,7 @@ Automatiza la búsqueda de empleo de lunes a viernes: recolecta ofertas de cuatr
 <tr>
 <td width="50%">
 
-**🟠 [Motor de Horarios](https://github.com/lariasca1994/motor-horarios-oci)**
+**🟠 [Coordinador de reuniones](https://github.com/lariasca1994/motor-horarios-oci)**
 
 Coordina reuniones entre varias personas: cada usuario registra su disponibilidad (con recurrencia RRULE) y sus reglas de horario; el motor propone los 3 mejores huecos comunes y avisa por correo a los participantes. Incluye autenticación y roles.
 
@@ -196,7 +196,7 @@ Coordina reuniones entre varias personas: cada usuario registra su disponibilida
 </td>
 <td width="50%">
 
-**🟢 [ColombiaTech2](https://github.com/lariasca1994/ColombiaTech2)**
+**🟢 [Alquiler de vivienda](https://github.com/lariasca1994/ColombiaTech2)**
 
 Plataforma de alquiler de vivienda con mensajería en tiempo real entre arrendadores e inquilinos e ilustraciones generadas automáticamente para cada inmueble sin foto. Backend unificado en REST, GraphQL y WebSockets.
 
@@ -209,7 +209,7 @@ Plataforma de alquiler de vivienda con mensajería en tiempo real entre arrendad
 <tr>
 <td width="50%">
 
-**🔴 [PRPagos](https://github.com/lariasca1994/PRPagos)**
+**🔴 [Simulador de pagos](https://github.com/lariasca1994/PRPagos)**
 
 Gestor de presupuesto personal: ingresos y gastos por categoría, plan 50/30/20 y dashboard con gráficas, con dos versiones idénticas sobre la misma base Oracle —web con FastAPI, instalable como app (PWA), y escritorio en Java Swing como ejecutable de Windows con actualización automática—. Resúmenes por correo cada viernes y cada día 29, verificación en dos pasos obligatoria (app autenticadora o código por correo) compartida, con códigos de respaldo, ingreso con llaves de acceso (Windows Hello, huella o PIN), y reglas y auditoría en procedimientos almacenados.
 
@@ -233,7 +233,7 @@ Sistema de reservas para un centro de convenciones: catálogo de escenarios, cal
 <tr>
 <td width="50%">
 
-**🟢 [TaskFlow](https://github.com/lariasca1994/taskflow)**
+**🟢 [Gestor de tareas](https://github.com/lariasca1994/taskflow)**
 
 Gestor de tareas con carga de archivos, procesamiento con pandas y generación de reportes y analítica en tiempo real.
 
@@ -262,7 +262,7 @@ Sitio de portafolio personal construido sin frameworks, con HTML, CSS y JavaScri
 <tr>
 <td>
 
-### 📡 [SysPulse](https://github.com/lariasca1994/SysPulse) — Monitoreo de equipos y gestión de incidentes con ITIL
+### 📡 [Monitoreo e incidentes TI](https://github.com/lariasca1994/SysPulse) — Monitoreo de equipos y gestión de incidentes con ITIL
 
 Plataforma de operaciones TI de punta a punta: agentes para Windows y Android reportan la salud de computadores, tablets y celulares; las alertas sostenidas abren incidentes con prioridad, SLA y escalamiento N1 → N2 → N3, que se resuelven solos si la métrica se normaliza. Avisos por Telegram, chat de mesa de servicio en tiempo real, analítica ITIL, MFA y alta de equipos con código de un solo uso, que pueden hacer los técnicos N2 y N3. Los agentes no guardan secretos de la plataforma (solo una credencial de base limitada a sus métricas) y se actualizan solos desde GitHub Releases con verificación de huella.
 
@@ -282,7 +282,7 @@ Plataforma de operaciones TI de punta a punta: agentes para Windows y Android re
 <tr>
 <td width="50%">
 
-**🔵 [Lottery AI](https://lottery-ai-app-cawi.onrender.com)**
+**🔵 [Analítica y pronósticos de sorteos](https://lottery-ai-app-cawi.onrender.com)**
 
 Análisis y modelos predictivos de cuatro loterías colombianas (una principal con balota adicional, su segunda oportunidad, una de cinco números y una de colores). Recolecta resultados y premios, demuestra con backtesting *walk-forward* que los números no se pueden predecir y predice lo que sí: venta estimada, probabilidad de ganador del premio mayor y valor esperado del boleto. Envía un resumen diario por correo.
 
@@ -313,7 +313,7 @@ Motor de control de calidad para procesos de afiliación: validación de reglas 
 <tr>
 <td width="50%">
 
-**🔴 [Portfolio Status](https://github.com/lariasca1994/portafolio-status)**
+**🔴 [Monitor de disponibilidad de servicios](https://github.com/lariasca1994/portafolio-status)**
 
 Dashboard de observabilidad que monitorea en tiempo real la disponibilidad y el tiempo de respuesta de los 12 proyectos desplegados de este portafolio.
 

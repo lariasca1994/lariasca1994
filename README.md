@@ -104,13 +104,13 @@ Proyecto que reúne lo que trabajo en el resto del portafolio. Simula un ecosist
 <tr>
 <td>
 
-### 🎪 ExpoNexo — Plataforma de un recinto de ferias y eventos
+### 🎪 [ExpoNexo](https://github.com/lariasca1994/exponexo) — Plataforma de un recinto de ferias y eventos
 
-El proyecto que integra todo el portafolio en un solo sistema: los expositores reservan y pagan su stand con QR, los visitantes compran su entrada y agendan citas de negocios, y el personal atiende tickets con SLA y vigila kioscos y torniquetes. Cuatro servicios con su propia base de datos que se avisan por eventos, verificación en dos pasos obligatoria con llaves de acceso y recuperación de contraseña, avisos por correo y Telegram a cada persona, procedimientos almacenados, datos de demostración coherentes entre las tres bases y despliegue continuo desde GitHub en cuatro nubes, todo en planes gratuitos y escalando a cero.
+El proyecto que integra todo el portafolio en un solo sistema: los expositores reservan y pagan su stand con QR, los visitantes compran su entrada y agendan citas de negocios, y el personal atiende tickets con SLA y vigila kioscos y torniquetes. Cuatro servicios con su propia base de datos que se avisan por eventos, verificación en dos pasos obligatoria con llaves de acceso y recuperación de contraseña, avisos por correo y Telegram a cada persona, procedimientos almacenados, datos de demostración coherentes entre las tres bases y despliegue continuo desde GitHub en cuatro nubes, con servicios que escalan a cero.
 
 <img src="assets/tech/react.svg" alt="React" height="22"> <img src="assets/tech/typescript.svg" alt="TypeScript" height="22"> <img src="assets/tech/python.svg" alt="Python" height="22"> <img src="assets/tech/fastapi.svg" alt="FastAPI" height="22"> <img src="assets/tech/spring-boot.svg" alt="Spring Boot" height="22"> <img src="assets/tech/asp-net-core.svg" alt="ASP.NET Core" height="22"> <img src="assets/tech/azure-sql.svg" alt="Azure SQL" height="22"> <img src="assets/tech/oracle-db.svg" alt="Oracle DB" height="22"> <img src="assets/tech/mongodb.svg" alt="MongoDB" height="22"> <img src="assets/tech/github-actions.svg" alt="GitHub Actions" height="22">
 
-☁️ Vercel · Azure Container Apps · Google Cloud Run · AWS Lambda · Oracle Cloud · MongoDB Atlas · [🔗 Demo](https://exponexo-portal.vercel.app)
+☁️ Vercel · Azure Container Apps · Google Cloud Run · AWS Lambda · Oracle Cloud · MongoDB Atlas · [🔗 Demo](https://exponexo-portal.vercel.app) · [📖 Manual](https://github.com/lariasca1994/exponexo/blob/main/docs/MANUAL.md)
 
 </td>
 </tr>
@@ -244,7 +244,7 @@ Gestor de tareas con carga de archivos, procesamiento con pandas y generación d
 </td>
 <td width="50%">
 
-**🟠 [PWDC](https://lariasca1994.github.io/PWDC/)**
+**🟠 [PWDC](https://github.com/lariasca1994/PWDC)**
 
 Sitio de portafolio personal construido sin frameworks, con HTML, CSS y JavaScript puro.
 

@@ -1,9 +1,24 @@
-<img src="assets/perfil-busco.svg" alt="Busco: QA / Tester · Soporte" height="24"> <img src="assets/perfil-modalidad.svg" alt="Modalidad: Remoto preferido" height="24">
+<h1 align="center">Luis F. A.</h1>
+<p align="center"><b>Ingeniero de Sistemas · QA y pruebas · Operación y soporte TI · Automatización</b><br>
+<sub>Valido que el software funcione, lo despliego en la nube y automatizo lo repetitivo.</sub></p>
+
+<p align="center">
+<img src="assets/perfil-busco.svg" alt="Busco: QA / Tester · Soporte" height="24"> &nbsp; <img src="assets/perfil-modalidad.svg" alt="Modalidad: Remoto preferido" height="24">
+</p>
+
+<p align="center">
+  <a href="#-proyectos-destacados">⭐ Destacados</a> ·
+  <a href="#️-proyectos-por-área">🗂️ Proyectos por área</a> ·
+  <a href="#-estado-en-vivo-de-mis-proyectos">🟢 Estado en vivo</a> ·
+  <a href="#️-ecosistema-de-despliegue">☁️ Despliegue</a> ·
+  <a href="#-contacto">📫 Contacto</a>
+</p>
+
 
 ```typescript
-const luisFelipe: Profesional = {
-  nombre: "Luis Felipe Arias",
-  rol: "Ingeniero de Sistemas · QA & Automatización",
+const luisFA: Profesional = {
+  nombre: "Luis F. A.",
+  rol: "Ingeniero de Sistemas · QA, Soporte TI y Automatización",
   enfoqueActual: [
     "🧪 Pruebas funcionales, diseño de casos y validación de servicios API REST",
     "🐍 Backends en Python (FastAPI) conectados a bases de datos",
@@ -42,43 +57,11 @@ const filosofía = () => ({
 
 ---
 
-## 🟢 Estado en vivo de mis proyectos
+## ⭐ Proyectos destacados
 
-<p>
-  <a href="https://frontend-nine-topaz-99.vercel.app"><img src="assets/badge-dashboard.svg" alt="Dashboard de disponibilidad en vivo" height="32"></a><br>
-  <a href="https://frontend-nine-topaz-99.vercel.app"><img src="https://portafolio-status.onrender.com/api/status/badge.svg" alt="Estado en vivo de los proyectos" height="32"></a><br>
-  <a href="https://d4i3vsgw7xwmh.cloudfront.net"><img src="https://portafolio-status.onrender.com/api/status/qa-badge.svg" alt="Fecha y hora de la última corrida de pruebas E2E de qa-evidencia" height="32"></a>
-</p>
+> Los tres proyectos que mejor resumen mi perfil: uno por cada área en la que trabajo.
 
-Todos los proyectos de este portafolio se monitorean en tiempo real: disponibilidad, tiempo de respuesta y % de uptime de los últimos 7 días, con historial guardado en Oracle Autonomous Database. Además, el proyecto qa-evidencia corre pruebas end-to-end automatizadas de lunes a viernes a las 11:00, sobre 13 de estos proyectos y publica ahí mismo la fecha de la última corrida junto con la evidencia (capturas) de cada uno.
-
-### 🛡️ Lo que comparten todos los proyectos
-
-- **Pantalla de mantenimiento:** si la API o la base de datos no responden, cada aplicación muestra una pantalla propia, con sus colores, en lugar de un error genérico, y vuelve a la normalidad apenas el servicio responde (en la mayoría, sin recargar a mano). Ninguna acción queda a medias.
-- **Manual de usuario con la misma estructura:** objetivos y alcances, glosario, tabla de nube / base de datos / API, paso a paso con imágenes y seguridad de la información personal.
-- **Verificación en dos pasos obligatoria:** en cada plataforma con cuentas, cada persona elige app autenticadora (TOTP) o código por correo, y desde Seguridad o Perfil agrega el otro método y escoge cuál se pide por defecto. Un código no se acepta dos veces y los errores repetidos bloquean el acceso por unos minutos.
-- **Misma seguridad en todas las plataformas:** bloqueo temporal ante intentos fallidos repetidos y registro de eventos de seguridad (ingresos, intentos fallidos, bloqueos y cambios de contraseña), depurado a los 15 días.
-- **Al día en seguridad:** el runtime, el sistema y las dependencias se mantienen con los últimos
-  parches y se revisan periódicamente.
-- **Acceso con identidad propia:** cada login tiene un panel de marca animado con el motivo del proyecto (agenda de reservas, flujo de pagos, SLA de incidentes…).
-
----
-
-## ☁️ Ecosistema de despliegue
-
-> Aplicaciones, APIs y proyectos de automatización desplegados en plataformas cloud.
-
-<p align="center">
-  <img src="assets/ecosistema.svg" alt="Ecosistema de despliegue: desde el perfil salen flujos hacia siete plataformas cloud (AWS, Azure, Google Cloud Run, Oracle Cloud, Render, Vercel y GitHub Pages); cada una agrupa las tarjetas de sus proyectos con su tecnología, los probados por qa-evidencia llevan una marca azul, y abajo aparecen los proyectos destacados: QALabSPBVI, que usa siete plataformas a la vez; SysPulse, la plataforma de operaciones TI, y ExpoNexo, el recinto de ferias con cuatro servicios en seis plataformas" width="100%">
-</p>
-
-<sub>
-Cada proyecto tiene el color de la plataforma donde está desplegado: 🟧 AWS · 🔷 Azure Container Apps · 🔵 Google Cloud Run · 🔴 Oracle Cloud (OCI) · 🟢 Render · ⚫ Vercel · 🟣 GitHub Pages. Los que tienen ✔ se prueban automáticamente con qa-evidencia.
-</sub>
-
----
-
-## ⭐ Proyecto destacado QA y Automatización
+<sub>🧪 <b>QA y pruebas</b></sub>
 
 <table>
 <tr>
@@ -96,9 +79,25 @@ Proyecto que reúne lo que trabajo en el resto del portafolio. Simula un ecosist
 </tr>
 </table>
 
----
+<sub>🛠️ <b>Operación y soporte TI</b></sub>
 
-## ⭐ Proyecto destacado · Plataforma integral
+<table>
+<tr>
+<td>
+
+### 📡 [Monitoreo e incidentes TI](https://github.com/lariasca1994/SysPulse) — Monitoreo de equipos y gestión de incidentes con ITIL
+
+Plataforma de operaciones TI de punta a punta: agentes para Windows y Android reportan la salud de computadores, tablets y celulares; las alertas sostenidas abren incidentes con prioridad, SLA y escalamiento N1 → N2 → N3, que se resuelven solos si la métrica se normaliza. Avisos por Telegram, chat de mesa de servicio en tiempo real, analítica ITIL, MFA y alta de equipos con código de un solo uso, que pueden hacer los técnicos N2 y N3. Los agentes no guardan secretos de la plataforma (solo una credencial de base limitada a sus métricas) y se actualizan solos desde GitHub Releases con verificación de huella.
+
+<img src="assets/tech/csharp.svg" alt="C#" height="22"> <img src="assets/tech/asp-net-core.svg" alt="ASP.NET Core" height="22"> <img src="assets/tech/react.svg" alt="React" height="22"> <img src="assets/tech/typescript.svg" alt="TypeScript" height="22"> <img src="assets/tech/mongodb.svg" alt="MongoDB" height="22">
+
+☁️ Vercel · Render · MongoDB Atlas · GitHub Releases · [🔗 Demo](https://syspulse.vercel.app) · [📖 Manual](https://github.com/lariasca1994/SysPulse/blob/main/docs/MANUAL.md)
+
+</td>
+</tr>
+</table>
+
+<sub>⚙️ <b>Plataforma integral y automatización</b></sub>
 
 <table>
 <tr>
@@ -118,19 +117,19 @@ El proyecto que integra todo el portafolio en un solo sistema: los expositores r
 
 ---
 
-## 🚀 Proyectos desarrollados
+## 🗂️ Proyectos por área
 
-> Los otros 15 proyectos de mi portafolio (17 en total con los dos destacados), agrupados por área y, dentro de cada grupo, de mayor a menor complejidad, con su motor de base de datos identificado por color: 🔴 Oracle · 🟢 MongoDB · 🔵 PostgreSQL · 🔷 Azure SQL · 🟠 MySQL / estático · 🟣 DynamoDB · ⚪ Google Sheets.
+> Los otros 14 proyectos del portafolio (17 en total con los tres destacados), organizados igual que en mi [sitio web](https://lariasca1994.github.io/PWDC/#proyectos). El color indica el motor de base de datos: 🔴 Oracle · 🟢 MongoDB · 🔵 PostgreSQL · 🔷 Azure SQL · 🟠 MySQL / estático · 🟣 DynamoDB · ⚪ Google Sheets.
 
-### 🧪 QA y automatización de pruebas
+### 🧪 QA y pruebas
 
-<sub>Pruebas E2E automatizadas, gestión de casos de prueba, validación de APIs y automatización de procesos con IA.</sub>
+<sub>Pruebas E2E automatizadas, gestión de casos de prueba y validación de APIs REST.</sub>
 
 <table>
 <tr>
 <td width="50%">
 
-**🟣 [qa-evidencia](https://d4i3vsgw7xwmh.cloudfront.net)** <sub>(repositorio privado: se muestra el panel público)</sub>
+**🟣 [Panel de pruebas automatizadas](https://d4i3vsgw7xwmh.cloudfront.net)** <sub>(repositorio privado: se muestra el panel público)</sub>
 
 Suite de pruebas E2E automatizada que corre de lunes a viernes a las 11:00 en GitHub Actions contra 13 proyectos desplegados de este portafolio (login fallido y flujo positivo), sube la evidencia (capturas) a Cloudinary y los resultados a DynamoDB, y envía un correo de resumen — con panel de evidencia en vivo. Se despliega sola en cada push con GitHub Actions (OIDC, sin llaves de AWS) y limpia cada semana la evidencia de más de 15 días.
 
@@ -152,7 +151,7 @@ Plataforma end-to-end para gestionar proyectos, suites, casos de prueba, ejecuci
 </td>
 </tr>
 <tr>
-<td width="50%">
+<td colspan="2">
 
 **🔵 [verificador-api](https://github.com/lariasca1994/verificador-api)**
 
@@ -163,151 +162,12 @@ Suite de validación automatizada para endpoints REST: pruebas de contrato, cód
 ☁️ AWS Lambda · [🔗 Demo](https://eofvlnitsiuodup4eywdcenxwu0adgbz.lambda-url.us-east-1.on.aws/) · [📖 Manual](https://github.com/lariasca1994/verificador-api/blob/main/docs/MANUAL.md)
 
 </td>
-<td width="50%">
-
-**⚪ [Job Search Automation](https://github.com/lariasca1994/job-search-automation)**
-
-Automatiza la búsqueda de empleo de lunes a viernes: recolecta ofertas de cuatro portales, una IA (Gemini) califica cada una contra la hoja de vida y se queda con las 5 mejores por portal (match ≥ 90 %), genera una HV adaptada en Google Docs y PDF sin inventar experiencia y avisa por Telegram. La VM se enciende sola de 8:40 a 12:00, se actualiza sola desde GitHub y limpia el Drive cada viernes.
-
-<img src="assets/tech/n8n.svg" alt="n8n" height="22"> <img src="assets/tech/gemini.svg" alt="Gemini" height="22"> <img src="assets/tech/docker.svg" alt="Docker" height="22"> <img src="assets/tech/google-sheets.svg" alt="Google Sheets" height="22"> <img src="assets/tech/telegram.svg" alt="Telegram" height="22">
-
-☁️ Google Cloud (VM) · [📖 Manual](https://github.com/lariasca1994/job-search-automation/blob/main/docs/MANUAL.md)
-
-</td>
 </tr>
 </table>
 
-### 💻 Desarrollo de software
+### 🛠️ Operación TI
 
-<sub>Aplicaciones web y de escritorio de punta a punta: backend, frontend, autenticación y despliegue.</sub>
-
-<table>
-<tr>
-<td width="50%">
-
-**🟠 [Coordinador de reuniones](https://github.com/lariasca1994/motor-horarios-oci)**
-
-Coordina reuniones entre varias personas: cada usuario registra su disponibilidad (con recurrencia RRULE) y sus reglas de horario; el motor propone los 3 mejores huecos comunes y avisa por correo a los participantes. Incluye autenticación y roles.
-
-<img src="assets/tech/python.svg" alt="Python" height="22"> <img src="assets/tech/fastapi.svg" alt="FastAPI" height="22"> <img src="assets/tech/mysql-heatwave.svg" alt="MySQL HeatWave" height="22"> <img src="assets/tech/oracle-cloud.svg" alt="Oracle Cloud" height="22">
-
-☁️ Vercel + Render + OCI · [🔗 Demo](https://motor-horarios-oci.vercel.app) · [📖 Manual](https://github.com/lariasca1994/motor-horarios-oci/blob/main/docs/MANUAL.md)
-
-</td>
-<td width="50%">
-
-**🟢 [Alquiler de vivienda](https://github.com/lariasca1994/ColombiaTech2)**
-
-Plataforma de alquiler de vivienda con mensajería en tiempo real entre arrendadores e inquilinos e ilustraciones generadas automáticamente para cada inmueble sin foto. Backend unificado en REST, GraphQL y WebSockets.
-
-<img src="assets/tech/nestjs.svg" alt="NestJS" height="22"> <img src="assets/tech/react.svg" alt="React" height="22"> <img src="assets/tech/mongodb.svg" alt="MongoDB" height="22">
-
-☁️ Vercel + Render · [🔗 Demo](https://colombia-tech2.vercel.app/) · [📖 Manual](https://github.com/lariasca1994/ColombiaTech2/blob/main/docs/MANUAL.md)
-
-</td>
-</tr>
-<tr>
-<td width="50%">
-
-**🔴 [Simulador de pagos](https://github.com/lariasca1994/PRPagos)**
-
-Gestor de presupuesto personal: ingresos y gastos por categoría, plan 50/30/20 y dashboard con gráficas, con dos versiones idénticas sobre la misma base Oracle —web con FastAPI, instalable como app (PWA), y escritorio en Java Swing como ejecutable de Windows con actualización automática—. Resúmenes por correo cada viernes y cada día 29, verificación en dos pasos obligatoria (app autenticadora o código por correo) compartida, con códigos de respaldo, ingreso con llaves de acceso (Windows Hello, huella o PIN), y reglas y auditoría en procedimientos almacenados.
-
-<img src="assets/tech/java-swing.svg" alt="Java Swing" height="22"> <img src="assets/tech/fastapi.svg" alt="FastAPI" height="22"> <img src="assets/tech/oracle-db.svg" alt="Oracle DB" height="22">
-
-☁️ Google Cloud Run · [🔗 Demo web](https://prpagos-web-1087929107584.us-east4.run.app) · [💻 Descarga escritorio](https://github.com/lariasca1994/PRPagos/releases/latest) · [📖 Manual web](https://github.com/lariasca1994/PRPagos/blob/main/docs/MANUAL-WEB.md) · [📖 Manual escritorio](https://github.com/lariasca1994/PRPagos/blob/main/docs/MANUAL-ESCRITORIO.md)
-
-</td>
-<td width="50%">
-
-**🔷 [Reservas de Recinto Ferial](https://github.com/lariasca1994/reservas-corferias)**
-
-Sistema de reservas para un centro de convenciones: catálogo de escenarios, calendario de disponibilidad y panel administrativo.
-
-<img src="assets/tech/php.svg" alt="PHP" height="22"> <img src="assets/tech/laravel.svg" alt="Laravel" height="22"> <img src="assets/tech/azure-sql.svg" alt="Azure SQL" height="22">
-
-☁️ Azure Container Apps · [🔗 Demo](https://reservas-corferias.blueocean-86680030.eastus.azurecontainerapps.io/) · [📖 Manual](https://github.com/lariasca1994/reservas-corferias/blob/main/docs/MANUAL.md)
-
-</td>
-</tr>
-<tr>
-<td width="50%">
-
-**🟢 [Gestor de tareas](https://github.com/lariasca1994/taskflow)**
-
-Gestor de tareas con carga de archivos, procesamiento con pandas y generación de reportes y analítica en tiempo real.
-
-<img src="assets/tech/python.svg" alt="Python" height="22"> <img src="assets/tech/fastapi.svg" alt="FastAPI" height="22"> <img src="assets/tech/mongodb.svg" alt="MongoDB" height="22">
-
-☁️ Google Cloud Run · [🔗 Demo](https://taskflow-812302804238.us-east4.run.app/) · [📖 Manual](https://github.com/lariasca1994/taskflow/blob/main/docs/MANUAL.md)
-
-</td>
-<td width="50%">
-
-**🟠 [PWDC](https://github.com/lariasca1994/PWDC)**
-
-Sitio de portafolio personal construido sin frameworks, con HTML, CSS y JavaScript puro.
-
-<img src="assets/tech/html5.svg" alt="HTML5" height="22"> <img src="assets/tech/css3.svg" alt="CSS3" height="22"> <img src="assets/tech/javascript.svg" alt="JavaScript" height="22">
-
-☁️ GitHub Pages · [🔗 Demo](https://lariasca1994.github.io/PWDC/) · [📖 Manual](https://github.com/lariasca1994/PWDC/blob/main/docs/MANUAL.md)
-
-</td>
-</tr>
-</table>
-
-### ⭐ Proyecto destacado · Operaciones TI
-
-<table>
-<tr>
-<td>
-
-### 📡 [Monitoreo e incidentes TI](https://github.com/lariasca1994/SysPulse) — Monitoreo de equipos y gestión de incidentes con ITIL
-
-Plataforma de operaciones TI de punta a punta: agentes para Windows y Android reportan la salud de computadores, tablets y celulares; las alertas sostenidas abren incidentes con prioridad, SLA y escalamiento N1 → N2 → N3, que se resuelven solos si la métrica se normaliza. Avisos por Telegram, chat de mesa de servicio en tiempo real, analítica ITIL, MFA y alta de equipos con código de un solo uso, que pueden hacer los técnicos N2 y N3. Los agentes no guardan secretos de la plataforma (solo una credencial de base limitada a sus métricas) y se actualizan solos desde GitHub Releases con verificación de huella.
-
-<img src="assets/tech/csharp.svg" alt="C#" height="22"> <img src="assets/tech/asp-net-core.svg" alt="ASP.NET Core" height="22"> <img src="assets/tech/react.svg" alt="React" height="22"> <img src="assets/tech/typescript.svg" alt="TypeScript" height="22"> <img src="assets/tech/mongodb.svg" alt="MongoDB" height="22">
-
-☁️ Vercel · Render · MongoDB Atlas · GitHub Releases · [🔗 Demo](https://syspulse.vercel.app) · [📖 Manual](https://github.com/lariasca1994/SysPulse/blob/main/docs/MANUAL.md)
-
-</td>
-</tr>
-</table>
-
-### 📊 Datos y analítica
-
-<sub>Recolección, validación y análisis de datos con modelos y reglas de negocio.</sub>
-
-<table>
-<tr>
-<td width="50%">
-
-**🔵 [Analítica y pronósticos de sorteos](https://lottery-ai-app-cawi.onrender.com)**
-
-Análisis y modelos predictivos de cuatro loterías colombianas (una principal con balota adicional, su segunda oportunidad, una de cinco números y una de colores). Recolecta resultados y premios, demuestra con backtesting *walk-forward* que los números no se pueden predecir y predice lo que sí: venta estimada, probabilidad de ganador del premio mayor y valor esperado del boleto. Envía un resumen diario por correo.
-
-<img src="assets/tech/javascript.svg" alt="JavaScript" height="22"> <img src="assets/tech/nodejs.svg" alt="Node.js" height="22"> <img src="assets/tech/postgresql.svg" alt="PostgreSQL" height="22"> <img src="assets/tech/github-actions.svg" alt="GitHub Actions" height="22">
-
-☁️ Render + GitHub Actions · [🔗 Demo](https://lottery-ai-app-cawi.onrender.com)
-
-</td>
-<td width="50%">
-
-**🟠 [calidad-afiliaciones](https://github.com/lariasca1994/calidad-afiliaciones)**
-
-Motor de control de calidad para procesos de afiliación: validación de reglas de negocio y seguimiento de inconsistencias.
-
-<img src="assets/tech/python.svg" alt="Python" height="22"> <img src="assets/tech/fastapi.svg" alt="FastAPI" height="22"> <img src="assets/tech/mysql.svg" alt="MySQL" height="22">
-
-☁️ Azure Container Apps · [🔗 Demo](https://calidad-afiliaciones.blueocean-86680030.eastus.azurecontainerapps.io/) · [📖 Manual](https://github.com/lariasca1994/calidad-afiliaciones/blob/main/docs/MANUAL.md)
-
-</td>
-</tr>
-</table>
-
-### 🛠️ Operaciones y soporte TI
-
-<sub>Observabilidad de servicios y gestión de incidentes con SLA y escalamiento.</sub>
+<sub>Observabilidad de servicios y gestión de incidentes con SLA y escalamiento N1 → N2 → N3.</sub>
 
 <table>
 <tr>
@@ -336,17 +196,181 @@ Mini ITSM para soporte de aplicaciones: priorización, SLA, escalamiento automá
 </tr>
 </table>
 
+### ⚙️ Datos y automatización
+
+<sub>Procesos automáticos con IA, procesamiento de archivos, analítica y reglas de calidad de datos.</sub>
+
+<table>
+<tr>
+<td width="50%">
+
+**⚪ [Job Search Automation](https://github.com/lariasca1994/job-search-automation)**
+
+Automatiza la búsqueda de empleo de lunes a viernes: recolecta ofertas de cuatro portales, una IA (Gemini) califica cada una contra la hoja de vida y se queda con las 5 mejores por portal (match ≥ 90 %), genera una HV adaptada en Google Docs y PDF sin inventar experiencia y avisa por Telegram. La VM se enciende sola de 8:40 a 12:00, se actualiza sola desde GitHub y limpia el Drive cada viernes.
+
+<img src="assets/tech/n8n.svg" alt="n8n" height="22"> <img src="assets/tech/gemini.svg" alt="Gemini" height="22"> <img src="assets/tech/docker.svg" alt="Docker" height="22"> <img src="assets/tech/google-sheets.svg" alt="Google Sheets" height="22"> <img src="assets/tech/telegram.svg" alt="Telegram" height="22">
+
+☁️ Google Cloud (VM) · [📖 Manual](https://github.com/lariasca1994/job-search-automation/blob/main/docs/MANUAL.md)
+
+</td>
+<td width="50%">
+
+**🟢 [Gestor de tareas](https://github.com/lariasca1994/taskflow)**
+
+Gestor de tareas con carga de archivos, procesamiento con pandas y generación de reportes y analítica en tiempo real.
+
+<img src="assets/tech/python.svg" alt="Python" height="22"> <img src="assets/tech/fastapi.svg" alt="FastAPI" height="22"> <img src="assets/tech/mongodb.svg" alt="MongoDB" height="22">
+
+☁️ Google Cloud Run · [🔗 Demo](https://taskflow-812302804238.us-east4.run.app/) · [📖 Manual](https://github.com/lariasca1994/taskflow/blob/main/docs/MANUAL.md)
+
+</td>
+</tr>
+<tr>
+<td width="50%">
+
+**🔵 [Analítica y pronósticos de sorteos](https://lottery-ai-app-cawi.onrender.com)**
+
+Análisis y modelos predictivos de cuatro loterías colombianas (una principal con balota adicional, su segunda oportunidad, una de cinco números y una de colores). Recolecta resultados y premios, demuestra con backtesting *walk-forward* que los números no se pueden predecir y predice lo que sí: venta estimada, probabilidad de ganador del premio mayor y valor esperado del boleto. Envía un resumen diario por correo.
+
+<img src="assets/tech/javascript.svg" alt="JavaScript" height="22"> <img src="assets/tech/nodejs.svg" alt="Node.js" height="22"> <img src="assets/tech/postgresql.svg" alt="PostgreSQL" height="22"> <img src="assets/tech/github-actions.svg" alt="GitHub Actions" height="22">
+
+☁️ Render + GitHub Actions · [🔗 Demo](https://lottery-ai-app-cawi.onrender.com)
+
+</td>
+<td width="50%">
+
+**🟠 [calidad-afiliaciones](https://github.com/lariasca1994/calidad-afiliaciones)**
+
+Motor de control de calidad para procesos de afiliación: validación de reglas de negocio y seguimiento de inconsistencias.
+
+<img src="assets/tech/python.svg" alt="Python" height="22"> <img src="assets/tech/fastapi.svg" alt="FastAPI" height="22"> <img src="assets/tech/mysql.svg" alt="MySQL" height="22">
+
+☁️ Azure Container Apps · [🔗 Demo](https://calidad-afiliaciones.blueocean-86680030.eastus.azurecontainerapps.io/) · [📖 Manual](https://github.com/lariasca1994/calidad-afiliaciones/blob/main/docs/MANUAL.md)
+
+</td>
+</tr>
+</table>
+
+### 💻 Aplicaciones web
+
+<sub>Aplicaciones de punta a punta: backend, frontend, autenticación y despliegue.</sub>
+
+<table>
+<tr>
+<td width="50%">
+
+**🔴 [Simulador de pagos](https://github.com/lariasca1994/PRPagos)**
+
+Gestor de presupuesto personal: ingresos y gastos por categoría, plan 50/30/20 y dashboard con gráficas, con dos versiones idénticas sobre la misma base Oracle —web con FastAPI, instalable como app (PWA), y escritorio en Java Swing como ejecutable de Windows con actualización automática—. Resúmenes por correo cada viernes y cada día 29, verificación en dos pasos obligatoria (app autenticadora o código por correo) compartida, con códigos de respaldo, ingreso con llaves de acceso (Windows Hello, huella o PIN), y reglas y auditoría en procedimientos almacenados.
+
+<img src="assets/tech/java-swing.svg" alt="Java Swing" height="22"> <img src="assets/tech/fastapi.svg" alt="FastAPI" height="22"> <img src="assets/tech/oracle-db.svg" alt="Oracle DB" height="22">
+
+☁️ Google Cloud Run · [🔗 Demo web](https://prpagos-web-1087929107584.us-east4.run.app) · [💻 Descarga escritorio](https://github.com/lariasca1994/PRPagos/releases/latest) · [📖 Manual web](https://github.com/lariasca1994/PRPagos/blob/main/docs/MANUAL-WEB.md) · [📖 Manual escritorio](https://github.com/lariasca1994/PRPagos/blob/main/docs/MANUAL-ESCRITORIO.md)
+
+</td>
+<td width="50%">
+
+**🟠 [Coordinador de reuniones](https://github.com/lariasca1994/motor-horarios-oci)**
+
+Coordina reuniones entre varias personas: cada usuario registra su disponibilidad (con recurrencia RRULE) y sus reglas de horario; el motor propone los 3 mejores huecos comunes y avisa por correo a los participantes. Incluye autenticación y roles.
+
+<img src="assets/tech/python.svg" alt="Python" height="22"> <img src="assets/tech/fastapi.svg" alt="FastAPI" height="22"> <img src="assets/tech/mysql-heatwave.svg" alt="MySQL HeatWave" height="22"> <img src="assets/tech/oracle-cloud.svg" alt="Oracle Cloud" height="22">
+
+☁️ Vercel + Render + OCI · [🔗 Demo](https://motor-horarios-oci.vercel.app) · [📖 Manual](https://github.com/lariasca1994/motor-horarios-oci/blob/main/docs/MANUAL.md)
+
+</td>
+</tr>
+<tr>
+<td width="50%">
+
+**🟢 [Alquiler de vivienda](https://github.com/lariasca1994/ColombiaTech2)**
+
+Plataforma de alquiler de vivienda con mensajería en tiempo real entre arrendadores e inquilinos e ilustraciones generadas automáticamente para cada inmueble sin foto. Backend unificado en REST, GraphQL y WebSockets.
+
+<img src="assets/tech/nestjs.svg" alt="NestJS" height="22"> <img src="assets/tech/react.svg" alt="React" height="22"> <img src="assets/tech/mongodb.svg" alt="MongoDB" height="22">
+
+☁️ Vercel + Render · [🔗 Demo](https://colombia-tech2.vercel.app/) · [📖 Manual](https://github.com/lariasca1994/ColombiaTech2/blob/main/docs/MANUAL.md)
+
+</td>
+<td width="50%">
+
+**🔷 [Reservas de Recinto Ferial](https://github.com/lariasca1994/reservas-corferias)**
+
+Sistema de reservas para un centro de convenciones: catálogo de escenarios, calendario de disponibilidad y panel administrativo.
+
+<img src="assets/tech/php.svg" alt="PHP" height="22"> <img src="assets/tech/laravel.svg" alt="Laravel" height="22"> <img src="assets/tech/azure-sql.svg" alt="Azure SQL" height="22">
+
+☁️ Azure Container Apps · [🔗 Demo](https://reservas-corferias.blueocean-86680030.eastus.azurecontainerapps.io/) · [📖 Manual](https://github.com/lariasca1994/reservas-corferias/blob/main/docs/MANUAL.md)
+
+</td>
+</tr>
+<tr>
+<td colspan="2">
+
+**🟠 [PWDC](https://github.com/lariasca1994/PWDC)**
+
+Sitio de portafolio personal construido sin frameworks, con HTML, CSS y JavaScript puro.
+
+<img src="assets/tech/html5.svg" alt="HTML5" height="22"> <img src="assets/tech/css3.svg" alt="CSS3" height="22"> <img src="assets/tech/javascript.svg" alt="JavaScript" height="22">
+
+☁️ GitHub Pages · [🔗 Demo](https://lariasca1994.github.io/PWDC/) · [📖 Manual](https://github.com/lariasca1994/PWDC/blob/main/docs/MANUAL.md)
+
+</td>
+</tr>
+</table>
+
+---
+
+## 🟢 Estado en vivo de mis proyectos
+
+<p>
+  <a href="https://frontend-nine-topaz-99.vercel.app"><img src="assets/badge-dashboard.svg" alt="Dashboard de disponibilidad en vivo" height="32"></a><br>
+  <a href="https://frontend-nine-topaz-99.vercel.app"><img src="https://portafolio-status.onrender.com/api/status/badge.svg" alt="Estado en vivo de los proyectos" height="32"></a><br>
+  <a href="https://d4i3vsgw7xwmh.cloudfront.net"><img src="https://portafolio-status.onrender.com/api/status/qa-badge.svg" alt="Fecha y hora de la última corrida de pruebas E2E del Panel de pruebas automatizadas" height="32"></a>
+</p>
+
+Todos los proyectos de este portafolio se monitorean en tiempo real: disponibilidad, tiempo de respuesta y % de uptime de los últimos 7 días, con historial guardado en Oracle Autonomous Database. Además, el Panel de pruebas automatizadas corre pruebas end-to-end automatizadas de lunes a viernes a las 11:00, sobre 13 de estos proyectos y publica ahí mismo la fecha de la última corrida junto con la evidencia (capturas) de cada uno.
+
+### 🛡️ Lo que comparten todos los proyectos
+
+- **Pantalla de mantenimiento:** si la API o la base de datos no responden, cada aplicación muestra una pantalla propia, con sus colores, en lugar de un error genérico, y vuelve a la normalidad apenas el servicio responde (en la mayoría, sin recargar a mano). Ninguna acción queda a medias.
+- **Manual de usuario con la misma estructura:** objetivos y alcances, glosario, tabla de nube / base de datos / API, paso a paso con imágenes y seguridad de la información personal.
+- **Verificación en dos pasos obligatoria:** en cada plataforma con cuentas, cada persona elige app autenticadora (TOTP) o código por correo, y desde Seguridad o Perfil agrega el otro método y escoge cuál se pide por defecto. Un código no se acepta dos veces y los errores repetidos bloquean el acceso por unos minutos.
+- **Misma seguridad en todas las plataformas:** bloqueo temporal ante intentos fallidos repetidos y registro de eventos de seguridad (ingresos, intentos fallidos, bloqueos y cambios de contraseña), depurado a los 15 días.
+- **Al día en seguridad:** el runtime, el sistema y las dependencias se mantienen con los últimos
+  parches y se revisan periódicamente.
+- **Acceso con identidad propia:** cada login tiene un panel de marca animado con el motivo del proyecto (agenda de reservas, flujo de pagos, SLA de incidentes…).
+
+---
+
+## ☁️ Ecosistema de despliegue
+
+> Aplicaciones, APIs y proyectos de automatización desplegados en plataformas cloud.
+
+<p align="center">
+  <img src="assets/ecosistema.svg" alt="Ecosistema de despliegue: desde el perfil salen flujos hacia siete plataformas cloud (AWS, Azure, Google Cloud Run, Oracle Cloud, Render, Vercel y GitHub Pages); cada una agrupa las tarjetas de sus proyectos con su tecnología, los probados por el Panel de pruebas automatizadas llevan una marca azul, y abajo aparecen los proyectos destacados: QALabSPBVI, que usa siete plataformas a la vez; SysPulse, la plataforma de operaciones TI, y ExpoNexo, el recinto de ferias con cuatro servicios en seis plataformas" width="100%">
+</p>
+
+<sub>
+Cada proyecto tiene el color de la plataforma donde está desplegado: 🟧 AWS · 🔷 Azure Container Apps · 🔵 Google Cloud Run · 🔴 Oracle Cloud (OCI) · 🟢 Render · ⚫ Vercel · 🟣 GitHub Pages. Los que tienen ✔ se prueban automáticamente con el Panel de pruebas automatizadas.
+</sub>
+
 ---
 
 ## 📫 Contacto
 
-<a href="https://wa.me/cortosvar26"><img src="assets/contacto-whatsapp.svg" alt="WhatsApp" height="24"></a>
-<a href="https://t.me/cortosvar26"><img src="assets/contacto-telegram.svg" alt="Telegram" height="24"></a>
-<a href="https://www.linkedin.com/in/lfac1"><img src="assets/contacto-linkedin.svg" alt="LinkedIn" height="24"></a>
-<a href="https://github.com/lariasca1994"><img src="assets/contacto-github.svg" alt="GitHub" height="24"></a>
+<p>
+<a href="https://wa.me/carraian160"><img src="assets/contacto-whatsapp.svg" alt="WhatsApp @carraian160" height="28"></a>
+<a href="https://t.me/lfac6"><img src="assets/contacto-telegram.svg" alt="Telegram @lfac6" height="28"></a>
+<a href="mailto:ariascluisf@hotmail.com"><img src="assets/contacto-correo.svg" alt="Correo" height="28"></a>
+<a href="https://www.linkedin.com/in/lfac1"><img src="assets/contacto-linkedin.svg" alt="LinkedIn" height="28"></a>
+<a href="https://github.com/lariasca1994"><img src="assets/contacto-github.svg" alt="GitHub" height="28"></a>
+</p>
+
+<sub>WhatsApp <b>@carraian160</b> · Telegram <b>@lfac6</b> · Portafolio web: <a href="https://lariasca1994.github.io/PWDC/">lariasca1994.github.io/PWDC</a></sub>
 
 ---
 
 ![Visitas al perfil](https://komarev.com/ghpvc/?username=lariasca1994&label=Visitas&color=30363D&style=flat-square)
 
-**Última actualización:** Octubre de 2026
+**Última actualización:** Noviembre de 2026

@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1480 1338" width="1480" height="1338" font-family="Segoe UI, -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" role="img" aria-label="Ecosistema de despliegue de los proyectos de Luis Felipe Arias, con QALabSPBVI, SysPulse y ExpoNexo como proyectos destacados">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1480 1338" width="1480" height="1338" font-family="Segoe UI, -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" role="img" aria-label="Ecosistema de despliegue de los proyectos de Luis F. A., con QALabSPBVI, SysPulse y ExpoNexo como proyectos destacados">
 <defs>
   <radialGradient id="bg" cx="50%" cy="45%" r="75%"><stop offset="0" stop-color="#16233F"/><stop offset="1" stop-color="#0A1020"/></radialGradient>
   <linearGradient id="hub" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#3B82F6"/><stop offset="1" stop-color="#1E3A8A"/></linearGradient>
@@ -92,7 +92,7 @@
 <text x="1152" y="828" font-size="11" fill="#94A3B8">Oracle Autonomous Database</text>
 <circle cx="740" cy="518" r="70" fill="#3B82F6" fill-opacity=".12" filter="url(#glow)"/>
 <g filter="url(#sh)"><rect x="565" y="470" width="350" height="96" rx="22" fill="url(#hub)" stroke="#93C5FD" stroke-width="2.5"/><circle cx="609" cy="518" r="24" fill="#0A1020" fill-opacity=".35"/><g transform="translate(609,518)" fill="none" stroke="#FFFFFF" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><circle cy="-4" r="4"/><path d="M-8,9 c0,-5 3.5,-7 8,-7 s8,2 8,7"/></g></g>
-<text x="647" y="512" font-size="19" font-weight="800" fill="#FFFFFF">Luis Felipe Arias</text>
+<text x="647" y="512" font-size="19" font-weight="800" fill="#FFFFFF">Luis F. A.</text>
 <text x="647" y="534" font-size="12" font-weight="500" fill="#DBEAFE">QA · Automatización · Backend · Cloud</text>
 <path d="M605,470 C502.5,470 502.5,224 400,224" fill="none" stroke="#7C8BA1" stroke-width="2.2" stroke-opacity=".9" marker-end="url(#fl)"/>
 <circle r="2.6" fill="#7C8BA1"><animateMotion dur="2.7s" repeatCount="indefinite" path="M605,470 C502.5,470 502.5,224 400,224"/></circle>
